@@ -731,7 +731,7 @@ TextLabel_12.BorderSizePixel = 0
 TextLabel_12.Position = UDim2.new(0.0229681972, 0, 0.000136005852, 0)
 TextLabel_12.Size = UDim2.new(1, 0, 0, 0)
 TextLabel_12.Font = Enum.Font.Unknown
-TextLabel_12.Text = "<font color='rgb(255,255,0)'>包月制脚本是用来代练赚米的商业脚本，功能非常强劲，价格为每月30元</font>"
+TextLabel_12.Text = "<font color='rgb(255,255,0)'>包月制脚本是用来代练赚米的商业脚本，功能非常强劲，每个脚本售价为30元/月</font>"
 TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.TextSize = 16.000
 TextLabel_12.TextWrapped = true
@@ -850,7 +850,7 @@ UICorner_15.Parent = ImageButton_9
 
 -- Scripts:
 
-local function EOWVL_fake_script() -- Frame.加边框加流动渐变 
+local function HKMVIAD_fake_script() -- Frame.加边框加流动渐变 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent
@@ -910,8 +910,8 @@ local function EOWVL_fake_script() -- Frame.加边框加流动渐变
 		end
 	end)
 end
-coroutine.wrap(EOWVL_fake_script)()
-local function MJDDHZE_fake_script() -- Frame_2.流动渐变 
+coroutine.wrap(HKMVIAD_fake_script)()
+local function JWQBD_fake_script() -- Frame_2.流动渐变 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local gradient = script.Parent.UIGradient
@@ -919,8 +919,8 @@ local function MJDDHZE_fake_script() -- Frame_2.流动渐变
 	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(-1, 0)})
 	tween:Play()
 end
-coroutine.wrap(MJDDHZE_fake_script)()
-local function DVPLJK_fake_script() -- Frame_3.流动渐变 
+coroutine.wrap(JWQBD_fake_script)()
+local function HAJSV_fake_script() -- Frame_3.流动渐变 
 	local script = Instance.new('LocalScript', Frame_3)
 
 	local gradient = script.Parent.UIGradient
@@ -928,8 +928,8 @@ local function DVPLJK_fake_script() -- Frame_3.流动渐变
 	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(0, -1)})
 	tween:Play()
 end
-coroutine.wrap(DVPLJK_fake_script)()
-local function TXMA_fake_script() -- TextLabel.文字随机变色 
+coroutine.wrap(HAJSV_fake_script)()
+local function CAPLWWN_fake_script() -- TextLabel.文字随机变色 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local ts = game:GetService("TweenService")
@@ -946,8 +946,8 @@ local function TXMA_fake_script() -- TextLabel.文字随机变色
 		task.wait(1.2)
 	end
 end
-coroutine.wrap(TXMA_fake_script)()
-local function OUXZI_fake_script() -- TextLabel.文字设定 
+coroutine.wrap(CAPLWWN_fake_script)()
+local function IBPYFJ_fake_script() -- TextLabel.文字设定 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local l=script.Parent
@@ -958,8 +958,8 @@ local function OUXZI_fake_script() -- TextLabel.文字设定
 	l.TextColor3=Color3.new(1,1,1)
 	l.TextXAlignment=Enum.TextXAlignment.Left
 end
-coroutine.wrap(OUXZI_fake_script)()
-local function SIFNHMG_fake_script() -- _2.文字设定 
+coroutine.wrap(IBPYFJ_fake_script)()
+local function RKTNTSN_fake_script() -- _2.文字设定 
 	local script = Instance.new('LocalScript', _2)
 
 	local l=script.Parent
@@ -981,8 +981,8 @@ local function SIFNHMG_fake_script() -- _2.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(SIFNHMG_fake_script)()
-local function MCWGPL_fake_script() -- ImageButton.关闭 
+coroutine.wrap(RKTNTSN_fake_script)()
+local function JIOLBY_fake_script() -- ImageButton.关闭 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	-- 这个 LocalScript 直接放在 ImageButton 里面就行
@@ -1017,8 +1017,8 @@ local function MCWGPL_fake_script() -- ImageButton.关闭
 		end)
 	end)
 end
-coroutine.wrap(MCWGPL_fake_script)()
-local function MQHJG_fake_script() -- _1.文字设定 
+coroutine.wrap(JIOLBY_fake_script)()
+local function VUDYKJ_fake_script() -- _1.文字设定 
 	local script = Instance.new('LocalScript', _1)
 
 	local l=script.Parent
@@ -1040,8 +1040,8 @@ local function MQHJG_fake_script() -- _1.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(MQHJG_fake_script)()
-local function CETRWUL_fake_script() -- TextButton.隐藏其他显示区 
+coroutine.wrap(VUDYKJ_fake_script)()
+local function JIZH_fake_script() -- TextButton.隐藏其他显示区 
 	local script = Instance.new('LocalScript', TextButton)
 
 	-- LocalScript：直接放在“公告及活动”TextButton里面
@@ -1057,8 +1057,8 @@ local function CETRWUL_fake_script() -- TextButton.隐藏其他显示区
 		end
 	end)
 end
-coroutine.wrap(CETRWUL_fake_script)()
-local function CBHIOF_fake_script() -- TextButton.文字设定 
+coroutine.wrap(JIZH_fake_script)()
+local function AVVB_fake_script() -- TextButton.文字设定 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local l=script.Parent
@@ -1080,8 +1080,8 @@ local function CBHIOF_fake_script() -- TextButton.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(CBHIOF_fake_script)()
-local function UCFQGT_fake_script() -- Frame_4.流动渐变 
+coroutine.wrap(AVVB_fake_script)()
+local function RJFT_fake_script() -- Frame_4.流动渐变 
 	local script = Instance.new('LocalScript', Frame_4)
 
 	local gradient = script.Parent.UIGradient
@@ -1089,8 +1089,8 @@ local function UCFQGT_fake_script() -- Frame_4.流动渐变
 	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(1, 0)})
 	tween:Play()
 end
-coroutine.wrap(UCFQGT_fake_script)()
-local function EVCT_fake_script() -- TextButton_2.文字设定 
+coroutine.wrap(RJFT_fake_script)()
+local function JSZATJC_fake_script() -- TextButton_2.文字设定 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local l=script.Parent
@@ -1112,8 +1112,8 @@ local function EVCT_fake_script() -- TextButton_2.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(EVCT_fake_script)()
-local function WHBZOX_fake_script() -- TextButton_2.隐藏其他显示区 
+coroutine.wrap(JSZATJC_fake_script)()
+local function TTGLIBC_fake_script() -- TextButton_2.隐藏其他显示区 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	-- LocalScript：直接放在“公告及活动”TextButton里面
@@ -1129,8 +1129,8 @@ local function WHBZOX_fake_script() -- TextButton_2.隐藏其他显示区
 		end
 	end)
 end
-coroutine.wrap(WHBZOX_fake_script)()
-local function QMZW_fake_script() -- Frame_5.流动渐变 
+coroutine.wrap(TTGLIBC_fake_script)()
+local function MDNL_fake_script() -- Frame_5.流动渐变 
 	local script = Instance.new('LocalScript', Frame_5)
 
 	local gradient = script.Parent.UIGradient
@@ -1138,8 +1138,8 @@ local function QMZW_fake_script() -- Frame_5.流动渐变
 	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(-1, 0)})
 	tween:Play()
 end
-coroutine.wrap(QMZW_fake_script)()
-local function OPKZD_fake_script() -- TextButton_3.文字设定 
+coroutine.wrap(MDNL_fake_script)()
+local function XHOXTP_fake_script() -- TextButton_3.文字设定 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local l=script.Parent
@@ -1161,8 +1161,8 @@ local function OPKZD_fake_script() -- TextButton_3.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(OPKZD_fake_script)()
-local function CQKH_fake_script() -- TextButton_3.隐藏其他显示区 
+coroutine.wrap(XHOXTP_fake_script)()
+local function TFXCOT_fake_script() -- TextButton_3.隐藏其他显示区 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	-- LocalScript：直接放在“公告及活动”TextButton里面
@@ -1178,8 +1178,8 @@ local function CQKH_fake_script() -- TextButton_3.隐藏其他显示区
 		end
 	end)
 end
-coroutine.wrap(CQKH_fake_script)()
-local function CJMW_fake_script() -- Frame_6.流动渐变 
+coroutine.wrap(TFXCOT_fake_script)()
+local function NIGTUYM_fake_script() -- Frame_6.流动渐变 
 	local script = Instance.new('LocalScript', Frame_6)
 
 	local gradient = script.Parent.UIGradient
@@ -1187,8 +1187,8 @@ local function CJMW_fake_script() -- Frame_6.流动渐变
 	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(1, 0)})
 	tween:Play()
 end
-coroutine.wrap(CJMW_fake_script)()
-local function EEWLTPC_fake_script() -- TextButton_4.隐藏其他显示区 
+coroutine.wrap(NIGTUYM_fake_script)()
+local function ISTL_fake_script() -- TextButton_4.隐藏其他显示区 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	-- LocalScript：直接放在“公告及活动”TextButton里面
@@ -1204,8 +1204,8 @@ local function EEWLTPC_fake_script() -- TextButton_4.隐藏其他显示区
 		end
 	end)
 end
-coroutine.wrap(EEWLTPC_fake_script)()
-local function FNXDP_fake_script() -- TextButton_4.文字设定 
+coroutine.wrap(ISTL_fake_script)()
+local function NEID_fake_script() -- TextButton_4.文字设定 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local l=script.Parent
@@ -1227,8 +1227,8 @@ local function FNXDP_fake_script() -- TextButton_4.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(FNXDP_fake_script)()
-local function UGTSMPT_fake_script() -- TextButton_5.隐藏其他显示区 
+coroutine.wrap(NEID_fake_script)()
+local function GSXHVFJ_fake_script() -- TextButton_5.隐藏其他显示区 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	-- LocalScript：直接放在“公告及活动”TextButton里面
@@ -1244,8 +1244,8 @@ local function UGTSMPT_fake_script() -- TextButton_5.隐藏其他显示区
 		end
 	end)
 end
-coroutine.wrap(UGTSMPT_fake_script)()
-local function JFIC_fake_script() -- TextButton_5.文字设定 
+coroutine.wrap(GSXHVFJ_fake_script)()
+local function AWCX_fake_script() -- TextButton_5.文字设定 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	local l=script.Parent
@@ -1267,8 +1267,8 @@ local function JFIC_fake_script() -- TextButton_5.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(JFIC_fake_script)()
-local function FVKDNQM_fake_script() -- Frame_7.流动渐变 
+coroutine.wrap(AWCX_fake_script)()
+local function HPGLWHU_fake_script() -- Frame_7.流动渐变 
 	local script = Instance.new('LocalScript', Frame_7)
 
 	local gradient = script.Parent.UIGradient
@@ -1276,8 +1276,8 @@ local function FVKDNQM_fake_script() -- Frame_7.流动渐变
 	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(-1, 0)})
 	tween:Play()
 end
-coroutine.wrap(FVKDNQM_fake_script)()
-local function XQRZSW_fake_script() -- Frame_8.流动渐变 
+coroutine.wrap(HPGLWHU_fake_script)()
+local function XEGSI_fake_script() -- Frame_8.流动渐变 
 	local script = Instance.new('LocalScript', Frame_8)
 
 	local gradient = script.Parent.UIGradient
@@ -1285,8 +1285,8 @@ local function XQRZSW_fake_script() -- Frame_8.流动渐变
 	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(1, 0)})
 	tween:Play()
 end
-coroutine.wrap(XQRZSW_fake_script)()
-local function EZTNEX_fake_script() -- Frame_9.流动渐变 
+coroutine.wrap(XEGSI_fake_script)()
+local function ABUTU_fake_script() -- Frame_9.流动渐变 
 	local script = Instance.new('LocalScript', Frame_9)
 
 	local gradient = script.Parent.UIGradient
@@ -1294,8 +1294,8 @@ local function EZTNEX_fake_script() -- Frame_9.流动渐变
 	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(-1, 0)})
 	tween:Play()
 end
-coroutine.wrap(EZTNEX_fake_script)()
-local function ORIRUX_fake_script() -- TextButton_6.隐藏其他显示区 
+coroutine.wrap(ABUTU_fake_script)()
+local function IIXTTWW_fake_script() -- TextButton_6.隐藏其他显示区 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	-- LocalScript：直接放在“公告及活动”TextButton里面
@@ -1311,8 +1311,8 @@ local function ORIRUX_fake_script() -- TextButton_6.隐藏其他显示区
 		end
 	end)
 end
-coroutine.wrap(ORIRUX_fake_script)()
-local function ORNL_fake_script() -- TextButton_6.文字设定 
+coroutine.wrap(IIXTTWW_fake_script)()
+local function CEIPN_fake_script() -- TextButton_6.文字设定 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	local l=script.Parent
@@ -1334,8 +1334,8 @@ local function ORNL_fake_script() -- TextButton_6.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(ORNL_fake_script)()
-local function EGTWK_fake_script() -- TextLabel_2.欢迎语+玩家Name 
+coroutine.wrap(CEIPN_fake_script)()
+local function WBJWA_fake_script() -- TextLabel_2.欢迎语+玩家Name 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local l=script.Parent
@@ -1360,8 +1360,8 @@ local function EGTWK_fake_script() -- TextLabel_2.欢迎语+玩家Name
 	--输出欢迎语
 	script.Parent.Text = "恁好！" .. game.Players.LocalPlayer.Name .. "，咨询或购买请添加我的联系方式 👉 "
 end
-coroutine.wrap(EGTWK_fake_script)()
-local function MHRPB_fake_script() -- ImageLabel_2.显示玩家头像 
+coroutine.wrap(WBJWA_fake_script)()
+local function IYLSQIZ_fake_script() -- ImageLabel_2.显示玩家头像 
 	local script = Instance.new('LocalScript', ImageLabel_2)
 
 	local Players = game:GetService("Players")
@@ -1376,8 +1376,8 @@ local function MHRPB_fake_script() -- ImageLabel_2.显示玩家头像
 	
 	imageLabel.Image = isReady and content or "rbxasset://textures/ui/GuiImagePlaceholder.png"
 end
-coroutine.wrap(MHRPB_fake_script)()
-local function CZNLL_fake_script() -- TextLabel_3.文字设定 
+coroutine.wrap(IYLSQIZ_fake_script)()
+local function QLNHYW_fake_script() -- TextLabel_3.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	local l=script.Parent
@@ -1400,8 +1400,8 @@ local function CZNLL_fake_script() -- TextLabel_3.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(CZNLL_fake_script)()
-local function DPNI_fake_script() -- ScrollingFrame.滚动设定 
+coroutine.wrap(QLNHYW_fake_script)()
+local function MVSWW_fake_script() -- ScrollingFrame.滚动设定 
 	local script = Instance.new('LocalScript', ScrollingFrame)
 
 	local sf=script.Parent
@@ -1450,8 +1450,8 @@ local function DPNI_fake_script() -- ScrollingFrame.滚动设定
 		updateCanvas()
 	end)
 end
-coroutine.wrap(DPNI_fake_script)()
-local function IHLT_fake_script() -- Frame_10.流动渐变 
+coroutine.wrap(MVSWW_fake_script)()
+local function BOMKKW_fake_script() -- Frame_10.流动渐变 
 	local script = Instance.new('LocalScript', Frame_10)
 
 	local gradient = script.Parent.UIGradient
@@ -1459,8 +1459,8 @@ local function IHLT_fake_script() -- Frame_10.流动渐变
 	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(1, 0)})
 	tween:Play()
 end
-coroutine.wrap(IHLT_fake_script)()
-local function EGON_fake_script() -- TextLabel_4.文字设定 
+coroutine.wrap(BOMKKW_fake_script)()
+local function JJEGDV_fake_script() -- TextLabel_4.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_4)
 
 	local l=script.Parent
@@ -1483,8 +1483,8 @@ local function EGON_fake_script() -- TextLabel_4.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(EGON_fake_script)()
-local function VWPSLG_fake_script() -- ScrollingFrame_2.滚动设定 
+coroutine.wrap(JJEGDV_fake_script)()
+local function FJZVT_fake_script() -- ScrollingFrame_2.滚动设定 
 	local script = Instance.new('LocalScript', ScrollingFrame_2)
 
 	local sf=script.Parent
@@ -1533,8 +1533,8 @@ local function VWPSLG_fake_script() -- ScrollingFrame_2.滚动设定
 		updateCanvas()
 	end)
 end
-coroutine.wrap(VWPSLG_fake_script)()
-local function XMVZ_fake_script() -- ScrollingFrame_3.滚动设定 
+coroutine.wrap(FJZVT_fake_script)()
+local function NCNCWNQ_fake_script() -- ScrollingFrame_3.滚动设定 
 	local script = Instance.new('LocalScript', ScrollingFrame_3)
 
 	local sf=script.Parent
@@ -1583,8 +1583,8 @@ local function XMVZ_fake_script() -- ScrollingFrame_3.滚动设定
 		updateCanvas()
 	end)
 end
-coroutine.wrap(XMVZ_fake_script)()
-local function NLATJE_fake_script() -- TextLabel_5.文字设定 
+coroutine.wrap(NCNCWNQ_fake_script)()
+local function NSDO_fake_script() -- TextLabel_5.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local l=script.Parent
@@ -1606,8 +1606,8 @@ local function NLATJE_fake_script() -- TextLabel_5.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(NLATJE_fake_script)()
-local function CDVNT_fake_script() -- _1_3.文字设定 
+coroutine.wrap(NSDO_fake_script)()
+local function BDPVK_fake_script() -- _1_3.文字设定 
 	local script = Instance.new('LocalScript', _1_3)
 
 	local l=script.Parent
@@ -1629,8 +1629,8 @@ local function CDVNT_fake_script() -- _1_3.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(CDVNT_fake_script)()
-local function JLWNGU_fake_script() -- _2_3.文字设定 
+coroutine.wrap(BDPVK_fake_script)()
+local function QLEV_fake_script() -- _2_3.文字设定 
 	local script = Instance.new('LocalScript', _2_3)
 
 	local l=script.Parent
@@ -1652,8 +1652,8 @@ local function JLWNGU_fake_script() -- _2_3.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(JLWNGU_fake_script)()
-local function HBQWSP_fake_script() -- TextLabel_6.文字设定 
+coroutine.wrap(QLEV_fake_script)()
+local function JABQL_fake_script() -- TextLabel_6.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_6)
 
 	local l=script.Parent
@@ -1675,8 +1675,8 @@ local function HBQWSP_fake_script() -- TextLabel_6.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(HBQWSP_fake_script)()
-local function BRIQBUL_fake_script() -- ScrollingFrame_4.滚动设定 
+coroutine.wrap(JABQL_fake_script)()
+local function HNPIAQ_fake_script() -- ScrollingFrame_4.滚动设定 
 	local script = Instance.new('LocalScript', ScrollingFrame_4)
 
 	local sf=script.Parent
@@ -1725,8 +1725,8 @@ local function BRIQBUL_fake_script() -- ScrollingFrame_4.滚动设定
 		updateCanvas()
 	end)
 end
-coroutine.wrap(BRIQBUL_fake_script)()
-local function YIMQL_fake_script() -- TextLabel_7.文字设定 
+coroutine.wrap(HNPIAQ_fake_script)()
+local function XRMI_fake_script() -- TextLabel_7.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_7)
 
 	local l=script.Parent
@@ -1748,8 +1748,8 @@ local function YIMQL_fake_script() -- TextLabel_7.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(YIMQL_fake_script)()
-local function GVAEI_fake_script() -- ImageButton_2.密钥验证 
+coroutine.wrap(XRMI_fake_script)()
+local function FKHPU_fake_script() -- ImageButton_2.密钥验证 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
@@ -1800,7 +1800,7 @@ local function GVAEI_fake_script() -- ImageButton_2.密钥验证
 		input.Position = UDim2.new(0.05, 0, 0.32, 0)
 		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
 		input.TextColor3 = Color3.new(0, 0, 0)
-		input.PlaceholderText = "请输入恁的密钥钥..."
+		input.PlaceholderText = "请输入恁的密钥..."
 		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
 		input.Text = ""
 		input.TextSize = 18
@@ -1818,7 +1818,7 @@ local function GVAEI_fake_script() -- ImageButton_2.密钥验证
 		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
 		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
 		submit.TextColor3 = Color3.new(0, 0, 0)
-		submit.Text = "俺要运行"
+		submit.Text = "俺要起飞"
 		submit.TextSize = 18
 		submit.Font = Enum.Font.SourceSansBold
 		submit.Parent = frame
@@ -1867,20 +1867,20 @@ local function GVAEI_fake_script() -- ImageButton_2.密钥验证
 				end)
 				if loadOk then
 					StarterGui:SetCore("SendNotification", {
-						Title = "密钥钥已插入",
+						Title = "密钥已嵌入",
 						Text = "恁的脚本加载成功！",
 						Duration = 5
 					})
 				else
 					StarterGui:SetCore("SendNotification", {
 						Title = "脚本加载失败",
-						Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
 						Duration = 6
 					})
 				end
 			else
 				-- 修改为：输入错误 → 直接踢出玩家
-				player:Kick("恁的密钥钥是错误滴，所以踢恁下线，请联系管理员获取正确滴密钥钥，390751814微信QQ同号")
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
 			end
 		end
 	
@@ -1893,8 +1893,8 @@ local function GVAEI_fake_script() -- ImageButton_2.密钥验证
 		end)
 	end)
 end
-coroutine.wrap(GVAEI_fake_script)()
-local function GOUWQZ_fake_script() -- TextLabel_8.文字设定 
+coroutine.wrap(FKHPU_fake_script)()
+local function EKOMN_fake_script() -- TextLabel_8.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_8)
 
 	local l=script.Parent
@@ -1916,8 +1916,8 @@ local function GOUWQZ_fake_script() -- TextLabel_8.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(GOUWQZ_fake_script)()
-local function LRKAL_fake_script() -- ImageButton_3.密钥验证 
+coroutine.wrap(EKOMN_fake_script)()
+local function RQZRSLY_fake_script() -- ImageButton_3.密钥验证 
 	local script = Instance.new('LocalScript', ImageButton_3)
 
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
@@ -1968,7 +1968,7 @@ local function LRKAL_fake_script() -- ImageButton_3.密钥验证
 		input.Position = UDim2.new(0.05, 0, 0.32, 0)
 		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
 		input.TextColor3 = Color3.new(0, 0, 0)
-		input.PlaceholderText = "请输入恁的密钥钥..."
+		input.PlaceholderText = "请输入恁的密钥..."
 		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
 		input.Text = ""
 		input.TextSize = 18
@@ -1986,7 +1986,7 @@ local function LRKAL_fake_script() -- ImageButton_3.密钥验证
 		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
 		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
 		submit.TextColor3 = Color3.new(0, 0, 0)
-		submit.Text = "俺要运行"
+		submit.Text = "俺要起飞"
 		submit.TextSize = 18
 		submit.Font = Enum.Font.SourceSansBold
 		submit.Parent = frame
@@ -2035,20 +2035,20 @@ local function LRKAL_fake_script() -- ImageButton_3.密钥验证
 				end)
 				if loadOk then
 					StarterGui:SetCore("SendNotification", {
-						Title = "密钥钥已插入",
+						Title = "密钥已嵌入",
 						Text = "恁的脚本加载成功！",
 						Duration = 5
 					})
 				else
 					StarterGui:SetCore("SendNotification", {
 						Title = "脚本加载失败",
-						Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
 						Duration = 6
 					})
 				end
 			else
 				-- 修改为：输入错误 → 直接踢出玩家
-				player:Kick("恁的密钥钥是错误滴，所以踢恁下线，请联系管理员获取正确滴密钥钥，390751814微信QQ同号")
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
 			end
 		end
 	
@@ -2061,8 +2061,8 @@ local function LRKAL_fake_script() -- ImageButton_3.密钥验证
 		end)
 	end)
 end
-coroutine.wrap(LRKAL_fake_script)()
-local function PKKX_fake_script() -- TextLabel_9.文字设定 
+coroutine.wrap(RQZRSLY_fake_script)()
+local function TWTPKCC_fake_script() -- TextLabel_9.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_9)
 
 	local l=script.Parent
@@ -2084,8 +2084,8 @@ local function PKKX_fake_script() -- TextLabel_9.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(PKKX_fake_script)()
-local function MRBW_fake_script() -- ImageButton_4.密钥验证 
+coroutine.wrap(TWTPKCC_fake_script)()
+local function QLIBCNN_fake_script() -- ImageButton_4.密钥验证 
 	local script = Instance.new('LocalScript', ImageButton_4)
 
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
@@ -2136,7 +2136,7 @@ local function MRBW_fake_script() -- ImageButton_4.密钥验证
 		input.Position = UDim2.new(0.05, 0, 0.32, 0)
 		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
 		input.TextColor3 = Color3.new(0, 0, 0)
-		input.PlaceholderText = "请输入恁的密钥钥..."
+		input.PlaceholderText = "请输入恁的密钥..."
 		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
 		input.Text = ""
 		input.TextSize = 18
@@ -2154,7 +2154,7 @@ local function MRBW_fake_script() -- ImageButton_4.密钥验证
 		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
 		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
 		submit.TextColor3 = Color3.new(0, 0, 0)
-		submit.Text = "俺要运行"
+		submit.Text = "俺要起飞"
 		submit.TextSize = 18
 		submit.Font = Enum.Font.SourceSansBold
 		submit.Parent = frame
@@ -2203,20 +2203,20 @@ local function MRBW_fake_script() -- ImageButton_4.密钥验证
 				end)
 				if loadOk then
 					StarterGui:SetCore("SendNotification", {
-						Title = "密钥钥已插入",
+						Title = "密钥已嵌入",
 						Text = "恁的脚本加载成功！",
 						Duration = 5
 					})
 				else
 					StarterGui:SetCore("SendNotification", {
 						Title = "脚本加载失败",
-						Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
 						Duration = 6
 					})
 				end
 			else
 				-- 修改为：输入错误 → 直接踢出玩家
-				player:Kick("恁的密钥钥是错误滴，所以踢恁下线，请联系管理员获取正确滴密钥钥，390751814微信QQ同号")
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
 			end
 		end
 	
@@ -2229,8 +2229,8 @@ local function MRBW_fake_script() -- ImageButton_4.密钥验证
 		end)
 	end)
 end
-coroutine.wrap(MRBW_fake_script)()
-local function OCJCSDC_fake_script() -- TextLabel_10.文字设定 
+coroutine.wrap(QLIBCNN_fake_script)()
+local function YYVLYQ_fake_script() -- TextLabel_10.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_10)
 
 	local l=script.Parent
@@ -2252,8 +2252,8 @@ local function OCJCSDC_fake_script() -- TextLabel_10.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(OCJCSDC_fake_script)()
-local function DPLA_fake_script() -- ImageButton_5.密钥验证 
+coroutine.wrap(YYVLYQ_fake_script)()
+local function PBAW_fake_script() -- ImageButton_5.密钥验证 
 	local script = Instance.new('LocalScript', ImageButton_5)
 
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
@@ -2304,7 +2304,7 @@ local function DPLA_fake_script() -- ImageButton_5.密钥验证
 		input.Position = UDim2.new(0.05, 0, 0.32, 0)
 		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
 		input.TextColor3 = Color3.new(0, 0, 0)
-		input.PlaceholderText = "请输入恁的密钥钥..."
+		input.PlaceholderText = "请输入恁的密钥..."
 		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
 		input.Text = ""
 		input.TextSize = 18
@@ -2322,7 +2322,7 @@ local function DPLA_fake_script() -- ImageButton_5.密钥验证
 		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
 		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
 		submit.TextColor3 = Color3.new(0, 0, 0)
-		submit.Text = "俺要运行"
+		submit.Text = "俺要起飞"
 		submit.TextSize = 18
 		submit.Font = Enum.Font.SourceSansBold
 		submit.Parent = frame
@@ -2371,20 +2371,20 @@ local function DPLA_fake_script() -- ImageButton_5.密钥验证
 				end)
 				if loadOk then
 					StarterGui:SetCore("SendNotification", {
-						Title = "密钥钥已插入",
+						Title = "密钥已嵌入",
 						Text = "恁的脚本加载成功！",
 						Duration = 5
 					})
 				else
 					StarterGui:SetCore("SendNotification", {
 						Title = "脚本加载失败",
-						Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
 						Duration = 6
 					})
 				end
 			else
 				-- 修改为：输入错误 → 直接踢出玩家
-				player:Kick("恁的密钥钥是错误滴，所以踢恁下线，请联系管理员获取正确滴密钥钥，390751814微信QQ同号")
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
 			end
 		end
 	
@@ -2397,8 +2397,8 @@ local function DPLA_fake_script() -- ImageButton_5.密钥验证
 		end)
 	end)
 end
-coroutine.wrap(DPLA_fake_script)()
-local function TXOFLM_fake_script() -- TextLabel_11.文字设定 
+coroutine.wrap(PBAW_fake_script)()
+local function TOYZZ_fake_script() -- TextLabel_11.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_11)
 
 	local l=script.Parent
@@ -2420,8 +2420,8 @@ local function TXOFLM_fake_script() -- TextLabel_11.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(TXOFLM_fake_script)()
-local function BRWYAVW_fake_script() -- ImageButton_6.密钥验证 
+coroutine.wrap(TOYZZ_fake_script)()
+local function NJHKB_fake_script() -- ImageButton_6.密钥验证 
 	local script = Instance.new('LocalScript', ImageButton_6)
 
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
@@ -2472,7 +2472,7 @@ local function BRWYAVW_fake_script() -- ImageButton_6.密钥验证
 		input.Position = UDim2.new(0.05, 0, 0.32, 0)
 		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
 		input.TextColor3 = Color3.new(0, 0, 0)
-		input.PlaceholderText = "请输入恁的密钥钥..."
+		input.PlaceholderText = "请输入恁的密钥..."
 		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
 		input.Text = ""
 		input.TextSize = 18
@@ -2490,7 +2490,7 @@ local function BRWYAVW_fake_script() -- ImageButton_6.密钥验证
 		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
 		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
 		submit.TextColor3 = Color3.new(0, 0, 0)
-		submit.Text = "俺要运行"
+		submit.Text = "俺要起飞"
 		submit.TextSize = 18
 		submit.Font = Enum.Font.SourceSansBold
 		submit.Parent = frame
@@ -2539,20 +2539,20 @@ local function BRWYAVW_fake_script() -- ImageButton_6.密钥验证
 				end)
 				if loadOk then
 					StarterGui:SetCore("SendNotification", {
-						Title = "密钥钥已插入",
+						Title = "密钥已嵌入",
 						Text = "恁的脚本加载成功！",
 						Duration = 5
 					})
 				else
 					StarterGui:SetCore("SendNotification", {
 						Title = "脚本加载失败",
-						Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
 						Duration = 6
 					})
 				end
 			else
 				-- 修改为：输入错误 → 直接踢出玩家
-				player:Kick("恁的密钥钥是错误滴，所以踢恁下线，请联系管理员获取正确滴密钥钥，390751814微信QQ同号")
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
 			end
 		end
 	
@@ -2565,8 +2565,8 @@ local function BRWYAVW_fake_script() -- ImageButton_6.密钥验证
 		end)
 	end)
 end
-coroutine.wrap(BRWYAVW_fake_script)()
-local function KLYJKGG_fake_script() -- TextLabel_12.文字设定 
+coroutine.wrap(NJHKB_fake_script)()
+local function BDUUAK_fake_script() -- TextLabel_12.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_12)
 
 	local l=script.Parent
@@ -2588,8 +2588,8 @@ local function KLYJKGG_fake_script() -- TextLabel_12.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(KLYJKGG_fake_script)()
-local function VWDQL_fake_script() -- ScrollingFrame_5.滚动设定 
+coroutine.wrap(BDUUAK_fake_script)()
+local function QZVKM_fake_script() -- ScrollingFrame_5.滚动设定 
 	local script = Instance.new('LocalScript', ScrollingFrame_5)
 
 	local sf=script.Parent
@@ -2638,8 +2638,8 @@ local function VWDQL_fake_script() -- ScrollingFrame_5.滚动设定
 		updateCanvas()
 	end)
 end
-coroutine.wrap(VWDQL_fake_script)()
-local function LNZR_fake_script() -- TextLabel_13.文字设定 
+coroutine.wrap(QZVKM_fake_script)()
+local function PHMGKG_fake_script() -- TextLabel_13.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_13)
 
 	local l=script.Parent
@@ -2661,8 +2661,8 @@ local function LNZR_fake_script() -- TextLabel_13.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(LNZR_fake_script)()
-local function IGGDIY_fake_script() -- _2_4.密钥验证 
+coroutine.wrap(PHMGKG_fake_script)()
+local function NNTNW_fake_script() -- _2_4.密钥验证 
 	local script = Instance.new('LocalScript', _2_4)
 
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
@@ -2693,7 +2693,7 @@ local function IGGDIY_fake_script() -- _2_4.密钥验证
 	
 		if not success then
 			StarterGui:SetCore("SendNotification", {
-				Title = "验证失败",
+				Title = "无法连接服务器",
 				Text = "大概率是恁的网络或者加速器VPN的问题,导致恁连接不上白名单服务器",
 				Duration = 8
 			})
@@ -2718,7 +2718,7 @@ local function IGGDIY_fake_script() -- _2_4.密钥验证
 			if loadOk then
 				StarterGui:SetCore("SendNotification", {
 					Title = "白名单里有恁",
-					Text = "恁的身份核实完成，脚本已加载！",
+					Text = "对恁的身份核实完成，脚本已加载！",
 					Duration = 6
 				})
 			else
@@ -2731,15 +2731,15 @@ local function IGGDIY_fake_script() -- _2_4.密钥验证
 		else
 			-- 失败：提示信息（不踢人）
 			StarterGui:SetCore("SendNotification", {
-				Title = "白名单里没有恁",
-				Text = "恁没有白名单瞎点什么？请联系管理员购买，390751814微信QQ同号",
+				Title = "白名单里没恁",
+				Text = "请联系管理员购买，390751814微信QQ同号",
 				Duration = 10
 			})
 		end
 	end)
 end
-coroutine.wrap(IGGDIY_fake_script)()
-local function ZVXHYP_fake_script() -- TextLabel_14.文字设定 
+coroutine.wrap(NNTNW_fake_script)()
+local function AIQUV_fake_script() -- TextLabel_14.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_14)
 
 	local l=script.Parent
@@ -2761,8 +2761,8 @@ local function ZVXHYP_fake_script() -- TextLabel_14.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(ZVXHYP_fake_script)()
-local function VVLLY_fake_script() -- ImageButton_7.密钥验证 
+coroutine.wrap(AIQUV_fake_script)()
+local function UILVHF_fake_script() -- ImageButton_7.密钥验证 
 	local script = Instance.new('LocalScript', ImageButton_7)
 
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
@@ -2793,7 +2793,7 @@ local function VVLLY_fake_script() -- ImageButton_7.密钥验证
 	
 		if not success then
 			StarterGui:SetCore("SendNotification", {
-				Title = "验证失败",
+				Title = "无法连接服务器",
 				Text = "大概率是恁的网络或者加速器VPN的问题,导致恁连接不上白名单服务器",
 				Duration = 8
 			})
@@ -2818,7 +2818,7 @@ local function VVLLY_fake_script() -- ImageButton_7.密钥验证
 			if loadOk then
 				StarterGui:SetCore("SendNotification", {
 					Title = "白名单里有恁",
-					Text = "恁的身份核实完成，脚本已加载！",
+					Text = "对恁的身份核实完成，脚本已加载！",
 					Duration = 6
 				})
 			else
@@ -2831,15 +2831,15 @@ local function VVLLY_fake_script() -- ImageButton_7.密钥验证
 		else
 			-- 失败：提示信息（不踢人）
 			StarterGui:SetCore("SendNotification", {
-				Title = "白名单里没有恁",
-				Text = "恁没有白名单瞎点什么？请联系管理员购买，390751814微信QQ同号",
+				Title = "白名单里没恁",
+				Text = "请联系管理员购买，390751814微信QQ同号",
 				Duration = 10
 			})
 		end
 	end)
 end
-coroutine.wrap(VVLLY_fake_script)()
-local function LGCZHUJ_fake_script() -- TextLabel_15.文字设定 
+coroutine.wrap(UILVHF_fake_script)()
+local function FSRJSA_fake_script() -- TextLabel_15.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_15)
 
 	local l=script.Parent
@@ -2861,8 +2861,8 @@ local function LGCZHUJ_fake_script() -- TextLabel_15.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(LGCZHUJ_fake_script)()
-local function DWKEA_fake_script() -- ImageButton_8.密钥验证 
+coroutine.wrap(FSRJSA_fake_script)()
+local function UGVSUJ_fake_script() -- ImageButton_8.密钥验证 
 	local script = Instance.new('LocalScript', ImageButton_8)
 
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
@@ -2893,7 +2893,7 @@ local function DWKEA_fake_script() -- ImageButton_8.密钥验证
 	
 		if not success then
 			StarterGui:SetCore("SendNotification", {
-				Title = "验证失败",
+				Title = "无法连接服务器",
 				Text = "大概率是恁的网络或者加速器VPN的问题,导致恁连接不上白名单服务器",
 				Duration = 8
 			})
@@ -2918,7 +2918,7 @@ local function DWKEA_fake_script() -- ImageButton_8.密钥验证
 			if loadOk then
 				StarterGui:SetCore("SendNotification", {
 					Title = "白名单里有恁",
-					Text = "恁的身份核实完成，脚本已加载！",
+					Text = "对恁的身份核实完成，脚本已加载！",
 					Duration = 6
 				})
 			else
@@ -2931,15 +2931,15 @@ local function DWKEA_fake_script() -- ImageButton_8.密钥验证
 		else
 			-- 失败：提示信息（不踢人）
 			StarterGui:SetCore("SendNotification", {
-				Title = "白名单里没有恁",
-				Text = "恁没有白名单瞎点什么？请联系管理员购买，390751814微信QQ同号",
+				Title = "白名单里没恁",
+				Text = "请联系管理员购买，390751814微信QQ同号",
 				Duration = 10
 			})
 		end
 	end)
 end
-coroutine.wrap(DWKEA_fake_script)()
-local function WLMNEFX_fake_script() -- TextLabel_16.文字设定 
+coroutine.wrap(UGVSUJ_fake_script)()
+local function RKZW_fake_script() -- TextLabel_16.文字设定 
 	local script = Instance.new('LocalScript', TextLabel_16)
 
 	local l=script.Parent
@@ -2961,8 +2961,8 @@ local function WLMNEFX_fake_script() -- TextLabel_16.文字设定
 	--开启自动换行
 	l.TextWrapped = true
 end
-coroutine.wrap(WLMNEFX_fake_script)()
-local function OFPIFI_fake_script() -- ImageButton_9.密钥验证 
+coroutine.wrap(RKZW_fake_script)()
+local function XCWFAX_fake_script() -- ImageButton_9.密钥验证 
 	local script = Instance.new('LocalScript', ImageButton_9)
 
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
@@ -2993,7 +2993,7 @@ local function OFPIFI_fake_script() -- ImageButton_9.密钥验证
 	
 		if not success then
 			StarterGui:SetCore("SendNotification", {
-				Title = "验证失败",
+				Title = "无法连接服务器",
 				Text = "大概率是恁的网络或者加速器VPN的问题,导致恁连接不上白名单服务器",
 				Duration = 8
 			})
@@ -3018,7 +3018,7 @@ local function OFPIFI_fake_script() -- ImageButton_9.密钥验证
 			if loadOk then
 				StarterGui:SetCore("SendNotification", {
 					Title = "白名单里有恁",
-					Text = "恁的身份核实完成，脚本已加载！",
+					Text = "对恁的身份核实完成，脚本已加载！",
 					Duration = 6
 				})
 			else
@@ -3031,11 +3031,11 @@ local function OFPIFI_fake_script() -- ImageButton_9.密钥验证
 		else
 			-- 失败：提示信息（不踢人）
 			StarterGui:SetCore("SendNotification", {
-				Title = "白名单里没有恁",
-				Text = "恁没有白名单瞎点什么？请联系管理员购买，390751814微信QQ同号",
+				Title = "白名单里没恁",
+				Text = "请联系管理员购买，390751814微信QQ同号",
 				Duration = 10
 			})
 		end
 	end)
 end
-coroutine.wrap(OFPIFI_fake_script)()
+coroutine.wrap(XCWFAX_fake_script)()
