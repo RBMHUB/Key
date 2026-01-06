@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 221 | Scripts: 89 | Modules: 0 | Tags: 0
+-- Instances: 296 | Scripts: 119 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.ScreenGui
@@ -1049,6 +1049,7 @@ G2L["79"]["Name"] = [[密钥验证]];
 
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区
 G2L["7a"] = Instance.new("ScrollingFrame", G2L["2"]);
+G2L["7a"]["Visible"] = false;
 G2L["7a"]["BorderSizePixel"] = 0;
 G2L["7a"]["Name"] = [[包月制脚本显示区]];
 G2L["7a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1277,7 +1278,6 @@ G2L["92"]["Name"] = [[密钥验证]];
 
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区
 G2L["93"] = Instance.new("ScrollingFrame", G2L["2"]);
-G2L["93"]["Visible"] = false;
 G2L["93"]["BorderSizePixel"] = 0;
 G2L["93"]["Name"] = [[买断制脚本显示区]];
 G2L["93"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1952,6 +1952,681 @@ G2L["dc"]["CornerRadius"] = UDim.new(0, 16);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.蜂群模拟器.密钥验证
 G2L["dd"] = Instance.new("LocalScript", G2L["d9"]);
 G2L["dd"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国
+G2L["de"] = Instance.new("ImageButton", G2L["93"]);
+G2L["de"]["BorderSizePixel"] = 0;
+G2L["de"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["de"]["Image"] = [[rbxassetid://15822360171]];
+G2L["de"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["de"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["de"]["Name"] = [[驾驶帝国]];
+G2L["de"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.脚本介绍
+G2L["df"] = Instance.new("TextLabel", G2L["de"]);
+G2L["df"]["TextWrapped"] = true;
+G2L["df"]["BorderSizePixel"] = 0;
+G2L["df"]["TextSize"] = 16;
+G2L["df"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["df"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["df"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["df"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["df"]["BackgroundTransparency"] = 1;
+G2L["df"]["RichText"] = true;
+G2L["df"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["df"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["df"]["Text"] = [[<font color='rgb(255,255,0)'>驾驶帝国</font><br/>自动刷钱]];
+G2L["df"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["df"]["Name"] = [[脚本介绍]];
+G2L["df"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.脚本介绍.文字设定
+G2L["e0"] = Instance.new("LocalScript", G2L["df"]);
+G2L["e0"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.UICorner
+G2L["e1"] = Instance.new("UICorner", G2L["de"]);
+G2L["e1"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.密钥验证
+G2L["e2"] = Instance.new("LocalScript", G2L["de"]);
+G2L["e2"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇
+G2L["e3"] = Instance.new("ImageButton", G2L["93"]);
+G2L["e3"]["BorderSizePixel"] = 0;
+G2L["e3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e3"]["Image"] = [[rbxassetid://13943877707]];
+G2L["e3"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["e3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e3"]["Name"] = [[忍者传奇]];
+G2L["e3"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.脚本介绍
+G2L["e4"] = Instance.new("TextLabel", G2L["e3"]);
+G2L["e4"]["TextWrapped"] = true;
+G2L["e4"]["BorderSizePixel"] = 0;
+G2L["e4"]["TextSize"] = 16;
+G2L["e4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["e4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e4"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["e4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e4"]["BackgroundTransparency"] = 1;
+G2L["e4"]["RichText"] = true;
+G2L["e4"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["e4"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e4"]["Text"] = [[<font color='rgb(255,255,0)'>忍者传奇</font><br/>自动刷忍术，金钱，气，开启所有岛屿，无限跳，pvp]];
+G2L["e4"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["e4"]["Name"] = [[脚本介绍]];
+G2L["e4"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.脚本介绍.文字设定
+G2L["e5"] = Instance.new("LocalScript", G2L["e4"]);
+G2L["e5"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.UICorner
+G2L["e6"] = Instance.new("UICorner", G2L["e3"]);
+G2L["e6"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.密钥验证
+G2L["e7"] = Instance.new("LocalScript", G2L["e3"]);
+G2L["e7"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇
+G2L["e8"] = Instance.new("ImageButton", G2L["93"]);
+G2L["e8"]["BorderSizePixel"] = 0;
+G2L["e8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e8"]["Image"] = [[rbxassetid://14127381063]];
+G2L["e8"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["e8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e8"]["Name"] = [[极速传奇]];
+G2L["e8"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.脚本介绍
+G2L["e9"] = Instance.new("TextLabel", G2L["e8"]);
+G2L["e9"]["TextWrapped"] = true;
+G2L["e9"]["BorderSizePixel"] = 0;
+G2L["e9"]["TextSize"] = 16;
+G2L["e9"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["e9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e9"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["e9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e9"]["BackgroundTransparency"] = 1;
+G2L["e9"]["RichText"] = true;
+G2L["e9"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["e9"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e9"]["Text"] = [[<font color='rgb(255,255,0)'>极速传奇</font><br/>自动刷所有数值，转生，开宠物蛋，自动参加比赛]];
+G2L["e9"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["e9"]["Name"] = [[脚本介绍]];
+G2L["e9"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.脚本介绍.文字设定
+G2L["ea"] = Instance.new("LocalScript", G2L["e9"]);
+G2L["ea"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.UICorner
+G2L["eb"] = Instance.new("UICorner", G2L["e8"]);
+G2L["eb"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.密钥验证
+G2L["ec"] = Instance.new("LocalScript", G2L["e8"]);
+G2L["ec"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2
+G2L["ed"] = Instance.new("ImageButton", G2L["93"]);
+G2L["ed"]["BorderSizePixel"] = 0;
+G2L["ed"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ed"]["Image"] = [[rbxassetid://5183416835]];
+G2L["ed"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["ed"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ed"]["Name"] = [[破坏者谜团2]];
+G2L["ed"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.脚本介绍
+G2L["ee"] = Instance.new("TextLabel", G2L["ed"]);
+G2L["ee"]["TextWrapped"] = true;
+G2L["ee"]["BorderSizePixel"] = 0;
+G2L["ee"]["TextSize"] = 16;
+G2L["ee"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["ee"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ee"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["ee"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ee"]["BackgroundTransparency"] = 1;
+G2L["ee"]["RichText"] = true;
+G2L["ee"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["ee"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ee"]["Text"] = [[<font color='rgb(255,255,0)'>破坏者谜团2</font><br/>透视玩家位置身份，自动拾取金币，传送到某玩家，自动捡枪<br/>踢飞某玩家，杀手自动击杀幸存者]];
+G2L["ee"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["ee"]["Name"] = [[脚本介绍]];
+G2L["ee"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.脚本介绍.文字设定
+G2L["ef"] = Instance.new("LocalScript", G2L["ee"]);
+G2L["ef"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.UICorner
+G2L["f0"] = Instance.new("UICorner", G2L["ed"]);
+G2L["f0"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.密钥验证
+G2L["f1"] = Instance.new("LocalScript", G2L["ed"]);
+G2L["f1"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球
+G2L["f2"] = Instance.new("ImageButton", G2L["93"]);
+G2L["f2"]["BorderSizePixel"] = 0;
+G2L["f2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f2"]["Image"] = [[rbxassetid://123633789510122]];
+G2L["f2"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["f2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f2"]["Name"] = [[刀刃球]];
+G2L["f2"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.脚本介绍
+G2L["f3"] = Instance.new("TextLabel", G2L["f2"]);
+G2L["f3"]["TextWrapped"] = true;
+G2L["f3"]["BorderSizePixel"] = 0;
+G2L["f3"]["TextSize"] = 16;
+G2L["f3"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["f3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f3"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["f3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f3"]["BackgroundTransparency"] = 1;
+G2L["f3"]["RichText"] = true;
+G2L["f3"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["f3"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f3"]["Text"] = [[<font color='rgb(255,255,0)'>刀刃球</font><br/>自动弹反，尽量拉开距离]];
+G2L["f3"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["f3"]["Name"] = [[脚本介绍]];
+G2L["f3"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.脚本介绍.文字设定
+G2L["f4"] = Instance.new("LocalScript", G2L["f3"]);
+G2L["f4"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.UICorner
+G2L["f5"] = Instance.new("UICorner", G2L["f2"]);
+G2L["f5"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.密钥验证
+G2L["f6"] = Instance.new("LocalScript", G2L["f2"]);
+G2L["f6"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople
+G2L["f7"] = Instance.new("ImageButton", G2L["93"]);
+G2L["f7"]["BorderSizePixel"] = 0;
+G2L["f7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f7"]["Image"] = [[rbxassetid://70810387955318]];
+G2L["f7"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["f7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f7"]["Name"] = [[FlingThingsAndPeople]];
+G2L["f7"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.脚本介绍
+G2L["f8"] = Instance.new("TextLabel", G2L["f7"]);
+G2L["f8"]["TextWrapped"] = true;
+G2L["f8"]["BorderSizePixel"] = 0;
+G2L["f8"]["TextSize"] = 16;
+G2L["f8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["f8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f8"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["f8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f8"]["BackgroundTransparency"] = 1;
+G2L["f8"]["RichText"] = true;
+G2L["f8"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["f8"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f8"]["Text"] = [[<font color='rgb(255,255,0)'>FlingThingsAndPeople</font><br/>超远距离投掷，力量无限大]];
+G2L["f8"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["f8"]["Name"] = [[脚本介绍]];
+G2L["f8"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.脚本介绍.文字设定
+G2L["f9"] = Instance.new("LocalScript", G2L["f8"]);
+G2L["f9"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.UICorner
+G2L["fa"] = Instance.new("UICorner", G2L["f7"]);
+G2L["fa"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.密钥验证
+G2L["fb"] = Instance.new("LocalScript", G2L["f7"]);
+G2L["fb"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五
+G2L["fc"] = Instance.new("ImageButton", G2L["93"]);
+G2L["fc"]["BorderSizePixel"] = 0;
+G2L["fc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fc"]["Image"] = [[rbxassetid://11216933642]];
+G2L["fc"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["fc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fc"]["Name"] = [[动感星期五]];
+G2L["fc"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.脚本介绍
+G2L["fd"] = Instance.new("TextLabel", G2L["fc"]);
+G2L["fd"]["TextWrapped"] = true;
+G2L["fd"]["BorderSizePixel"] = 0;
+G2L["fd"]["TextSize"] = 16;
+G2L["fd"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["fd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fd"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["fd"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fd"]["BackgroundTransparency"] = 1;
+G2L["fd"]["RichText"] = true;
+G2L["fd"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["fd"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fd"]["Text"] = [[<font color='rgb(255,255,0)'>动感星期五</font><br/>自动弹奏，全部完美]];
+G2L["fd"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["fd"]["Name"] = [[脚本介绍]];
+G2L["fd"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.脚本介绍.文字设定
+G2L["fe"] = Instance.new("LocalScript", G2L["fd"]);
+G2L["fe"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.UICorner
+G2L["ff"] = Instance.new("UICorner", G2L["fc"]);
+G2L["ff"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.密钥验证
+G2L["100"] = Instance.new("LocalScript", G2L["fc"]);
+G2L["100"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器
+G2L["101"] = Instance.new("ImageButton", G2L["93"]);
+G2L["101"]["BorderSizePixel"] = 0;
+G2L["101"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["101"]["Image"] = [[rbxassetid://7698866393]];
+G2L["101"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["101"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["101"]["Name"] = [[自然灾害模拟器]];
+G2L["101"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.脚本介绍
+G2L["102"] = Instance.new("TextLabel", G2L["101"]);
+G2L["102"]["TextWrapped"] = true;
+G2L["102"]["BorderSizePixel"] = 0;
+G2L["102"]["TextSize"] = 16;
+G2L["102"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["102"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["102"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["102"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["102"]["BackgroundTransparency"] = 1;
+G2L["102"]["RichText"] = true;
+G2L["102"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["102"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["102"]["Text"] = [[<font color='rgb(255,255,0)'>自然灾害模拟器</font><br/>飞行加速，踢飞所有玩家]];
+G2L["102"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["102"]["Name"] = [[脚本介绍]];
+G2L["102"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.脚本介绍.文字设定
+G2L["103"] = Instance.new("LocalScript", G2L["102"]);
+G2L["103"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.UICorner
+G2L["104"] = Instance.new("UICorner", G2L["101"]);
+G2L["104"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.密钥验证
+G2L["105"] = Instance.new("LocalScript", G2L["101"]);
+G2L["105"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.监狱人生
+G2L["106"] = Instance.new("ImageButton", G2L["93"]);
+G2L["106"]["BorderSizePixel"] = 0;
+G2L["106"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["106"]["Image"] = [[rbxassetid://15158577758]];
+G2L["106"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["106"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["106"]["Name"] = [[监狱人生]];
+G2L["106"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.监狱人生.脚本介绍
+G2L["107"] = Instance.new("TextLabel", G2L["106"]);
+G2L["107"]["TextWrapped"] = true;
+G2L["107"]["BorderSizePixel"] = 0;
+G2L["107"]["TextSize"] = 16;
+G2L["107"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["107"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["107"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["107"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["107"]["BackgroundTransparency"] = 1;
+G2L["107"]["RichText"] = true;
+G2L["107"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["107"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["107"]["Text"] = [[<font color='rgb(255,255,0)'>监狱人生</font><br/>传送加速，击杀身边玩家，自动获得各种武器等]];
+G2L["107"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["107"]["Name"] = [[脚本介绍]];
+G2L["107"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.监狱人生.脚本介绍.文字设定
+G2L["108"] = Instance.new("LocalScript", G2L["107"]);
+G2L["108"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.监狱人生.UICorner
+G2L["109"] = Instance.new("UICorner", G2L["106"]);
+G2L["109"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.监狱人生.密钥验证
+G2L["10a"] = Instance.new("LocalScript", G2L["106"]);
+G2L["10a"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝
+G2L["10b"] = Instance.new("ImageButton", G2L["93"]);
+G2L["10b"]["BorderSizePixel"] = 0;
+G2L["10b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10b"]["Image"] = [[rbxassetid://119122088865300]];
+G2L["10b"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["10b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10b"]["Name"] = [[造船寻宝]];
+G2L["10b"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.脚本介绍
+G2L["10c"] = Instance.new("TextLabel", G2L["10b"]);
+G2L["10c"]["TextWrapped"] = true;
+G2L["10c"]["BorderSizePixel"] = 0;
+G2L["10c"]["TextSize"] = 16;
+G2L["10c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["10c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["10c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10c"]["BackgroundTransparency"] = 1;
+G2L["10c"]["RichText"] = true;
+G2L["10c"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["10c"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10c"]["Text"] = [[<font color='rgb(255,255,0)'>造船寻宝</font><br/>无需造船，飞到终点获得金币和奖励]];
+G2L["10c"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["10c"]["Name"] = [[脚本介绍]];
+G2L["10c"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.脚本介绍.文字设定
+G2L["10d"] = Instance.new("LocalScript", G2L["10c"]);
+G2L["10d"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.UICorner
+G2L["10e"] = Instance.new("UICorner", G2L["10b"]);
+G2L["10e"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.密钥验证
+G2L["10f"] = Instance.new("LocalScript", G2L["10b"]);
+G2L["10f"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界
+G2L["110"] = Instance.new("ImageButton", G2L["93"]);
+G2L["110"]["BorderSizePixel"] = 0;
+G2L["110"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["110"]["Image"] = [[rbxassetid://123538412756533]];
+G2L["110"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["110"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["110"]["Name"] = [[吃掉世界]];
+G2L["110"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.脚本介绍
+G2L["111"] = Instance.new("TextLabel", G2L["110"]);
+G2L["111"]["TextWrapped"] = true;
+G2L["111"]["BorderSizePixel"] = 0;
+G2L["111"]["TextSize"] = 16;
+G2L["111"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["111"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["111"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["111"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["111"]["BackgroundTransparency"] = 1;
+G2L["111"]["RichText"] = true;
+G2L["111"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["111"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["111"]["Text"] = [[<font color='rgb(255,255,0)'>吃掉世界</font><br/>自动吃，一键出售<br/>搭配踢飞脚本更欢乐]];
+G2L["111"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["111"]["Name"] = [[脚本介绍]];
+G2L["111"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.脚本介绍.文字设定
+G2L["112"] = Instance.new("LocalScript", G2L["111"]);
+G2L["112"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.UICorner
+G2L["113"] = Instance.new("UICorner", G2L["110"]);
+G2L["113"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.密钥验证
+G2L["114"] = Instance.new("LocalScript", G2L["110"]);
+G2L["114"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中
+G2L["115"] = Instance.new("ImageButton", G2L["93"]);
+G2L["115"]["BorderSizePixel"] = 0;
+G2L["115"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["115"]["Image"] = [[rbxassetid://12754960917]];
+G2L["115"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["115"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["115"]["Name"] = [[勘探中]];
+G2L["115"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.脚本介绍
+G2L["116"] = Instance.new("TextLabel", G2L["115"]);
+G2L["116"]["TextWrapped"] = true;
+G2L["116"]["BorderSizePixel"] = 0;
+G2L["116"]["TextSize"] = 16;
+G2L["116"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["116"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["116"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["116"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["116"]["BackgroundTransparency"] = 1;
+G2L["116"]["RichText"] = true;
+G2L["116"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["116"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["116"]["Text"] = [[<font color='rgb(255,255,0)'>勘探中</font><br/>设置挖沙和淘金坐标，自动挖沙自动淘金]];
+G2L["116"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["116"]["Name"] = [[脚本介绍]];
+G2L["116"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.脚本介绍.文字设定
+G2L["117"] = Instance.new("LocalScript", G2L["116"]);
+G2L["117"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.UICorner
+G2L["118"] = Instance.new("UICorner", G2L["115"]);
+G2L["118"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.密钥验证
+G2L["119"] = Instance.new("LocalScript", G2L["115"]);
+G2L["119"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂
+G2L["11a"] = Instance.new("ImageButton", G2L["93"]);
+G2L["11a"]["BorderSizePixel"] = 0;
+G2L["11a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11a"]["Image"] = [[rbxassetid://8446589311]];
+G2L["11a"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["11a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11a"]["Name"] = [[兵工厂]];
+G2L["11a"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.脚本介绍
+G2L["11b"] = Instance.new("TextLabel", G2L["11a"]);
+G2L["11b"]["TextWrapped"] = true;
+G2L["11b"]["BorderSizePixel"] = 0;
+G2L["11b"]["TextSize"] = 16;
+G2L["11b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["11b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11b"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["11b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11b"]["BackgroundTransparency"] = 1;
+G2L["11b"]["RichText"] = true;
+G2L["11b"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["11b"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11b"]["Text"] = [[<font color='rgb(255,255,0)'>兵工厂</font><br/>透视自瞄，射击游戏不要杀的太疯，尽量演]];
+G2L["11b"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["11b"]["Name"] = [[脚本介绍]];
+G2L["11b"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.脚本介绍.文字设定
+G2L["11c"] = Instance.new("LocalScript", G2L["11b"]);
+G2L["11c"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.UICorner
+G2L["11d"] = Instance.new("UICorner", G2L["11a"]);
+G2L["11d"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.密钥验证
+G2L["11e"] = Instance.new("LocalScript", G2L["11a"]);
+G2L["11e"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.超速射击
+G2L["11f"] = Instance.new("ImageButton", G2L["93"]);
+G2L["11f"]["BorderSizePixel"] = 0;
+G2L["11f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11f"]["Image"] = [[rbxassetid://12541865500]];
+G2L["11f"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["11f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11f"]["Name"] = [[超速射击]];
+G2L["11f"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.超速射击.脚本介绍
+G2L["120"] = Instance.new("TextLabel", G2L["11f"]);
+G2L["120"]["TextWrapped"] = true;
+G2L["120"]["BorderSizePixel"] = 0;
+G2L["120"]["TextSize"] = 16;
+G2L["120"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["120"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["120"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["120"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["120"]["BackgroundTransparency"] = 1;
+G2L["120"]["RichText"] = true;
+G2L["120"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["120"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["120"]["Text"] = [[<font color='rgb(255,255,0)'>超速射击</font><br/>透视自瞄，射击游戏不要杀的太疯，尽量演]];
+G2L["120"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["120"]["Name"] = [[脚本介绍]];
+G2L["120"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.超速射击.脚本介绍.文字设定
+G2L["121"] = Instance.new("LocalScript", G2L["120"]);
+G2L["121"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.超速射击.UICorner
+G2L["122"] = Instance.new("UICorner", G2L["11f"]);
+G2L["122"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.超速射击.密钥验证
+G2L["123"] = Instance.new("LocalScript", G2L["11f"]);
+G2L["123"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手
+G2L["124"] = Instance.new("ImageButton", G2L["93"]);
+G2L["124"]["BorderSizePixel"] = 0;
+G2L["124"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["124"]["Image"] = [[rbxassetid://70803651014944]];
+G2L["124"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["124"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["124"]["Name"] = [[竞争对手]];
+G2L["124"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.脚本介绍
+G2L["125"] = Instance.new("TextLabel", G2L["124"]);
+G2L["125"]["TextWrapped"] = true;
+G2L["125"]["BorderSizePixel"] = 0;
+G2L["125"]["TextSize"] = 16;
+G2L["125"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["125"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["125"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["125"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["125"]["BackgroundTransparency"] = 1;
+G2L["125"]["RichText"] = true;
+G2L["125"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["125"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["125"]["Text"] = [[<font color='rgb(255,255,0)'>竞争对手</font><br/>透视自瞄，射击游戏不要杀的太疯，尽量演]];
+G2L["125"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["125"]["Name"] = [[脚本介绍]];
+G2L["125"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.脚本介绍.文字设定
+G2L["126"] = Instance.new("LocalScript", G2L["125"]);
+G2L["126"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.UICorner
+G2L["127"] = Instance.new("UICorner", G2L["124"]);
+G2L["127"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.密钥验证
+G2L["128"] = Instance.new("LocalScript", G2L["124"]);
+G2L["128"]["Name"] = [[密钥验证]];
 
 
 -- StarterGui.ScreenGui.Frame.加边框加流动渐变
@@ -6568,5 +7243,2525 @@ local script = G2L["dd"];
 	end)
 end;
 task.spawn(C_dd);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.脚本介绍.文字设定
+local function C_e0()
+local script = G2L["e0"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_e0);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.密钥验证
+local function C_e2()
+local script = G2L["e2"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_e2);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.脚本介绍.文字设定
+local function C_e5()
+local script = G2L["e5"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_e5);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.密钥验证
+local function C_e7()
+local script = G2L["e7"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_e7);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.脚本介绍.文字设定
+local function C_ea()
+local script = G2L["ea"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_ea);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.密钥验证
+local function C_ec()
+local script = G2L["ec"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_ec);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.脚本介绍.文字设定
+local function C_ef()
+local script = G2L["ef"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_ef);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.密钥验证
+local function C_f1()
+local script = G2L["f1"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_f1);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.脚本介绍.文字设定
+local function C_f4()
+local script = G2L["f4"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_f4);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.密钥验证
+local function C_f6()
+local script = G2L["f6"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_f6);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.脚本介绍.文字设定
+local function C_f9()
+local script = G2L["f9"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_f9);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.密钥验证
+local function C_fb()
+local script = G2L["fb"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_fb);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.脚本介绍.文字设定
+local function C_fe()
+local script = G2L["fe"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_fe);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.密钥验证
+local function C_100()
+local script = G2L["100"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_100);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.脚本介绍.文字设定
+local function C_103()
+local script = G2L["103"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_103);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.密钥验证
+local function C_105()
+local script = G2L["105"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_105);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.监狱人生.脚本介绍.文字设定
+local function C_108()
+local script = G2L["108"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_108);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.监狱人生.密钥验证
+local function C_10a()
+local script = G2L["10a"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_10a);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.脚本介绍.文字设定
+local function C_10d()
+local script = G2L["10d"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_10d);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.密钥验证
+local function C_10f()
+local script = G2L["10f"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_10f);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.脚本介绍.文字设定
+local function C_112()
+local script = G2L["112"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_112);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.密钥验证
+local function C_114()
+local script = G2L["114"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_114);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.脚本介绍.文字设定
+local function C_117()
+local script = G2L["117"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_117);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.密钥验证
+local function C_119()
+local script = G2L["119"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_119);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.脚本介绍.文字设定
+local function C_11c()
+local script = G2L["11c"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_11c);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.密钥验证
+local function C_11e()
+local script = G2L["11e"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_11e);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.超速射击.脚本介绍.文字设定
+local function C_121()
+local script = G2L["121"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_121);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.超速射击.密钥验证
+local function C_123()
+local script = G2L["123"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_123);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.脚本介绍.文字设定
+local function C_126()
+local script = G2L["126"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_126);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.密钥验证
+local function C_128()
+local script = G2L["128"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_128);
 
 return G2L["1"], require;
