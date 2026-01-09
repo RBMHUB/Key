@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 299 | Scripts: 119 | Modules: 0 | Tags: 0
+-- Instances: 304 | Scripts: 121 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.ScreenGui
@@ -527,7 +527,6 @@ G2L["41"]["Name"] = [[显示玩家头像]];
 
 -- StarterGui.ScreenGui.Frame.公告及活动显示区
 G2L["42"] = Instance.new("ScrollingFrame", G2L["2"]);
-G2L["42"]["Visible"] = false;
 G2L["42"]["BorderSizePixel"] = 0;
 G2L["42"]["Name"] = [[公告及活动显示区]];
 G2L["42"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -554,7 +553,7 @@ G2L["43"]["BackgroundTransparency"] = 1;
 G2L["43"]["RichText"] = true;
 G2L["43"]["Size"] = UDim2.new(1, 0, 0, 0);
 G2L["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["43"]["Text"] = [[<font color='rgb(255,255,0)'>【公告】更新时间2026.1.4</font><br/><br/>1.正在紧锣密鼓的搭建脚本中心框架，添加脚本以及增设服务<br/><br/>2.日后新增脚本，临时变动，闲事扯皮等等都更新在这里<br/><br/><font color='rgb(255,255,0)'>【关于注入器和VPN】</font><br/><br/>1.目前注入器PC，安卓，ios三端皆可使用，需要其他注入器或者视频教学远程协助直接联系我<br/><br/>2.如果你是国内玩家，想去外网看看，那么你肯定需要一个翻墙VPN<br/><br/>3.VPN40元一个月，我已经稳定用了很多年，需要可以联系我<br/><br/><font color='rgb(255,255,0)'>【推广活动】长期有效</font><br/><br/>1.把Roblox脚本中心的代码转发到任意群并截图，10次=1元<br/><br/>2.在抖音，快手，B站等平台做视频并在评论里置顶Roblox脚本中心的代码，1次=3元<br/><br/>3.推荐别人购买，成交后推荐人获得25%佣金<br/><br/><font color='rgb(255,255,0)'>【元旦活动】</font><br/><br/>估计脚本中心上线时，元旦假期已经结束了，但为了庆祝脚本中心成立<br/><br/>1.购买任意服务，满30元减6元，截止到春节前<br/><br/><font color='rgb(255,255,0)'>【免责声明】</font><br/><br/>1.自己选择开脚本，就不要担心封号，虽然概率极低，但本人不做任何承诺<br/><br/>2.Roblox小号可以无限注册，请勿用充过值的大号测试脚本，被封禁不要跟我说<br/><br/>3.脚本和注入器一直会被官方针对，如果被修复可能需要更换新版脚本或新方式注入器<br/><br/>4.如果运气不佳，刚付款就遇到官方修复，当月内我会免费给你更新]];
+G2L["43"]["Text"] = [[<font color='rgb(255,255,0)'>【公告】更新时间2026.1.4</font><br/><br/>1.正在紧锣密鼓的搭建脚本中心框架，添加脚本以及增设服务<br/><br/>2.日后新增脚本，临时变动，闲事扯皮等等都更新在这里<br/><br/><font color='rgb(255,255,0)'>【关于注入器和VPN】</font><br/><br/>1.目前注入器PC，安卓，ios三端皆可使用，需要其他注入器或者视频教学远程协助直接联系我<br/><br/>2.如果你是国内玩家，想去外网看看，那么你肯定需要一个翻墙VPN<br/><br/>3.VPN40元一个月，我已经稳定用了很多年，需要可以联系我<br/><br/><font color='rgb(255,255,0)'>【免责声明】</font><br/><br/>1.自己选择开脚本，就不要担心封号，虽然概率极低，但本人不做任何承诺<br/><br/>2.Roblox小号可以无限注册，请勿用充过值的大号测试脚本，被封禁不要跟我说<br/><br/>3.脚本和注入器一直会被官方针对，如果被修复可能需要更换新版脚本或新方式注入器<br/><br/>4.如果运气不佳，刚付款就遇到官方修复，当月内我会免费给你更新]];
 G2L["43"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["43"]["Name"] = [[公告及活动]];
 G2L["43"]["Position"] = UDim2.new(0.02297, 0, 0.00014, 0);
@@ -614,7 +613,7 @@ G2L["4a"]["BackgroundTransparency"] = 1;
 G2L["4b"] = Instance.new("TextLabel", G2L["4a"]);
 G2L["4b"]["TextWrapped"] = true;
 G2L["4b"]["BorderSizePixel"] = 0;
-G2L["4b"]["TextSize"] = 14;
+G2L["4b"]["TextSize"] = 16;
 G2L["4b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["4b"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["4b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -624,7 +623,7 @@ G2L["4b"]["BackgroundTransparency"] = 1;
 G2L["4b"]["RichText"] = true;
 G2L["4b"]["Size"] = UDim2.new(1, 0, 0, 0);
 G2L["4b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4b"]["Text"] = [[<font color='rgb(255,255,0)'>【Roblox游戏代练代刷价格表】最低16R起刷</font><br/><br/>1.<font color='rgb(255,255,0)'>【BloxFruit】</font>：人物等级100级=5R，技能等级100级=5R，F币1000=2R，绿钞100W=9R<br/><br/>2.<font color='rgb(255,255,0)'>【KingLegacy国王遗产】</font>人物等级100级=6R<br/><br/>3.<font color='rgb(255,255,0)'>【死铁轨】</font>债券100张=3R（通过送火车，职业等方式交易）<br/><br/>4.<font color='rgb(255,255,0)'>【99夜在森林里】</font>挂机刷天数100天=13R，帮打钻石兼刷天数1小时=19R<br/><br/>5.<font color='rgb(255,255,0)'>【伐木大亨2】</font>19把不同斧子套装=19R，多头斧和末日斧1把=2R<br/><br/>6.<font color='rgb(255,255,0)'>【战争大亨】</font>3元刷一转，6元刷2转，9元刷三转以此类推，资金1000万=9元<br/><br/>7.<font color='rgb(255,255,0)'>【造船寻宝】</font>金币1000=3R<br/><br/>8.<font color='rgb(255,255,0)'>【极速传奇】</font>刷数值和转生1小时=16R，比手动快10倍<br/><br/>9.<font color='rgb(255,255,0)'>【忍者传奇】</font>刷数值和转生1小时=13R，比手动快5倍]];
+G2L["4b"]["Text"] = [[<font color='rgb(255,255,0)'>【Roblox游戏代练代刷价格表】最低30元起刷，另招代练数名，有意私聊</font><br/><br/>1.<font color='rgb(255,255,0)'>【BloxFruit】</font>：等级100级=5R，技能等级100级=5R，F币1000=2R，绿钞100W=9R<br/><br/>2.<font color='rgb(255,255,0)'>【KingLegacy国王遗产】</font>人物等级100级=6R<br/><br/>3.<font color='rgb(255,255,0)'>【死铁轨】</font>债券100张=3R（通过送火车，职业等方式交易）<br/><br/>4.<font color='rgb(255,255,0)'>【99夜在森林里】</font>挂机刷天数每100天=13R，帮打钻石兼刷天数每100天=19R<br/><br/>5.<font color='rgb(255,255,0)'>【伐木大亨2】</font>19把不同斧子=19R，多头斧和末日斧1把=2R<br/><br/>6.<font color='rgb(255,255,0)'>【战争大亨】</font>3元刷一转，6元刷2转，9元刷三转以此类推，资金1000万=9元<br/><br/>7.<font color='rgb(255,255,0)'>【造船寻宝】</font>金币1000=3R<br/><br/>8.<font color='rgb(255,255,0)'>【极速传奇】</font>刷数值和转生1小时=16R，比手动快10倍<br/><br/>9.<font color='rgb(255,255,0)'>【忍者传奇】</font>刷数值和转生1小时=13R，比手动快5倍]];
 G2L["4b"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["4b"]["Name"] = [[代刷代练]];
 G2L["4b"]["Position"] = UDim2.new(0.02297, 0, 0.00005, 0);
@@ -678,7 +677,7 @@ G2L["51"]["BackgroundTransparency"] = 1;
 G2L["51"]["RichText"] = true;
 G2L["51"]["Size"] = UDim2.new(1, 0, 0, 0);
 G2L["51"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["51"]["Text"] = [[<font color='rgb(255,255,0)'>【广告位招租须知】</font><br/><br/>1.广告位的初衷是为了让玩家互通有无，价格为30元一个月<br/><br/>2.接受代练，代充，游戏道具，成品号，以及一切奇奇怪怪的广告<br/><br/>3.任何运行脚本中心的玩家都可以看到你的广告<br/><br/>4.广告位格式：一张你认为亮眼的Logo+你的昵称+广告内容+联系方式<br/><br/>5.本人不提供担保服务，任何交易都由双方私下协商。]];
+G2L["51"]["Text"] = [[<font color='rgb(255,255,0)'>【广告位租赁须知】</font><br/><br/>1.广告位价格为30R一个月<br/><br/>2.接受代练，代充，游戏道具，成品号或和Roblox无关的一切广告<br/><br/>3.任何运行脚本中心的玩家都可以看到你的广告<br/><br/>4.广告位格式：Logo+你的昵称+广告内容+联系方式<br/><br/>5.本人不提供担保服务，任何交易都由双方私下协商。]];
 G2L["51"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["51"]["Name"] = [[广告位]];
 G2L["51"]["Position"] = UDim2.new(0, 0, -0.00136, 0);
@@ -738,7 +737,7 @@ G2L["57"]["CornerRadius"] = UDim.new(0, 16);
 G2L["58"] = Instance.new("ImageButton", G2L["4f"]);
 G2L["58"]["BorderSizePixel"] = 0;
 G2L["58"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["58"]["Image"] = [[rbxassetid://8508980527]];
+G2L["58"]["Image"] = [[rbxassetid://1545406485]];
 G2L["58"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["58"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["58"]["Name"] = [[广告2]];
@@ -1368,6 +1367,7 @@ G2L["9c"]["Name"] = [[密钥验证]];
 
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区
 G2L["9d"] = Instance.new("ScrollingFrame", G2L["2"]);
+G2L["9d"]["Visible"] = false;
 G2L["9d"]["BorderSizePixel"] = 0;
 G2L["9d"]["Name"] = [[买断制脚本显示区]];
 G2L["9d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2664,6 +2664,51 @@ G2L["12b"] = Instance.new("LocalScript", G2L["127"]);
 G2L["12b"]["Name"] = [[密钥验证]];
 
 
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木
+G2L["12c"] = Instance.new("ImageButton", G2L["9d"]);
+G2L["12c"]["BorderSizePixel"] = 0;
+G2L["12c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12c"]["Image"] = [[rbxassetid://10702107551]];
+G2L["12c"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["12c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12c"]["Name"] = [[砍伐树木]];
+G2L["12c"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.脚本介绍
+G2L["12d"] = Instance.new("TextLabel", G2L["12c"]);
+G2L["12d"]["TextWrapped"] = true;
+G2L["12d"]["BorderSizePixel"] = 0;
+G2L["12d"]["TextSize"] = 16;
+G2L["12d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["12d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["12d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12d"]["BackgroundTransparency"] = 1;
+G2L["12d"]["RichText"] = true;
+G2L["12d"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["12d"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12d"]["Text"] = [[<font color='rgb(255,255,0)'>砍伐树木</font><br/>自动获取全图宝箱，可选择宝箱等级]];
+G2L["12d"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["12d"]["Name"] = [[脚本介绍]];
+G2L["12d"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.脚本介绍.文字设定
+G2L["12e"] = Instance.new("LocalScript", G2L["12d"]);
+G2L["12e"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.UICorner
+G2L["12f"] = Instance.new("UICorner", G2L["12c"]);
+G2L["12f"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.密钥验证
+G2L["130"] = Instance.new("LocalScript", G2L["12c"]);
+G2L["130"]["Name"] = [[密钥验证]];
+
+
 -- StarterGui.ScreenGui.Frame.加边框加流动渐变
 local function C_4()
 local script = G2L["4"];
@@ -3576,9 +3621,9 @@ local script = G2L["65"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/FreeKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalFly.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/UniversalFly.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -3744,9 +3789,9 @@ local script = G2L["6a"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/FreeKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalFlyCar.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/UniversalFlyCar.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -3912,9 +3957,9 @@ local script = G2L["6f"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/FreeKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalEsp.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/UniversalEsp.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -4080,9 +4125,9 @@ local script = G2L["74"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/FreeKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/UniversalTpToCoordinates.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -4248,9 +4293,9 @@ local script = G2L["79"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/FreeKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalInvisibility.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/UniversalInvisibility.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -5498,9 +5543,9 @@ local script = G2L["b0"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/FishItKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalEsp.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/FishIt.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -5643,9 +5688,9 @@ local script = G2L["b3"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/FischKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalInvisibility.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/Fisch.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -5834,9 +5879,9 @@ local script = G2L["ba"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/UniversalTouchFlingKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/UniversalTouchFling.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -6002,9 +6047,9 @@ local script = G2L["bf"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/ForsakenKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/Forsaken.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -6170,9 +6215,9 @@ local script = G2L["c4"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/UniversalAimbotKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/UniversalAimbot.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -6338,9 +6383,9 @@ local script = G2L["c9"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/UniversalFlingKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/UniversalFling.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -6506,9 +6551,9 @@ local script = G2L["ce"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/UniversalPianoKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/UniversalPiano.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -6674,9 +6719,9 @@ local script = G2L["d3"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/GrowaGardenKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/GrowaGarden.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -6842,9 +6887,9 @@ local script = G2L["d8"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/HuntyZombieKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/HuntyZombie.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -7010,9 +7055,9 @@ local script = G2L["dd"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/DressToImpressKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/DressToImpress.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -7178,9 +7223,9 @@ local script = G2L["e2"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/TheStrongestBattlegroundsKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/TheStrongestBattlegrounds.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -7346,9 +7391,9 @@ local script = G2L["e7"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/ArsenalKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/Arsenal.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -7514,9 +7559,9 @@ local script = G2L["ec"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/DrivingEmpireKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/DrivingEmpire.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -7682,9 +7727,9 @@ local script = G2L["f1"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/NinjaLegendsKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/NinjaLegends.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -7850,9 +7895,9 @@ local script = G2L["f6"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/LegendsOfSpeedKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/LegendsOfSpeed.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -8018,9 +8063,9 @@ local script = G2L["fb"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/MurderMystery2Key.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/MurderMystery2.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -8186,9 +8231,9 @@ local script = G2L["100"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/BladeBallKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/BladeBall.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -8354,9 +8399,9 @@ local script = G2L["105"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/FlingThingsAndPeopleKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/FlingThingsAndPeople.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -8522,9 +8567,9 @@ local script = G2L["10a"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/FunkyFridayKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/FunkyFriday.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -8713,9 +8758,9 @@ local script = G2L["113"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/PrisonLifeKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/PrisonLife.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -8881,9 +8926,9 @@ local script = G2L["118"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/BuildABoatForTreasureKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/BuildABoatForTreasure.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -9049,9 +9094,9 @@ local script = G2L["11d"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/EatTheWorldKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/EatTheWorld.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -9217,9 +9262,9 @@ local script = G2L["122"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/ProspectingKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/Prospecting.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -9408,9 +9453,9 @@ local script = G2L["12b"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/BuildAPlaneKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalFly.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/BuildAPlane.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -9540,5 +9585,173 @@ local script = G2L["12b"];
 	end)
 end;
 task.spawn(C_12b);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.脚本介绍.文字设定
+local function C_12e()
+local script = G2L["12e"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_12e);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.密钥验证
+local function C_130()
+local script = G2L["130"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/CutTreesKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/CutTrees.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_130);
 
 return G2L["1"], require;
