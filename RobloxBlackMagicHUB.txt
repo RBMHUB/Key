@@ -13,6 +13,7 @@ local G2L = {};
 -- StarterGui.ScreenGui
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+G2L["1"]["ResetOnSpawn"] = false;
 
 
 -- StarterGui.ScreenGui.Frame
@@ -538,7 +539,6 @@ G2L["42"]["Name"] = [[显示玩家头像]];
 
 -- StarterGui.ScreenGui.Frame.公告及活动显示区
 G2L["43"] = Instance.new("ScrollingFrame", G2L["2"]);
-G2L["43"]["Visible"] = false;
 G2L["43"]["BorderSizePixel"] = 0;
 G2L["43"]["Name"] = [[公告及活动显示区]];
 G2L["43"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1379,6 +1379,7 @@ G2L["9d"]["Name"] = [[密钥验证]];
 
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区
 G2L["9e"] = Instance.new("ScrollingFrame", G2L["2"]);
+G2L["9e"]["Visible"] = false;
 G2L["9e"]["BorderSizePixel"] = 0;
 G2L["9e"]["Name"] = [[买断制脚本显示区]];
 G2L["9e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
