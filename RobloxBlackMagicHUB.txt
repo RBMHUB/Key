@@ -565,10 +565,10 @@ G2L["44"]["BackgroundTransparency"] = 1;
 G2L["44"]["RichText"] = true;
 G2L["44"]["Size"] = UDim2.new(1, 0, 0, 0);
 G2L["44"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["44"]["Text"] = [[<font color='rgb(255,255,0)'>【公告】更新时间2026.1.12</font><br/><br/>1.新增打屁股战斗，逃出海啸获得脑力，骨折三个买断制脚本<br/><br/>2.新开设推广活动<br/><br/><font color='rgb(255,255,0)'>【关于注入器和VPN】</font><br/><br/>1.目前注入器PC，安卓，ios三端皆可使用，需要其他注入器或者视频教学远程协助直接联系我<br/><br/>2.如果你是国内玩家，想去外网看看，那么你肯定需要一个翻墙VPN<br/><br/>3.VPN40元一个月，我已经稳定用了很多年，需要可以联系我<br/><br/><font color='rgb(255,255,0)'>【推广活动】长期有效</font><br/><br/>1.将脚本中心代码推荐给朋友使用截图并反馈<br/><br/>2.每推荐10次，可领取1元折扣，上不封顶，折扣可在购买脚本，注入器，教学，VPN时使用<br/><br/>3.推荐别人购买任意脚本或其他服务，购买成功后推荐人获得25%现金红包<br/><br/><font color='rgb(255,255,0)'>【免责声明】</font><br/><br/>1.自己选择开脚本，就不要担心封号，虽然概率极低，但本人不做任何承诺<br/><br/>2.Roblox小号可以无限注册，请勿用充过值的大号测试脚本，被封禁不要跟我说<br/><br/>3.脚本和注入器一直会被官方针对，如果被修复可能需要更换新版脚本或新方式注入器<br/><br/>4.如果运气不佳，刚付款就遇到官方修复，当月内我会免费给你更新]];
+G2L["44"]["Text"] = [[<font color='rgb(255,255,0)'>【公告】更新时间2026.1.18</font><br/><br/>1.逃出海啸获得脑力脚本由于删除海啸功能过于强力被官方针对，现脚本可以直接瞬移到安全地区<br/><br/><font color='rgb(255,255,0)'>【关于注入器和VPN】</font><br/><br/>1.目前注入器PC，安卓，ios三端皆可使用，需要其他注入器或者视频教学远程协助直接联系我<br/><br/>2.如果你是国内玩家，想去外网看看，那么你肯定需要一个翻墙VPN<br/><br/>3.VPN40元一个月，我已经稳定用了很多年，需要可以联系我<br/><br/><font color='rgb(255,255,0)'>【推广活动】长期有效</font><br/><br/>1.将脚本中心代码推荐给朋友使用截图并反馈<br/><br/>2.每推荐10次，可领取1元折扣，上不封顶，折扣可在购买脚本，注入器，教学，VPN时使用<br/><br/>3.推荐别人购买任意脚本或其他服务，购买成功后推荐人获得25%现金红包<br/><br/><font color='rgb(255,255,0)'>【免责声明】</font><br/><br/>1.自己选择开脚本，就不要担心封号，虽然概率极低，但本人不做任何承诺<br/><br/>2.Roblox小号可以无限注册，请勿用充过值的大号测试脚本，被封禁不要跟我说<br/><br/>3.脚本和注入器一直会被官方针对，如果被修复可能需要更换新版脚本或新方式注入器<br/><br/>4.如果运气不佳，刚付款就遇到官方修复，当月内我会免费给你更新]];
 G2L["44"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["44"]["Name"] = [[公告及活动]];
-G2L["44"]["Position"] = UDim2.new(0.02297, 0, 0.00014, 0);
+G2L["44"]["Position"] = UDim2.new(0.00186, 0, -0.00542, 0);
 
 
 -- StarterGui.ScreenGui.Frame.公告及活动显示区.公告及活动.文字设定
@@ -1381,7 +1381,6 @@ G2L["9d"]["Name"] = [[密钥验证]];
 G2L["9e"] = Instance.new("ScrollingFrame", G2L["2"]);
 G2L["9e"]["Visible"] = false;
 G2L["9e"]["BorderSizePixel"] = 0;
-G2L["9e"]["CanvasPosition"] = Vector2.new(0, 2339);
 G2L["9e"]["Name"] = [[买断制脚本显示区]];
 G2L["9e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["9e"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
@@ -2791,7 +2790,7 @@ G2L["138"]["BackgroundTransparency"] = 1;
 G2L["138"]["RichText"] = true;
 G2L["138"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["138"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["138"]["Text"] = [[<font color='rgb(255,255,0)'>逃出海啸获得脑力</font><br/>删除海啸，自动获取最高级脑力，自动收钱]];
+G2L["138"]["Text"] = [[<font color='rgb(255,255,0)'>逃出海啸获得脑力</font><br/>自动移动到前一或后一安全部地区，即时拾取，自动收钱]];
 G2L["138"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["138"]["Name"] = [[脚本介绍]];
 G2L["138"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
