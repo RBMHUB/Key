@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 311 | Scripts: 125 | Modules: 0 | Tags: 0
+-- Instances: 316 | Scripts: 127 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.ScreenGui
@@ -565,7 +565,7 @@ G2L["44"]["BackgroundTransparency"] = 1;
 G2L["44"]["RichText"] = true;
 G2L["44"]["Size"] = UDim2.new(1, 0, 0, 0);
 G2L["44"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["44"]["Text"] = [[<font color='rgb(255,255,0)'>【公告】更新时间2026.3.31</font><br/><br/>1.死铁轨自动刷债券脚本已修复<br/><br/>2.战争大亨偷零件刷钱脚本已修复<br/><br/>3.更新99夜在森林中脚本<br/><br/>4.添加FishIt脚本<br/><br/>5.更新BloxFruit脚本<br/><br/>6.添加水手碎片脚本<br/><br/><font color='rgb(255,255,0)'>【关于注入器和VPN】</font><br/><br/>1.目前注入器PC，安卓，ios三端皆可使用，需要其他注入器或者视频教学远程协助直接联系我<br/><br/>2.如果你是国内玩家，想去外网看看，那么你肯定需要一个翻墙VPN<br/><br/>3.VPN40元一个月，我已经稳定用了很多年，需要可以联系我<br/><br/><font color='rgb(255,255,0)'>【免责声明】</font><br/><br/>1.自己选择开脚本，就不要担心封号，虽然概率极低，但本人不做任何承诺<br/><br/>2.Roblox小号可以无限注册，请勿用充过值的大号测试脚本，被封禁不要跟我说<br/><br/>3.脚本和注入器一直会被官方针对，如果被修复可能需要更换新版脚本或新方式注入器<br/><br/>4.如果运气不佳，刚付款就遇到官方修复，当月内我会免费给你更新]];
+G2L["44"]["Text"] = [[<font color='rgb(255,255,0)'>【公告】更新时间2026.4.4</font><br/><br/>1.添加Doors脚本<br/><br/><font color='rgb(255,255,0)'>【关于注入器和VPN】</font><br/><br/>1.目前注入器PC，安卓，ios三端皆可使用，需要其他注入器或者视频教学远程协助直接联系我<br/><br/>2.如果你是国内玩家，想去外网看看，那么你肯定需要一个翻墙VPN<br/><br/>3.VPN40元一个月，我已经稳定用了很多年，需要可以联系我<br/><br/><font color='rgb(255,255,0)'>【免责声明】</font><br/><br/>1.自己选择开脚本，就不要担心封号，虽然概率极低，但本人不做任何承诺<br/><br/>2.Roblox小号可以无限注册，请勿用充过值的大号测试脚本，被封禁不要跟我说<br/><br/>3.脚本和注入器一直会被官方针对，如果被修复可能需要更换新版脚本或新方式注入器<br/><br/>4.如果运气不佳，刚付款就遇到官方修复，当月内我会免费给你更新]];
 G2L["44"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["44"]["Name"] = [[公告及活动]];
 G2L["44"]["Position"] = UDim2.new(0.02297, 0, 0.00014, 0);
@@ -1381,7 +1381,7 @@ G2L["9d"]["Name"] = [[密钥验证]];
 G2L["9e"] = Instance.new("ScrollingFrame", G2L["2"]);
 G2L["9e"]["Visible"] = false;
 G2L["9e"]["BorderSizePixel"] = 0;
-G2L["9e"]["CanvasPosition"] = Vector2.new(0, 2099);
+G2L["9e"]["CanvasPosition"] = Vector2.new(0, 2179);
 G2L["9e"]["Name"] = [[买断制脚本显示区]];
 G2L["9e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["9e"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
@@ -2722,54 +2722,99 @@ G2L["131"] = Instance.new("LocalScript", G2L["12d"]);
 G2L["131"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.最小化窗口
-G2L["132"] = Instance.new("TextButton", G2L["2"]);
-G2L["132"]["TextWrapped"] = true;
-G2L["132"]["RichText"] = true;
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors
+G2L["132"] = Instance.new("ImageButton", G2L["9e"]);
 G2L["132"]["BorderSizePixel"] = 0;
-G2L["132"]["TextSize"] = 14;
-G2L["132"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["132"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["132"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["132"]["BackgroundTransparency"] = 1;
-G2L["132"]["AutomaticSize"] = Enum.AutomaticSize.Y;
-G2L["132"]["Size"] = UDim2.new(0, 23, 0, 23);
+G2L["132"]["Image"] = [[rbxassetid://12311445927]];
+G2L["132"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["132"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["132"]["Text"] = [[一]];
-G2L["132"]["Name"] = [[最小化窗口]];
-G2L["132"]["Position"] = UDim2.new(0.88889, 0, 0.02981, 0);
+G2L["132"]["Name"] = [[Doors]];
+G2L["132"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.脚本介绍
+G2L["133"] = Instance.new("TextLabel", G2L["132"]);
+G2L["133"]["TextWrapped"] = true;
+G2L["133"]["BorderSizePixel"] = 0;
+G2L["133"]["TextSize"] = 16;
+G2L["133"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["133"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["133"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["133"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["133"]["BackgroundTransparency"] = 1;
+G2L["133"]["RichText"] = true;
+G2L["133"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["133"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["133"]["Text"] = [[<font color='rgb(255,255,0)'>Doors</font><br/>透视所有物品和怪物实体]];
+G2L["133"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["133"]["Name"] = [[脚本介绍]];
+G2L["133"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.脚本介绍.文字设定
+G2L["134"] = Instance.new("LocalScript", G2L["133"]);
+G2L["134"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.UICorner
+G2L["135"] = Instance.new("UICorner", G2L["132"]);
+G2L["135"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.密钥验证
+G2L["136"] = Instance.new("LocalScript", G2L["132"]);
+G2L["136"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.最小化窗口
+G2L["137"] = Instance.new("TextButton", G2L["2"]);
+G2L["137"]["TextWrapped"] = true;
+G2L["137"]["RichText"] = true;
+G2L["137"]["BorderSizePixel"] = 0;
+G2L["137"]["TextSize"] = 14;
+G2L["137"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["137"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["137"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["137"]["BackgroundTransparency"] = 1;
+G2L["137"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["137"]["Size"] = UDim2.new(0, 23, 0, 23);
+G2L["137"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["137"]["Text"] = [[一]];
+G2L["137"]["Name"] = [[最小化窗口]];
+G2L["137"]["Position"] = UDim2.new(0.88889, 0, 0.02981, 0);
 
 
 -- StarterGui.ScreenGui.Frame.最小化窗口.文字设定
-G2L["133"] = Instance.new("LocalScript", G2L["132"]);
-G2L["133"]["Name"] = [[文字设定]];
+G2L["138"] = Instance.new("LocalScript", G2L["137"]);
+G2L["138"]["Name"] = [[文字设定]];
 
 
 -- StarterGui.ScreenGui.展开窗口
-G2L["134"] = Instance.new("ImageButton", G2L["1"]);
-G2L["134"]["BorderSizePixel"] = 0;
-G2L["134"]["Visible"] = false;
-G2L["134"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["134"]["Image"] = [[rbxassetid://138288475364166]];
-G2L["134"]["Size"] = UDim2.new(0, 36, 0, 36);
-G2L["134"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["134"]["Name"] = [[展开窗口]];
-G2L["134"]["Position"] = UDim2.new(0.2509, 0, 0.22124, 0);
+G2L["139"] = Instance.new("ImageButton", G2L["1"]);
+G2L["139"]["BorderSizePixel"] = 0;
+G2L["139"]["Visible"] = false;
+G2L["139"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["139"]["Image"] = [[rbxassetid://138288475364166]];
+G2L["139"]["Size"] = UDim2.new(0, 36, 0, 36);
+G2L["139"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["139"]["Name"] = [[展开窗口]];
+G2L["139"]["Position"] = UDim2.new(0.2509, 0, 0.22124, 0);
 
 
 -- StarterGui.ScreenGui.展开窗口.UICorner
-G2L["135"] = Instance.new("UICorner", G2L["134"]);
+G2L["13a"] = Instance.new("UICorner", G2L["139"]);
 
 
 
 -- StarterGui.ScreenGui.展开窗口.拖动
-G2L["136"] = Instance.new("LocalScript", G2L["134"]);
-G2L["136"]["Name"] = [[拖动]];
+G2L["13b"] = Instance.new("LocalScript", G2L["139"]);
+G2L["13b"]["Name"] = [[拖动]];
 
 
 -- StarterGui.ScreenGui.最小化窗口
-G2L["137"] = Instance.new("LocalScript", G2L["1"]);
-G2L["137"]["Name"] = [[最小化窗口]];
+G2L["13c"] = Instance.new("LocalScript", G2L["1"]);
+G2L["13c"]["Name"] = [[最小化窗口]];
 
 
 -- StarterGui.ScreenGui.Frame.加边框加流动渐变
@@ -9839,9 +9884,177 @@ local script = G2L["131"];
 	end)
 end;
 task.spawn(C_131);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.脚本介绍.文字设定
+local function C_134()
+local script = G2L["134"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_134);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.密钥验证
+local function C_136()
+local script = G2L["136"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/DoorsKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/Doors.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_136);
 -- StarterGui.ScreenGui.Frame.最小化窗口.文字设定
-local function C_133()
-local script = G2L["133"];
+local function C_138()
+local script = G2L["138"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -9861,10 +10074,10 @@ local script = G2L["133"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_133);
+task.spawn(C_138);
 -- StarterGui.ScreenGui.展开窗口.拖动
-local function C_136()
-local script = G2L["136"];
+local function C_13b()
+local script = G2L["13b"];
 	local button = script.Parent
 	local UIS = game:GetService("UserInputService")
 	
@@ -9899,10 +10112,10 @@ local script = G2L["136"];
 		end
 	end)
 end;
-task.spawn(C_136);
+task.spawn(C_13b);
 -- StarterGui.ScreenGui.最小化窗口
-local function C_137()
-local script = G2L["137"];
+local function C_13c()
+local script = G2L["13c"];
 	-- LocalScript 放在 ScreenGui 底下（推荐位置）
 	
 	local screenGui = script.Parent  -- 当前 ScreenGui
@@ -9924,6 +10137,6 @@ local script = G2L["137"];
 		expandButton.Visible = false
 	end)
 end;
-task.spawn(C_137);
+task.spawn(C_13c);
 
 return G2L["1"], require;
