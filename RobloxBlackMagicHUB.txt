@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 327 | Scripts: 132 | Modules: 0 | Tags: 0
+-- Instances: 332 | Scripts: 134 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.ScreenGui
@@ -565,7 +565,7 @@ G2L["44"]["BackgroundTransparency"] = 1;
 G2L["44"]["RichText"] = true;
 G2L["44"]["Size"] = UDim2.new(1, 0, 0, 0);
 G2L["44"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["44"]["Text"] = [[<font color='rgb(255,255,0)'>【公告】更新时间2026.4.7</font><br/><br/>1.添加免费通用综合脚本1，移速跳跃增强，无限连跳，点击传送，穿墙<br/><br/>2.更新免费坐标传送通用脚本<br/><br/><font color='rgb(255,255,0)'>【关于注入器和VPN】</font><br/><br/>1.目前注入器PC，安卓，ios三端皆可使用，需要其他注入器或者视频教学远程协助直接联系我<br/><br/>2.如果你是国内玩家，想去外网看看，那么你肯定需要一个翻墙VPN<br/><br/>3.VPN40元一个月，我已经稳定用了很多年，需要可以联系我<br/><br/><font color='rgb(255,255,0)'>【免责声明】</font><br/><br/>1.自己选择开脚本，就不要担心封号，虽然概率极低，但本人不做任何承诺<br/><br/>2.Roblox小号可以无限注册，请勿用充过值的大号测试脚本，被封禁不要跟我说<br/><br/>3.脚本和注入器一直会被官方针对，如果被修复可能需要更换新版脚本或新方式注入器<br/><br/>4.如果运气不佳，刚付款就遇到官方修复，当月内我会免费给你更新]];
+G2L["44"]["Text"] = [[<font color='rgb(255,255,0)'>【公告】更新时间2026.4.8</font><br/><br/>1.添加免费通用综合脚本1，移速跳跃增强，无限连跳，点击传送，穿墙<br/><br/>2.更新免费坐标传送通用脚本<br/><br/>3.添加免费防挂机踢出通用脚本<br/><br/><font color='rgb(255,255,0)'>【关于注入器和VPN】</font><br/><br/>1.目前注入器PC，安卓，ios三端皆可使用，需要其他注入器或者视频教学远程协助直接联系我<br/><br/>2.如果你是国内玩家，想去外网看看，那么你肯定需要一个翻墙VPN<br/><br/>3.VPN40元一个月，我已经稳定用了很多年，需要可以联系我<br/><br/><font color='rgb(255,255,0)'>【免责声明】</font><br/><br/>1.自己选择开脚本，就不要担心封号，虽然概率极低，但本人不做任何承诺<br/><br/>2.Roblox小号可以无限注册，请勿用充过值的大号测试脚本，被封禁不要跟我说<br/><br/>3.脚本和注入器一直会被官方针对，如果被修复可能需要更换新版脚本或新方式注入器<br/><br/>4.如果运气不佳，刚付款就遇到官方修复，当月内我会免费给你更新]];
 G2L["44"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["44"]["Name"] = [[公告及活动]];
 G2L["44"]["Position"] = UDim2.new(0.02297, 0, 0.00014, 0);
@@ -1064,112 +1064,112 @@ G2L["7b"] = Instance.new("LocalScript", G2L["77"]);
 G2L["7b"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区
-G2L["7c"] = Instance.new("ScrollingFrame", G2L["2"]);
-G2L["7c"]["Visible"] = false;
+-- StarterGui.ScreenGui.Frame.免费脚本显示区.防踢出
+G2L["7c"] = Instance.new("ImageButton", G2L["59"]);
 G2L["7c"]["BorderSizePixel"] = 0;
-G2L["7c"]["Name"] = [[包月制脚本显示区]];
 G2L["7c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7c"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
-G2L["7c"]["Size"] = UDim2.new(0, 537, 0, 269);
-G2L["7c"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7c"]["Position"] = UDim2.new(0.16967, 0, 0.16531, 0);
+G2L["7c"]["Image"] = [[rbxassetid://7560168333]];
+G2L["7c"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["7c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7c"]["ScrollBarThickness"] = 6;
-G2L["7c"]["BackgroundTransparency"] = 1;
+G2L["7c"]["Name"] = [[防踢出]];
+G2L["7c"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.包月制脚本
+-- StarterGui.ScreenGui.Frame.免费脚本显示区.防踢出.脚本介绍
 G2L["7d"] = Instance.new("TextLabel", G2L["7c"]);
 G2L["7d"]["TextWrapped"] = true;
 G2L["7d"]["BorderSizePixel"] = 0;
 G2L["7d"]["TextSize"] = 16;
+G2L["7d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["7d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["7d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["7d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["7d"]["BackgroundTransparency"] = 1;
 G2L["7d"]["RichText"] = true;
-G2L["7d"]["Size"] = UDim2.new(1, 0, 0, 0);
-G2L["7d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7d"]["Text"] = [[<font color='rgb(85,255,127)'>免费脚本任意使用，买断制脚本每个13R，包月制脚本每个30R/月<br/><br/>购买脚本,注入器教学，翻墙VPN请添加右下角联系方式，遇到BUG请及时反馈给我</font>]];
+G2L["7d"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["7d"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7d"]["Text"] = [[<font color='rgb(255,255,0)'>通用防挂机踢出</font><br/>全游戏挂机防踢出，防止20分钟无操作被系统踢出服务器]];
 G2L["7d"]["AutomaticSize"] = Enum.AutomaticSize.Y;
-G2L["7d"]["Name"] = [[包月制脚本]];
-G2L["7d"]["Position"] = UDim2.new(0.02297, 0, 0.00014, 0);
+G2L["7d"]["Name"] = [[脚本介绍]];
+G2L["7d"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.包月制脚本.文字设定
+-- StarterGui.ScreenGui.Frame.免费脚本显示区.防踢出.脚本介绍.文字设定
 G2L["7e"] = Instance.new("LocalScript", G2L["7d"]);
 G2L["7e"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.UIListLayout
-G2L["7f"] = Instance.new("UIListLayout", G2L["7c"]);
-G2L["7f"]["Padding"] = UDim.new(0, 16);
-G2L["7f"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+-- StarterGui.ScreenGui.Frame.免费脚本显示区.防踢出.UICorner
+G2L["7f"] = Instance.new("UICorner", G2L["7c"]);
+G2L["7f"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.滚动设定
+-- StarterGui.ScreenGui.Frame.免费脚本显示区.防踢出.密钥验证
 G2L["80"] = Instance.new("LocalScript", G2L["7c"]);
-G2L["80"]["Name"] = [[滚动设定]];
+G2L["80"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.伐木大亨2
-G2L["81"] = Instance.new("ImageButton", G2L["7c"]);
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区
+G2L["81"] = Instance.new("ScrollingFrame", G2L["2"]);
+G2L["81"]["Visible"] = false;
 G2L["81"]["BorderSizePixel"] = 0;
+G2L["81"]["Name"] = [[包月制脚本显示区]];
 G2L["81"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["81"]["Image"] = [[rbxassetid://834666972]];
-G2L["81"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["81"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+G2L["81"]["Size"] = UDim2.new(0, 537, 0, 269);
+G2L["81"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["81"]["Position"] = UDim2.new(0.16967, 0, 0.16531, 0);
 G2L["81"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["81"]["Name"] = [[伐木大亨2]];
-G2L["81"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+G2L["81"]["ScrollBarThickness"] = 6;
+G2L["81"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.伐木大亨2.脚本介绍
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.包月制脚本
 G2L["82"] = Instance.new("TextLabel", G2L["81"]);
 G2L["82"]["TextWrapped"] = true;
 G2L["82"]["BorderSizePixel"] = 0;
 G2L["82"]["TextSize"] = 16;
-G2L["82"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["82"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["82"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["82"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["82"]["BackgroundTransparency"] = 1;
 G2L["82"]["RichText"] = true;
-G2L["82"]["Size"] = UDim2.new(0, 433, 0, 64);
-G2L["82"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["82"]["Text"] = [[<font color='rgb(255,255,0)'>伐木大亨2</font><br/>无限复制所有斧子，远程砍树并带回基地，无视树木体积直接加工为超级长的木板<br/>自动将木板或树木出售，免费把基地扩建到最大，飞行加速，改变天气等等]];
+G2L["82"]["Size"] = UDim2.new(1, 0, 0, 0);
+G2L["82"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["82"]["Text"] = [[<font color='rgb(85,255,127)'>免费脚本任意使用，买断制脚本每个13R，包月制脚本每个30R/月<br/><br/>购买脚本,注入器教学，翻墙VPN请添加右下角联系方式，遇到BUG请及时反馈给我</font>]];
 G2L["82"]["AutomaticSize"] = Enum.AutomaticSize.Y;
-G2L["82"]["Name"] = [[脚本介绍]];
-G2L["82"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+G2L["82"]["Name"] = [[包月制脚本]];
+G2L["82"]["Position"] = UDim2.new(0.02297, 0, 0.00014, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.伐木大亨2.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.包月制脚本.文字设定
 G2L["83"] = Instance.new("LocalScript", G2L["82"]);
 G2L["83"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.伐木大亨2.UICorner
-G2L["84"] = Instance.new("UICorner", G2L["81"]);
-G2L["84"]["CornerRadius"] = UDim.new(0, 16);
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.UIListLayout
+G2L["84"] = Instance.new("UIListLayout", G2L["81"]);
+G2L["84"]["Padding"] = UDim.new(0, 16);
+G2L["84"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.伐木大亨2.密钥验证
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.滚动设定
 G2L["85"] = Instance.new("LocalScript", G2L["81"]);
-G2L["85"]["Name"] = [[密钥验证]];
+G2L["85"]["Name"] = [[滚动设定]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.锻造
-G2L["86"] = Instance.new("ImageButton", G2L["7c"]);
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.伐木大亨2
+G2L["86"] = Instance.new("ImageButton", G2L["81"]);
 G2L["86"]["BorderSizePixel"] = 0;
 G2L["86"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["86"]["Image"] = [[rbxassetid://96163608506723]];
+G2L["86"]["Image"] = [[rbxassetid://834666972]];
 G2L["86"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["86"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["86"]["Name"] = [[锻造]];
+G2L["86"]["Name"] = [[伐木大亨2]];
 G2L["86"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.锻造.脚本介绍
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.伐木大亨2.脚本介绍
 G2L["87"] = Instance.new("TextLabel", G2L["86"]);
 G2L["87"]["TextWrapped"] = true;
 G2L["87"]["BorderSizePixel"] = 0;
@@ -1182,39 +1182,39 @@ G2L["87"]["BackgroundTransparency"] = 1;
 G2L["87"]["RichText"] = true;
 G2L["87"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["87"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["87"]["Text"] = [[<font color='rgb(255,255,0)'>锻造 TheForge</font><br/>自动采集，可选择矿区或特定矿石，自动锻造，所有小游戏自动操作，装备全部完美<br/>自动刷怪，可自由指定怪物，瞬间传送岛屿等]];
+G2L["87"]["Text"] = [[<font color='rgb(255,255,0)'>伐木大亨2</font><br/>无限复制所有斧子，远程砍树并带回基地，无视树木体积直接加工为超级长的木板<br/>自动将木板或树木出售，免费把基地扩建到最大，飞行加速，改变天气等等]];
 G2L["87"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["87"]["Name"] = [[脚本介绍]];
 G2L["87"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.锻造.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.伐木大亨2.脚本介绍.文字设定
 G2L["88"] = Instance.new("LocalScript", G2L["87"]);
 G2L["88"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.锻造.UICorner
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.伐木大亨2.UICorner
 G2L["89"] = Instance.new("UICorner", G2L["86"]);
 G2L["89"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.锻造.密钥验证
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.伐木大亨2.密钥验证
 G2L["8a"] = Instance.new("LocalScript", G2L["86"]);
 G2L["8a"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.死铁轨
-G2L["8b"] = Instance.new("ImageButton", G2L["7c"]);
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.锻造
+G2L["8b"] = Instance.new("ImageButton", G2L["81"]);
 G2L["8b"]["BorderSizePixel"] = 0;
 G2L["8b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8b"]["Image"] = [[rbxassetid://122874126897828]];
+G2L["8b"]["Image"] = [[rbxassetid://96163608506723]];
 G2L["8b"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["8b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8b"]["Name"] = [[死铁轨]];
+G2L["8b"]["Name"] = [[锻造]];
 G2L["8b"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.死铁轨.脚本介绍
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.锻造.脚本介绍
 G2L["8c"] = Instance.new("TextLabel", G2L["8b"]);
 G2L["8c"]["TextWrapped"] = true;
 G2L["8c"]["BorderSizePixel"] = 0;
@@ -1227,39 +1227,39 @@ G2L["8c"]["BackgroundTransparency"] = 1;
 G2L["8c"]["RichText"] = true;
 G2L["8c"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["8c"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8c"]["Text"] = [[<font color='rgb(255,255,0)'>死铁轨</font><br/>进图后开启脚本，自动刷债券，开启后不到2分钟一局，一局平均获得80债券]];
+G2L["8c"]["Text"] = [[<font color='rgb(255,255,0)'>锻造 TheForge</font><br/>自动采集，可选择矿区或特定矿石，自动锻造，所有小游戏自动操作，装备全部完美<br/>自动刷怪，可自由指定怪物，瞬间传送岛屿等]];
 G2L["8c"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["8c"]["Name"] = [[脚本介绍]];
 G2L["8c"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.死铁轨.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.锻造.脚本介绍.文字设定
 G2L["8d"] = Instance.new("LocalScript", G2L["8c"]);
 G2L["8d"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.死铁轨.UICorner
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.锻造.UICorner
 G2L["8e"] = Instance.new("UICorner", G2L["8b"]);
 G2L["8e"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.死铁轨.密钥验证
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.锻造.密钥验证
 G2L["8f"] = Instance.new("LocalScript", G2L["8b"]);
 G2L["8f"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.战争大亨
-G2L["90"] = Instance.new("ImageButton", G2L["7c"]);
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.死铁轨
+G2L["90"] = Instance.new("ImageButton", G2L["81"]);
 G2L["90"]["BorderSizePixel"] = 0;
 G2L["90"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["90"]["Image"] = [[rbxassetid://17263231144]];
+G2L["90"]["Image"] = [[rbxassetid://122874126897828]];
 G2L["90"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["90"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["90"]["Name"] = [[战争大亨]];
+G2L["90"]["Name"] = [[死铁轨]];
 G2L["90"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.战争大亨.脚本介绍
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.死铁轨.脚本介绍
 G2L["91"] = Instance.new("TextLabel", G2L["90"]);
 G2L["91"]["TextWrapped"] = true;
 G2L["91"]["BorderSizePixel"] = 0;
@@ -1272,39 +1272,39 @@ G2L["91"]["BackgroundTransparency"] = 1;
 G2L["91"]["RichText"] = true;
 G2L["91"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["91"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["91"]["Text"] = [[<font color='rgb(255,255,0)'>战争大亨</font><br/>自动偷其他玩家零件，运气好分分钟上千万资金，透视自瞄，飞天加速，自动重生]];
+G2L["91"]["Text"] = [[<font color='rgb(255,255,0)'>死铁轨</font><br/>进图后开启脚本，自动刷债券，开启后不到2分钟一局，一局平均获得80债券]];
 G2L["91"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["91"]["Name"] = [[脚本介绍]];
 G2L["91"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.战争大亨.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.死铁轨.脚本介绍.文字设定
 G2L["92"] = Instance.new("LocalScript", G2L["91"]);
 G2L["92"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.战争大亨.UICorner
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.死铁轨.UICorner
 G2L["93"] = Instance.new("UICorner", G2L["90"]);
 G2L["93"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.战争大亨.密钥验证
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.死铁轨.密钥验证
 G2L["94"] = Instance.new("LocalScript", G2L["90"]);
 G2L["94"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.蜂群模拟器
-G2L["95"] = Instance.new("ImageButton", G2L["7c"]);
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.战争大亨
+G2L["95"] = Instance.new("ImageButton", G2L["81"]);
 G2L["95"]["BorderSizePixel"] = 0;
 G2L["95"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["95"]["Image"] = [[rbxassetid://2288805611]];
+G2L["95"]["Image"] = [[rbxassetid://17263231144]];
 G2L["95"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["95"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["95"]["Name"] = [[蜂群模拟器]];
+G2L["95"]["Name"] = [[战争大亨]];
 G2L["95"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.蜂群模拟器.脚本介绍
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.战争大亨.脚本介绍
 G2L["96"] = Instance.new("TextLabel", G2L["95"]);
 G2L["96"]["TextWrapped"] = true;
 G2L["96"]["BorderSizePixel"] = 0;
@@ -1317,39 +1317,39 @@ G2L["96"]["BackgroundTransparency"] = 1;
 G2L["96"]["RichText"] = true;
 G2L["96"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["96"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["96"]["Text"] = [[<font color='rgb(255,255,0)'>蜂群模拟器</font><br/>自动采集酿造可选择区域，自动刷徽章代币物品，自动任务，自动刷怪等]];
+G2L["96"]["Text"] = [[<font color='rgb(255,255,0)'>战争大亨</font><br/>自动偷其他玩家零件，运气好分分钟上千万资金，透视自瞄，飞天加速，自动重生]];
 G2L["96"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["96"]["Name"] = [[脚本介绍]];
 G2L["96"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.蜂群模拟器.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.战争大亨.脚本介绍.文字设定
 G2L["97"] = Instance.new("LocalScript", G2L["96"]);
 G2L["97"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.蜂群模拟器.UICorner
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.战争大亨.UICorner
 G2L["98"] = Instance.new("UICorner", G2L["95"]);
 G2L["98"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.蜂群模拟器.密钥验证
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.战争大亨.密钥验证
 G2L["99"] = Instance.new("LocalScript", G2L["95"]);
 G2L["99"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.99夜在森林里
-G2L["9a"] = Instance.new("ImageButton", G2L["7c"]);
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.蜂群模拟器
+G2L["9a"] = Instance.new("ImageButton", G2L["81"]);
 G2L["9a"]["BorderSizePixel"] = 0;
 G2L["9a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9a"]["Image"] = [[rbxassetid://125094830280177]];
+G2L["9a"]["Image"] = [[rbxassetid://2288805611]];
 G2L["9a"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["9a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9a"]["Name"] = [[99夜在森林里]];
+G2L["9a"]["Name"] = [[蜂群模拟器]];
 G2L["9a"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.99夜在森林里.脚本介绍
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.蜂群模拟器.脚本介绍
 G2L["9b"] = Instance.new("TextLabel", G2L["9a"]);
 G2L["9b"]["TextWrapped"] = true;
 G2L["9b"]["BorderSizePixel"] = 0;
@@ -1362,134 +1362,133 @@ G2L["9b"]["BackgroundTransparency"] = 1;
 G2L["9b"]["RichText"] = true;
 G2L["9b"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["9b"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9b"]["Text"] = [[<font color='rgb(255,255,0)'>99夜在森林里</font><br/>自动将物品带回营地可选择物品种类，砍树光环，杀戮光环，飞行加速等<br/>基本可以无限刷天数]];
+G2L["9b"]["Text"] = [[<font color='rgb(255,255,0)'>蜂群模拟器</font><br/>自动采集酿造可选择区域，自动刷徽章代币物品，自动任务，自动刷怪等]];
 G2L["9b"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["9b"]["Name"] = [[脚本介绍]];
 G2L["9b"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.99夜在森林里.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.蜂群模拟器.脚本介绍.文字设定
 G2L["9c"] = Instance.new("LocalScript", G2L["9b"]);
 G2L["9c"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.99夜在森林里.UICorner
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.蜂群模拟器.UICorner
 G2L["9d"] = Instance.new("UICorner", G2L["9a"]);
 G2L["9d"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.99夜在森林里.密钥验证
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.蜂群模拟器.密钥验证
 G2L["9e"] = Instance.new("LocalScript", G2L["9a"]);
 G2L["9e"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区
-G2L["9f"] = Instance.new("ScrollingFrame", G2L["2"]);
-G2L["9f"]["Visible"] = false;
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.99夜在森林里
+G2L["9f"] = Instance.new("ImageButton", G2L["81"]);
 G2L["9f"]["BorderSizePixel"] = 0;
-G2L["9f"]["CanvasPosition"] = Vector2.new(0, 2339);
-G2L["9f"]["Name"] = [[买断制脚本显示区]];
 G2L["9f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9f"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
-G2L["9f"]["Size"] = UDim2.new(0, 537, 0, 269);
-G2L["9f"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9f"]["Position"] = UDim2.new(0.16967, 0, 0.16531, 0);
+G2L["9f"]["Image"] = [[rbxassetid://125094830280177]];
+G2L["9f"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["9f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9f"]["ScrollBarThickness"] = 6;
-G2L["9f"]["BackgroundTransparency"] = 1;
+G2L["9f"]["Name"] = [[99夜在森林里]];
+G2L["9f"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.买断制脚本
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.99夜在森林里.脚本介绍
 G2L["a0"] = Instance.new("TextLabel", G2L["9f"]);
 G2L["a0"]["TextWrapped"] = true;
 G2L["a0"]["BorderSizePixel"] = 0;
 G2L["a0"]["TextSize"] = 16;
+G2L["a0"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["a0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a0"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["a0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a0"]["BackgroundTransparency"] = 1;
 G2L["a0"]["RichText"] = true;
-G2L["a0"]["Size"] = UDim2.new(1, 0, 0, 0);
-G2L["a0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a0"]["Text"] = [[<font color='rgb(85,255,127)'>免费脚本任意使用，买断制脚本每个13R，包月制脚本每个30R/月<br/><br/>购买脚本,注入器教学，翻墙VPN请添加右下角联系方式，遇到BUG请及时反馈给我</font>]];
+G2L["a0"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["a0"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a0"]["Text"] = [[<font color='rgb(255,255,0)'>99夜在森林里</font><br/>自动将物品带回营地可选择物品种类，砍树光环，杀戮光环，飞行加速等<br/>基本可以无限刷天数]];
 G2L["a0"]["AutomaticSize"] = Enum.AutomaticSize.Y;
-G2L["a0"]["Name"] = [[买断制脚本]];
-G2L["a0"]["Position"] = UDim2.new(0.02297, 0, 0.00014, 0);
+G2L["a0"]["Name"] = [[脚本介绍]];
+G2L["a0"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.买断制脚本.文字设定
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.99夜在森林里.脚本介绍.文字设定
 G2L["a1"] = Instance.new("LocalScript", G2L["a0"]);
 G2L["a1"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.UIListLayout
-G2L["a2"] = Instance.new("UIListLayout", G2L["9f"]);
-G2L["a2"]["Padding"] = UDim.new(0, 16);
-G2L["a2"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.99夜在森林里.UICorner
+G2L["a2"] = Instance.new("UICorner", G2L["9f"]);
+G2L["a2"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.滚动设定
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.99夜在森林里.密钥验证
 G2L["a3"] = Instance.new("LocalScript", G2L["9f"]);
-G2L["a3"]["Name"] = [[滚动设定]];
+G2L["a3"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit
-G2L["a4"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区
+G2L["a4"] = Instance.new("ScrollingFrame", G2L["2"]);
+G2L["a4"]["Visible"] = false;
 G2L["a4"]["BorderSizePixel"] = 0;
+G2L["a4"]["Name"] = [[买断制脚本显示区]];
 G2L["a4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a4"]["Image"] = [[rbxassetid://114760217639164]];
-G2L["a4"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["a4"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+G2L["a4"]["Size"] = UDim2.new(0, 537, 0, 269);
+G2L["a4"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a4"]["Position"] = UDim2.new(0.16967, 0, 0.16531, 0);
 G2L["a4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a4"]["Name"] = [[BloxFruit]];
-G2L["a4"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+G2L["a4"]["ScrollBarThickness"] = 6;
+G2L["a4"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.买断制脚本
 G2L["a5"] = Instance.new("TextLabel", G2L["a4"]);
 G2L["a5"]["TextWrapped"] = true;
 G2L["a5"]["BorderSizePixel"] = 0;
 G2L["a5"]["TextSize"] = 16;
-G2L["a5"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["a5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a5"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["a5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a5"]["BackgroundTransparency"] = 1;
 G2L["a5"]["RichText"] = true;
-G2L["a5"]["Size"] = UDim2.new(0, 433, 0, 64);
-G2L["a5"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a5"]["Text"] = [[<font color='rgb(255,255,0)'>BloxFruit</font><br/>自动练等级，技能等级，果实等级，刷绿钞，F币，材料，果实探索，传送加速等<br/>PVP功能酌情使用]];
+G2L["a5"]["Size"] = UDim2.new(1, 0, 0, 0);
+G2L["a5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a5"]["Text"] = [[<font color='rgb(85,255,127)'>免费脚本任意使用，买断制脚本每个13R，包月制脚本每个30R/月<br/><br/>购买脚本,注入器教学，翻墙VPN请添加右下角联系方式，遇到BUG请及时反馈给我</font>]];
 G2L["a5"]["AutomaticSize"] = Enum.AutomaticSize.Y;
-G2L["a5"]["Name"] = [[脚本介绍]];
-G2L["a5"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+G2L["a5"]["Name"] = [[买断制脚本]];
+G2L["a5"]["Position"] = UDim2.new(0.02297, 0, 0.00014, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.买断制脚本.文字设定
 G2L["a6"] = Instance.new("LocalScript", G2L["a5"]);
 G2L["a6"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.UICorner
-G2L["a7"] = Instance.new("UICorner", G2L["a4"]);
-G2L["a7"]["CornerRadius"] = UDim.new(0, 16);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.UIListLayout
+G2L["a7"] = Instance.new("UIListLayout", G2L["a4"]);
+G2L["a7"]["Padding"] = UDim.new(0, 16);
+G2L["a7"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.滚动设定
 G2L["a8"] = Instance.new("LocalScript", G2L["a4"]);
-G2L["a8"]["Name"] = [[密钥验证]];
+G2L["a8"]["Name"] = [[滚动设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.KingLegacy
-G2L["a9"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit
+G2L["a9"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["a9"]["BorderSizePixel"] = 0;
 G2L["a9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a9"]["Image"] = [[rbxassetid://12819512142]];
+G2L["a9"]["Image"] = [[rbxassetid://114760217639164]];
 G2L["a9"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["a9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a9"]["Name"] = [[KingLegacy]];
+G2L["a9"]["Name"] = [[BloxFruit]];
 G2L["a9"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.KingLegacy.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.脚本介绍
 G2L["aa"] = Instance.new("TextLabel", G2L["a9"]);
 G2L["aa"]["TextWrapped"] = true;
 G2L["aa"]["BorderSizePixel"] = 0;
@@ -1502,39 +1501,39 @@ G2L["aa"]["BackgroundTransparency"] = 1;
 G2L["aa"]["RichText"] = true;
 G2L["aa"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["aa"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["aa"]["Text"] = [[<font color='rgb(255,255,0)'>国王遗产KingLegacy</font><br/>自动刷等级，副本，海上事件，果实探索]];
+G2L["aa"]["Text"] = [[<font color='rgb(255,255,0)'>BloxFruit</font><br/>自动练等级，技能等级，果实等级，刷绿钞，F币，材料，果实探索，传送加速等<br/>PVP功能酌情使用]];
 G2L["aa"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["aa"]["Name"] = [[脚本介绍]];
 G2L["aa"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.KingLegacy.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.脚本介绍.文字设定
 G2L["ab"] = Instance.new("LocalScript", G2L["aa"]);
 G2L["ab"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.KingLegacy.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.UICorner
 G2L["ac"] = Instance.new("UICorner", G2L["a9"]);
 G2L["ac"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.KingLegacy.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.密钥验证
 G2L["ad"] = Instance.new("LocalScript", G2L["a9"]);
 G2L["ad"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.FishIt
-G2L["ae"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.KingLegacy
+G2L["ae"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["ae"]["BorderSizePixel"] = 0;
 G2L["ae"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ae"]["Image"] = [[rbxassetid://1070850038]];
+G2L["ae"]["Image"] = [[rbxassetid://12819512142]];
 G2L["ae"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["ae"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ae"]["Name"] = [[FishIt]];
+G2L["ae"]["Name"] = [[KingLegacy]];
 G2L["ae"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.FishIt.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.KingLegacy.脚本介绍
 G2L["af"] = Instance.new("TextLabel", G2L["ae"]);
 G2L["af"]["TextWrapped"] = true;
 G2L["af"]["BorderSizePixel"] = 0;
@@ -1547,39 +1546,39 @@ G2L["af"]["BackgroundTransparency"] = 1;
 G2L["af"]["RichText"] = true;
 G2L["af"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["af"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["af"]["Text"] = [[<font color='rgb(255,255,0)'>钓鱼吧Fish It</font><br/>每七分钟自动出售，可保存高价值鱼类，传送地点，玩家等]];
+G2L["af"]["Text"] = [[<font color='rgb(255,255,0)'>国王遗产KingLegacy</font><br/>自动刷等级，副本，海上事件，果实探索]];
 G2L["af"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["af"]["Name"] = [[脚本介绍]];
 G2L["af"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.FishIt.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.KingLegacy.脚本介绍.文字设定
 G2L["b0"] = Instance.new("LocalScript", G2L["af"]);
 G2L["b0"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.FishIt.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.KingLegacy.UICorner
 G2L["b1"] = Instance.new("UICorner", G2L["ae"]);
 G2L["b1"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.FishIt.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.KingLegacy.密钥验证
 G2L["b2"] = Instance.new("LocalScript", G2L["ae"]);
 G2L["b2"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木
-G2L["b3"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FishIt
+G2L["b3"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["b3"]["BorderSizePixel"] = 0;
 G2L["b3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b3"]["Image"] = [[rbxassetid://10702107551]];
+G2L["b3"]["Image"] = [[rbxassetid://1070850038]];
 G2L["b3"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["b3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b3"]["Name"] = [[砍伐树木]];
+G2L["b3"]["Name"] = [[FishIt]];
 G2L["b3"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FishIt.脚本介绍
 G2L["b4"] = Instance.new("TextLabel", G2L["b3"]);
 G2L["b4"]["TextWrapped"] = true;
 G2L["b4"]["BorderSizePixel"] = 0;
@@ -1592,39 +1591,39 @@ G2L["b4"]["BackgroundTransparency"] = 1;
 G2L["b4"]["RichText"] = true;
 G2L["b4"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["b4"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b4"]["Text"] = [[<font color='rgb(255,255,0)'>砍伐树木</font><br/>自动获取全图宝箱，可选择宝箱等级]];
+G2L["b4"]["Text"] = [[<font color='rgb(255,255,0)'>钓鱼吧Fish It</font><br/>每七分钟自动出售，可保存高价值鱼类，传送地点，玩家等]];
 G2L["b4"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["b4"]["Name"] = [[脚本介绍]];
 G2L["b4"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FishIt.脚本介绍.文字设定
 G2L["b5"] = Instance.new("LocalScript", G2L["b4"]);
 G2L["b5"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FishIt.UICorner
 G2L["b6"] = Instance.new("UICorner", G2L["b3"]);
 G2L["b6"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FishIt.密钥验证
 G2L["b7"] = Instance.new("LocalScript", G2L["b3"]);
 G2L["b7"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞
-G2L["b8"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木
+G2L["b8"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["b8"]["BorderSizePixel"] = 0;
 G2L["b8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b8"]["Image"] = [[rbxassetid://12737594844]];
+G2L["b8"]["Image"] = [[rbxassetid://10702107551]];
 G2L["b8"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["b8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b8"]["Name"] = [[触摸踢飞]];
-G2L["b8"]["Position"] = UDim2.new(0, 0, 0.06114, 0);
+G2L["b8"]["Name"] = [[砍伐树木]];
+G2L["b8"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.脚本介绍
 G2L["b9"] = Instance.new("TextLabel", G2L["b8"]);
 G2L["b9"]["TextWrapped"] = true;
 G2L["b9"]["BorderSizePixel"] = 0;
@@ -1637,39 +1636,39 @@ G2L["b9"]["BackgroundTransparency"] = 1;
 G2L["b9"]["RichText"] = true;
 G2L["b9"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["b9"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b9"]["Text"] = [[<font color='rgb(255,255,0)'>通用触摸踢飞</font><br/>通用踢飞的低调版，开启后你触碰别人或者别人触碰你，都会被弹出地图外]];
+G2L["b9"]["Text"] = [[<font color='rgb(255,255,0)'>砍伐树木</font><br/>自动获取全图宝箱，可选择宝箱等级]];
 G2L["b9"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["b9"]["Name"] = [[脚本介绍]];
 G2L["b9"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.脚本介绍.文字设定
 G2L["ba"] = Instance.new("LocalScript", G2L["b9"]);
 G2L["ba"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.UICorner
 G2L["bb"] = Instance.new("UICorner", G2L["b8"]);
 G2L["bb"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.密钥验证
 G2L["bc"] = Instance.new("LocalScript", G2L["b8"]);
 G2L["bc"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.被遗弃
-G2L["bd"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞
+G2L["bd"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["bd"]["BorderSizePixel"] = 0;
 G2L["bd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["bd"]["Image"] = [[rbxassetid://135774371504720]];
+G2L["bd"]["Image"] = [[rbxassetid://12737594844]];
 G2L["bd"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["bd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["bd"]["Name"] = [[被遗弃]];
-G2L["bd"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+G2L["bd"]["Name"] = [[触摸踢飞]];
+G2L["bd"]["Position"] = UDim2.new(0, 0, 0.06114, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.被遗弃.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.脚本介绍
 G2L["be"] = Instance.new("TextLabel", G2L["bd"]);
 G2L["be"]["TextWrapped"] = true;
 G2L["be"]["BorderSizePixel"] = 0;
@@ -1682,39 +1681,39 @@ G2L["be"]["BackgroundTransparency"] = 1;
 G2L["be"]["RichText"] = true;
 G2L["be"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["be"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["be"]["Text"] = [[<font color='rgb(255,255,0)'>被遗弃</font><br/>透视，隐形，跳过小游戏直接解机，生存者自动防御自动使用技能<br/>杀手自动击杀]];
+G2L["be"]["Text"] = [[<font color='rgb(255,255,0)'>通用触摸踢飞</font><br/>通用踢飞的低调版，开启后你触碰别人或者别人触碰你，都会被弹出地图外]];
 G2L["be"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["be"]["Name"] = [[脚本介绍]];
 G2L["be"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.被遗弃.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.脚本介绍.文字设定
 G2L["bf"] = Instance.new("LocalScript", G2L["be"]);
 G2L["bf"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.被遗弃.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.UICorner
 G2L["c0"] = Instance.new("UICorner", G2L["bd"]);
 G2L["c0"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.被遗弃.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.密钥验证
 G2L["c1"] = Instance.new("LocalScript", G2L["bd"]);
 G2L["c1"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.自瞄
-G2L["c2"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.被遗弃
+G2L["c2"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["c2"]["BorderSizePixel"] = 0;
 G2L["c2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c2"]["Image"] = [[rbxassetid://18694383100]];
+G2L["c2"]["Image"] = [[rbxassetid://135774371504720]];
 G2L["c2"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["c2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c2"]["Name"] = [[自瞄]];
+G2L["c2"]["Name"] = [[被遗弃]];
 G2L["c2"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.自瞄.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.被遗弃.脚本介绍
 G2L["c3"] = Instance.new("TextLabel", G2L["c2"]);
 G2L["c3"]["TextWrapped"] = true;
 G2L["c3"]["BorderSizePixel"] = 0;
@@ -1727,39 +1726,39 @@ G2L["c3"]["BackgroundTransparency"] = 1;
 G2L["c3"]["RichText"] = true;
 G2L["c3"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["c3"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c3"]["Text"] = [[<font color='rgb(255,255,0)'>通用自瞄</font><br/>全游戏通用透视和自瞄，由于是通用，效果没有独立脚本强，甚至有的游戏无法使用]];
+G2L["c3"]["Text"] = [[<font color='rgb(255,255,0)'>被遗弃</font><br/>透视，隐形，跳过小游戏直接解机，生存者自动防御自动使用技能<br/>杀手自动击杀]];
 G2L["c3"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["c3"]["Name"] = [[脚本介绍]];
 G2L["c3"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.自瞄.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.被遗弃.脚本介绍.文字设定
 G2L["c4"] = Instance.new("LocalScript", G2L["c3"]);
 G2L["c4"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.自瞄.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.被遗弃.UICorner
 G2L["c5"] = Instance.new("UICorner", G2L["c2"]);
 G2L["c5"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.自瞄.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.被遗弃.密钥验证
 G2L["c6"] = Instance.new("LocalScript", G2L["c2"]);
 G2L["c6"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.踢飞
-G2L["c7"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自瞄
+G2L["c7"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["c7"]["BorderSizePixel"] = 0;
 G2L["c7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c7"]["Image"] = [[rbxassetid://136610541521358]];
+G2L["c7"]["Image"] = [[rbxassetid://18694383100]];
 G2L["c7"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["c7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c7"]["Name"] = [[踢飞]];
+G2L["c7"]["Name"] = [[自瞄]];
 G2L["c7"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.踢飞.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自瞄.脚本介绍
 G2L["c8"] = Instance.new("TextLabel", G2L["c7"]);
 G2L["c8"]["TextWrapped"] = true;
 G2L["c8"]["BorderSizePixel"] = 0;
@@ -1772,39 +1771,39 @@ G2L["c8"]["BackgroundTransparency"] = 1;
 G2L["c8"]["RichText"] = true;
 G2L["c8"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["c8"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c8"]["Text"] = [[<font color='rgb(255,255,0)'>通用踢飞</font><br/>很多游戏通用的踢飞脚本，可指定玩家也可踢飞所有玩家<br/>在游戏里被人莫名扔出地图外就是这个脚本所为]];
+G2L["c8"]["Text"] = [[<font color='rgb(255,255,0)'>通用自瞄</font><br/>全游戏通用透视和自瞄，由于是通用，效果没有独立脚本强，甚至有的游戏无法使用]];
 G2L["c8"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["c8"]["Name"] = [[脚本介绍]];
 G2L["c8"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.踢飞.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自瞄.脚本介绍.文字设定
 G2L["c9"] = Instance.new("LocalScript", G2L["c8"]);
 G2L["c9"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.踢飞.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自瞄.UICorner
 G2L["ca"] = Instance.new("UICorner", G2L["c7"]);
 G2L["ca"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.踢飞.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自瞄.密钥验证
 G2L["cb"] = Instance.new("LocalScript", G2L["c7"]);
 G2L["cb"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.弹钢琴
-G2L["cc"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.踢飞
+G2L["cc"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["cc"]["BorderSizePixel"] = 0;
 G2L["cc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["cc"]["Image"] = [[rbxassetid://72384664851328]];
+G2L["cc"]["Image"] = [[rbxassetid://136610541521358]];
 G2L["cc"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["cc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cc"]["Name"] = [[弹钢琴]];
+G2L["cc"]["Name"] = [[踢飞]];
 G2L["cc"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.弹钢琴.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.踢飞.脚本介绍
 G2L["cd"] = Instance.new("TextLabel", G2L["cc"]);
 G2L["cd"]["TextWrapped"] = true;
 G2L["cd"]["BorderSizePixel"] = 0;
@@ -1817,39 +1816,39 @@ G2L["cd"]["BackgroundTransparency"] = 1;
 G2L["cd"]["RichText"] = true;
 G2L["cd"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["cd"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["cd"]["Text"] = [[<font color='rgb(255,255,0)'>通用弹钢琴</font><br/>所有内置钢琴的游戏皆可自动弹奏，支持几百首曲子]];
+G2L["cd"]["Text"] = [[<font color='rgb(255,255,0)'>通用踢飞</font><br/>很多游戏通用的踢飞脚本，可指定玩家也可踢飞所有玩家<br/>在游戏里被人莫名扔出地图外就是这个脚本所为]];
 G2L["cd"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["cd"]["Name"] = [[脚本介绍]];
 G2L["cd"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.弹钢琴.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.踢飞.脚本介绍.文字设定
 G2L["ce"] = Instance.new("LocalScript", G2L["cd"]);
 G2L["ce"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.弹钢琴.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.踢飞.UICorner
 G2L["cf"] = Instance.new("UICorner", G2L["cc"]);
 G2L["cf"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.弹钢琴.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.踢飞.密钥验证
 G2L["d0"] = Instance.new("LocalScript", G2L["cc"]);
 G2L["d0"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.骨折
-G2L["d1"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.弹钢琴
+G2L["d1"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["d1"]["BorderSizePixel"] = 0;
 G2L["d1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d1"]["Image"] = [[rbxassetid://114450301940884]];
+G2L["d1"]["Image"] = [[rbxassetid://72384664851328]];
 G2L["d1"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["d1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d1"]["Name"] = [[骨折]];
+G2L["d1"]["Name"] = [[弹钢琴]];
 G2L["d1"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.骨折.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.弹钢琴.脚本介绍
 G2L["d2"] = Instance.new("TextLabel", G2L["d1"]);
 G2L["d2"]["TextWrapped"] = true;
 G2L["d2"]["BorderSizePixel"] = 0;
@@ -1862,39 +1861,39 @@ G2L["d2"]["BackgroundTransparency"] = 1;
 G2L["d2"]["RichText"] = true;
 G2L["d2"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["d2"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d2"]["Text"] = [[<font color='rgb(255,255,0)'>骨折BrokenBonesIV</font><br/>原地快速骨折，每次十秒左右，一次刷几十万]];
+G2L["d2"]["Text"] = [[<font color='rgb(255,255,0)'>通用弹钢琴</font><br/>所有内置钢琴的游戏皆可自动弹奏，支持几百首曲子]];
 G2L["d2"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["d2"]["Name"] = [[脚本介绍]];
 G2L["d2"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.骨折.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.弹钢琴.脚本介绍.文字设定
 G2L["d3"] = Instance.new("LocalScript", G2L["d2"]);
 G2L["d3"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.骨折.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.弹钢琴.UICorner
 G2L["d4"] = Instance.new("UICorner", G2L["d1"]);
 G2L["d4"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.骨折.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.弹钢琴.密钥验证
 G2L["d5"] = Instance.new("LocalScript", G2L["d1"]);
 G2L["d5"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.打屁股战斗
-G2L["d6"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.骨折
+G2L["d6"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["d6"]["BorderSizePixel"] = 0;
 G2L["d6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d6"]["Image"] = [[rbxassetid://18908033895]];
+G2L["d6"]["Image"] = [[rbxassetid://114450301940884]];
 G2L["d6"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["d6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d6"]["Name"] = [[打屁股战斗]];
+G2L["d6"]["Name"] = [[骨折]];
 G2L["d6"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.打屁股战斗.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.骨折.脚本介绍
 G2L["d7"] = Instance.new("TextLabel", G2L["d6"]);
 G2L["d7"]["TextWrapped"] = true;
 G2L["d7"]["BorderSizePixel"] = 0;
@@ -1907,39 +1906,39 @@ G2L["d7"]["BackgroundTransparency"] = 1;
 G2L["d7"]["RichText"] = true;
 G2L["d7"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["d7"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d7"]["Text"] = [[<font color='rgb(255,255,0)'>打屁股战斗</font><br/>直接获得超大双手套，不会掉出地图外]];
+G2L["d7"]["Text"] = [[<font color='rgb(255,255,0)'>骨折BrokenBonesIV</font><br/>原地快速骨折，每次十秒左右，一次刷几十万]];
 G2L["d7"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["d7"]["Name"] = [[脚本介绍]];
 G2L["d7"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.打屁股战斗.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.骨折.脚本介绍.文字设定
 G2L["d8"] = Instance.new("LocalScript", G2L["d7"]);
 G2L["d8"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.打屁股战斗.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.骨折.UICorner
 G2L["d9"] = Instance.new("UICorner", G2L["d6"]);
 G2L["d9"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.打屁股战斗.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.骨折.密钥验证
 G2L["da"] = Instance.new("LocalScript", G2L["d6"]);
 G2L["da"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.装扮打动人
-G2L["db"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.打屁股战斗
+G2L["db"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["db"]["BorderSizePixel"] = 0;
 G2L["db"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["db"]["Image"] = [[rbxassetid://121756556784262]];
+G2L["db"]["Image"] = [[rbxassetid://18908033895]];
 G2L["db"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["db"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["db"]["Name"] = [[装扮打动人]];
+G2L["db"]["Name"] = [[打屁股战斗]];
 G2L["db"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.装扮打动人.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.打屁股战斗.脚本介绍
 G2L["dc"] = Instance.new("TextLabel", G2L["db"]);
 G2L["dc"]["TextWrapped"] = true;
 G2L["dc"]["BorderSizePixel"] = 0;
@@ -1952,39 +1951,39 @@ G2L["dc"]["BackgroundTransparency"] = 1;
 G2L["dc"]["RichText"] = true;
 G2L["dc"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["dc"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["dc"]["Text"] = [[<font color='rgb(255,255,0)'>装扮打动人</font><br/>自动拾取全图服装币，更改动作，肤色等娱乐小功能]];
+G2L["dc"]["Text"] = [[<font color='rgb(255,255,0)'>打屁股战斗</font><br/>直接获得超大双手套，不会掉出地图外]];
 G2L["dc"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["dc"]["Name"] = [[脚本介绍]];
 G2L["dc"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.装扮打动人.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.打屁股战斗.脚本介绍.文字设定
 G2L["dd"] = Instance.new("LocalScript", G2L["dc"]);
 G2L["dd"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.装扮打动人.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.打屁股战斗.UICorner
 G2L["de"] = Instance.new("UICorner", G2L["db"]);
 G2L["de"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.装扮打动人.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.打屁股战斗.密钥验证
 G2L["df"] = Instance.new("LocalScript", G2L["db"]);
 G2L["df"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.最强战场
-G2L["e0"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.装扮打动人
+G2L["e0"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["e0"]["BorderSizePixel"] = 0;
 G2L["e0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e0"]["Image"] = [[rbxassetid://18508936902]];
+G2L["e0"]["Image"] = [[rbxassetid://121756556784262]];
 G2L["e0"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["e0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e0"]["Name"] = [[最强战场]];
+G2L["e0"]["Name"] = [[装扮打动人]];
 G2L["e0"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.最强战场.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.装扮打动人.脚本介绍
 G2L["e1"] = Instance.new("TextLabel", G2L["e0"]);
 G2L["e1"]["TextWrapped"] = true;
 G2L["e1"]["BorderSizePixel"] = 0;
@@ -1997,39 +1996,39 @@ G2L["e1"]["BackgroundTransparency"] = 1;
 G2L["e1"]["RichText"] = true;
 G2L["e1"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["e1"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e1"]["Text"] = [[<font color='rgb(255,255,0)'>最强战场</font><br/>自动收割残血玩家，遁地无伤打架]];
+G2L["e1"]["Text"] = [[<font color='rgb(255,255,0)'>装扮打动人</font><br/>自动拾取全图服装币，更改动作，肤色等娱乐小功能]];
 G2L["e1"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["e1"]["Name"] = [[脚本介绍]];
 G2L["e1"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.最强战场.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.装扮打动人.脚本介绍.文字设定
 G2L["e2"] = Instance.new("LocalScript", G2L["e1"]);
 G2L["e2"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.最强战场.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.装扮打动人.UICorner
 G2L["e3"] = Instance.new("UICorner", G2L["e0"]);
 G2L["e3"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.最强战场.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.装扮打动人.密钥验证
 G2L["e4"] = Instance.new("LocalScript", G2L["e0"]);
 G2L["e4"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂
-G2L["e5"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.最强战场
+G2L["e5"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["e5"]["BorderSizePixel"] = 0;
 G2L["e5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e5"]["Image"] = [[rbxassetid://8446589311]];
+G2L["e5"]["Image"] = [[rbxassetid://18508936902]];
 G2L["e5"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["e5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e5"]["Name"] = [[兵工厂]];
+G2L["e5"]["Name"] = [[最强战场]];
 G2L["e5"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.最强战场.脚本介绍
 G2L["e6"] = Instance.new("TextLabel", G2L["e5"]);
 G2L["e6"]["TextWrapped"] = true;
 G2L["e6"]["BorderSizePixel"] = 0;
@@ -2042,39 +2041,39 @@ G2L["e6"]["BackgroundTransparency"] = 1;
 G2L["e6"]["RichText"] = true;
 G2L["e6"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["e6"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e6"]["Text"] = [[<font color='rgb(255,255,0)'>兵工厂</font><br/>透视自瞄，增大敌方的体型]];
+G2L["e6"]["Text"] = [[<font color='rgb(255,255,0)'>最强战场</font><br/>自动收割残血玩家，遁地无伤打架]];
 G2L["e6"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["e6"]["Name"] = [[脚本介绍]];
 G2L["e6"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.最强战场.脚本介绍.文字设定
 G2L["e7"] = Instance.new("LocalScript", G2L["e6"]);
 G2L["e7"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.最强战场.UICorner
 G2L["e8"] = Instance.new("UICorner", G2L["e5"]);
 G2L["e8"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.最强战场.密钥验证
 G2L["e9"] = Instance.new("LocalScript", G2L["e5"]);
 G2L["e9"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国
-G2L["ea"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂
+G2L["ea"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["ea"]["BorderSizePixel"] = 0;
 G2L["ea"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ea"]["Image"] = [[rbxassetid://15822360171]];
+G2L["ea"]["Image"] = [[rbxassetid://8446589311]];
 G2L["ea"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["ea"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ea"]["Name"] = [[驾驶帝国]];
+G2L["ea"]["Name"] = [[兵工厂]];
 G2L["ea"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.脚本介绍
 G2L["eb"] = Instance.new("TextLabel", G2L["ea"]);
 G2L["eb"]["TextWrapped"] = true;
 G2L["eb"]["BorderSizePixel"] = 0;
@@ -2087,39 +2086,39 @@ G2L["eb"]["BackgroundTransparency"] = 1;
 G2L["eb"]["RichText"] = true;
 G2L["eb"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["eb"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["eb"]["Text"] = [[<font color='rgb(255,255,0)'>驾驶帝国</font><br/>自动刷钱（需买一架最便宜的飞机）]];
+G2L["eb"]["Text"] = [[<font color='rgb(255,255,0)'>兵工厂</font><br/>透视自瞄，增大敌方的体型]];
 G2L["eb"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["eb"]["Name"] = [[脚本介绍]];
 G2L["eb"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.脚本介绍.文字设定
 G2L["ec"] = Instance.new("LocalScript", G2L["eb"]);
 G2L["ec"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.UICorner
 G2L["ed"] = Instance.new("UICorner", G2L["ea"]);
 G2L["ed"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.密钥验证
 G2L["ee"] = Instance.new("LocalScript", G2L["ea"]);
 G2L["ee"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇
-G2L["ef"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国
+G2L["ef"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["ef"]["BorderSizePixel"] = 0;
 G2L["ef"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ef"]["Image"] = [[rbxassetid://13943877707]];
+G2L["ef"]["Image"] = [[rbxassetid://15822360171]];
 G2L["ef"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["ef"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ef"]["Name"] = [[忍者传奇]];
+G2L["ef"]["Name"] = [[驾驶帝国]];
 G2L["ef"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.脚本介绍
 G2L["f0"] = Instance.new("TextLabel", G2L["ef"]);
 G2L["f0"]["TextWrapped"] = true;
 G2L["f0"]["BorderSizePixel"] = 0;
@@ -2132,39 +2131,39 @@ G2L["f0"]["BackgroundTransparency"] = 1;
 G2L["f0"]["RichText"] = true;
 G2L["f0"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["f0"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f0"]["Text"] = [[<font color='rgb(255,255,0)'>忍者传奇</font><br/>自动刷忍术，金钱，气，开启所有岛屿，无限跳，pvp]];
+G2L["f0"]["Text"] = [[<font color='rgb(255,255,0)'>驾驶帝国</font><br/>自动刷钱（需买一架最便宜的飞机）]];
 G2L["f0"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["f0"]["Name"] = [[脚本介绍]];
 G2L["f0"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.脚本介绍.文字设定
 G2L["f1"] = Instance.new("LocalScript", G2L["f0"]);
 G2L["f1"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.UICorner
 G2L["f2"] = Instance.new("UICorner", G2L["ef"]);
 G2L["f2"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.密钥验证
 G2L["f3"] = Instance.new("LocalScript", G2L["ef"]);
 G2L["f3"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇
-G2L["f4"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇
+G2L["f4"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["f4"]["BorderSizePixel"] = 0;
 G2L["f4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f4"]["Image"] = [[rbxassetid://14127381063]];
+G2L["f4"]["Image"] = [[rbxassetid://13943877707]];
 G2L["f4"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["f4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f4"]["Name"] = [[极速传奇]];
+G2L["f4"]["Name"] = [[忍者传奇]];
 G2L["f4"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.脚本介绍
 G2L["f5"] = Instance.new("TextLabel", G2L["f4"]);
 G2L["f5"]["TextWrapped"] = true;
 G2L["f5"]["BorderSizePixel"] = 0;
@@ -2177,39 +2176,39 @@ G2L["f5"]["BackgroundTransparency"] = 1;
 G2L["f5"]["RichText"] = true;
 G2L["f5"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["f5"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f5"]["Text"] = [[<font color='rgb(255,255,0)'>极速传奇</font><br/>自动刷所有数值，转生，自动参加并赢得比赛]];
+G2L["f5"]["Text"] = [[<font color='rgb(255,255,0)'>忍者传奇</font><br/>自动刷忍术，金钱，气，开启所有岛屿，无限跳，pvp]];
 G2L["f5"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["f5"]["Name"] = [[脚本介绍]];
 G2L["f5"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.脚本介绍.文字设定
 G2L["f6"] = Instance.new("LocalScript", G2L["f5"]);
 G2L["f6"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.UICorner
 G2L["f7"] = Instance.new("UICorner", G2L["f4"]);
 G2L["f7"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.密钥验证
 G2L["f8"] = Instance.new("LocalScript", G2L["f4"]);
 G2L["f8"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2
-G2L["f9"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇
+G2L["f9"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["f9"]["BorderSizePixel"] = 0;
 G2L["f9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f9"]["Image"] = [[rbxassetid://5183416835]];
+G2L["f9"]["Image"] = [[rbxassetid://14127381063]];
 G2L["f9"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["f9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f9"]["Name"] = [[破坏者谜团2]];
+G2L["f9"]["Name"] = [[极速传奇]];
 G2L["f9"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.脚本介绍
 G2L["fa"] = Instance.new("TextLabel", G2L["f9"]);
 G2L["fa"]["TextWrapped"] = true;
 G2L["fa"]["BorderSizePixel"] = 0;
@@ -2222,39 +2221,39 @@ G2L["fa"]["BackgroundTransparency"] = 1;
 G2L["fa"]["RichText"] = true;
 G2L["fa"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["fa"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["fa"]["Text"] = [[<font color='rgb(255,255,0)'>破坏者谜团2</font><br/>自动拾取金币，警察死亡时自动捡枪成为英雄，警察或英雄一键击杀凶手<br/>凶手一键击杀警察或英雄，凶手一键击杀所有人]];
+G2L["fa"]["Text"] = [[<font color='rgb(255,255,0)'>极速传奇</font><br/>自动刷所有数值，转生，自动参加并赢得比赛]];
 G2L["fa"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["fa"]["Name"] = [[脚本介绍]];
 G2L["fa"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.脚本介绍.文字设定
 G2L["fb"] = Instance.new("LocalScript", G2L["fa"]);
 G2L["fb"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.UICorner
 G2L["fc"] = Instance.new("UICorner", G2L["f9"]);
 G2L["fc"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.密钥验证
 G2L["fd"] = Instance.new("LocalScript", G2L["f9"]);
 G2L["fd"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球
-G2L["fe"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2
+G2L["fe"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["fe"]["BorderSizePixel"] = 0;
 G2L["fe"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["fe"]["Image"] = [[rbxassetid://123633789510122]];
+G2L["fe"]["Image"] = [[rbxassetid://5183416835]];
 G2L["fe"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["fe"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fe"]["Name"] = [[刀刃球]];
+G2L["fe"]["Name"] = [[破坏者谜团2]];
 G2L["fe"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.脚本介绍
 G2L["ff"] = Instance.new("TextLabel", G2L["fe"]);
 G2L["ff"]["TextWrapped"] = true;
 G2L["ff"]["BorderSizePixel"] = 0;
@@ -2267,39 +2266,39 @@ G2L["ff"]["BackgroundTransparency"] = 1;
 G2L["ff"]["RichText"] = true;
 G2L["ff"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["ff"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ff"]["Text"] = [[<font color='rgb(255,255,0)'>刀刃球</font><br/>自动弹反，尽量时刻正面朝向球，背对也许会弹反失败]];
+G2L["ff"]["Text"] = [[<font color='rgb(255,255,0)'>破坏者谜团2</font><br/>自动拾取金币，警察死亡时自动捡枪成为英雄，警察或英雄一键击杀凶手<br/>凶手一键击杀警察或英雄，凶手一键击杀所有人]];
 G2L["ff"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["ff"]["Name"] = [[脚本介绍]];
 G2L["ff"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.脚本介绍.文字设定
 G2L["100"] = Instance.new("LocalScript", G2L["ff"]);
 G2L["100"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.UICorner
 G2L["101"] = Instance.new("UICorner", G2L["fe"]);
 G2L["101"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.密钥验证
 G2L["102"] = Instance.new("LocalScript", G2L["fe"]);
 G2L["102"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople
-G2L["103"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球
+G2L["103"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["103"]["BorderSizePixel"] = 0;
 G2L["103"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["103"]["Image"] = [[rbxassetid://70810387955318]];
+G2L["103"]["Image"] = [[rbxassetid://123633789510122]];
 G2L["103"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["103"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["103"]["Name"] = [[FlingThingsAndPeople]];
+G2L["103"]["Name"] = [[刀刃球]];
 G2L["103"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.脚本介绍
 G2L["104"] = Instance.new("TextLabel", G2L["103"]);
 G2L["104"]["TextWrapped"] = true;
 G2L["104"]["BorderSizePixel"] = 0;
@@ -2312,39 +2311,39 @@ G2L["104"]["BackgroundTransparency"] = 1;
 G2L["104"]["RichText"] = true;
 G2L["104"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["104"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["104"]["Text"] = [[<font color='rgb(255,255,0)'>FlingThingsAndPeople</font><br/>力量无限大，将玩家或物体扔出地图外，反抓取，别人抓你他会死<br/>杀戮光环，着火光环，龙卷风光环]];
+G2L["104"]["Text"] = [[<font color='rgb(255,255,0)'>刀刃球</font><br/>自动弹反，尽量时刻正面朝向球，背对也许会弹反失败]];
 G2L["104"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["104"]["Name"] = [[脚本介绍]];
 G2L["104"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.脚本介绍.文字设定
 G2L["105"] = Instance.new("LocalScript", G2L["104"]);
 G2L["105"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.UICorner
 G2L["106"] = Instance.new("UICorner", G2L["103"]);
 G2L["106"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.密钥验证
 G2L["107"] = Instance.new("LocalScript", G2L["103"]);
 G2L["107"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五
-G2L["108"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople
+G2L["108"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["108"]["BorderSizePixel"] = 0;
 G2L["108"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["108"]["Image"] = [[rbxassetid://11216933642]];
+G2L["108"]["Image"] = [[rbxassetid://70810387955318]];
 G2L["108"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["108"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["108"]["Name"] = [[动感星期五]];
+G2L["108"]["Name"] = [[FlingThingsAndPeople]];
 G2L["108"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.脚本介绍
 G2L["109"] = Instance.new("TextLabel", G2L["108"]);
 G2L["109"]["TextWrapped"] = true;
 G2L["109"]["BorderSizePixel"] = 0;
@@ -2357,39 +2356,39 @@ G2L["109"]["BackgroundTransparency"] = 1;
 G2L["109"]["RichText"] = true;
 G2L["109"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["109"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["109"]["Text"] = [[<font color='rgb(255,255,0)'>动感星期五</font><br/>自动弹奏，全部完美]];
+G2L["109"]["Text"] = [[<font color='rgb(255,255,0)'>FlingThingsAndPeople</font><br/>力量无限大，将玩家或物体扔出地图外，反抓取，别人抓你他会死<br/>杀戮光环，着火光环，龙卷风光环]];
 G2L["109"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["109"]["Name"] = [[脚本介绍]];
 G2L["109"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.脚本介绍.文字设定
 G2L["10a"] = Instance.new("LocalScript", G2L["109"]);
 G2L["10a"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.UICorner
 G2L["10b"] = Instance.new("UICorner", G2L["108"]);
 G2L["10b"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.密钥验证
 G2L["10c"] = Instance.new("LocalScript", G2L["108"]);
 G2L["10c"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器
-G2L["10d"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五
+G2L["10d"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["10d"]["BorderSizePixel"] = 0;
 G2L["10d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["10d"]["Image"] = [[rbxassetid://7698866393]];
+G2L["10d"]["Image"] = [[rbxassetid://11216933642]];
 G2L["10d"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["10d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10d"]["Name"] = [[自然灾害模拟器]];
+G2L["10d"]["Name"] = [[动感星期五]];
 G2L["10d"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.脚本介绍
 G2L["10e"] = Instance.new("TextLabel", G2L["10d"]);
 G2L["10e"]["TextWrapped"] = true;
 G2L["10e"]["BorderSizePixel"] = 0;
@@ -2402,79 +2401,79 @@ G2L["10e"]["BackgroundTransparency"] = 1;
 G2L["10e"]["RichText"] = true;
 G2L["10e"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["10e"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["10e"]["Text"] = [[<font color='rgb(255,255,0)'>自然灾害模拟器</font><br/>这个游戏不需要独立的脚本，通用飞行，通用踢飞，触摸踢飞搭配使用即可]];
+G2L["10e"]["Text"] = [[<font color='rgb(255,255,0)'>动感星期五</font><br/>自动弹奏，全部完美]];
 G2L["10e"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["10e"]["Name"] = [[脚本介绍]];
 G2L["10e"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.脚本介绍.文字设定
 G2L["10f"] = Instance.new("LocalScript", G2L["10e"]);
 G2L["10f"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.UICorner
 G2L["110"] = Instance.new("UICorner", G2L["10d"]);
 G2L["110"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.逃出海啸获得脑力
-G2L["111"] = Instance.new("ImageButton", G2L["9f"]);
-G2L["111"]["BorderSizePixel"] = 0;
-G2L["111"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["111"]["Image"] = [[rbxassetid://133278360723189]];
-G2L["111"]["Size"] = UDim2.new(0, 64, 0, 64);
-G2L["111"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["111"]["Name"] = [[逃出海啸获得脑力]];
-G2L["111"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.密钥验证
+G2L["111"] = Instance.new("LocalScript", G2L["10d"]);
+G2L["111"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.逃出海啸获得脑力.脚本介绍
-G2L["112"] = Instance.new("TextLabel", G2L["111"]);
-G2L["112"]["TextWrapped"] = true;
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器
+G2L["112"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["112"]["BorderSizePixel"] = 0;
-G2L["112"]["TextSize"] = 16;
-G2L["112"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["112"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["112"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["112"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["112"]["BackgroundTransparency"] = 1;
-G2L["112"]["RichText"] = true;
-G2L["112"]["Size"] = UDim2.new(0, 433, 0, 64);
-G2L["112"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["112"]["Text"] = [[<font color='rgb(255,255,0)'>逃出海啸获得脑力</font><br/>每点击一次前往下一个安全区]];
-G2L["112"]["AutomaticSize"] = Enum.AutomaticSize.Y;
-G2L["112"]["Name"] = [[脚本介绍]];
-G2L["112"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+G2L["112"]["Image"] = [[rbxassetid://7698866393]];
+G2L["112"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["112"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["112"]["Name"] = [[自然灾害模拟器]];
+G2L["112"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.逃出海啸获得脑力.脚本介绍.文字设定
-G2L["113"] = Instance.new("LocalScript", G2L["112"]);
-G2L["113"]["Name"] = [[文字设定]];
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.脚本介绍
+G2L["113"] = Instance.new("TextLabel", G2L["112"]);
+G2L["113"]["TextWrapped"] = true;
+G2L["113"]["BorderSizePixel"] = 0;
+G2L["113"]["TextSize"] = 16;
+G2L["113"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["113"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["113"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["113"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["113"]["BackgroundTransparency"] = 1;
+G2L["113"]["RichText"] = true;
+G2L["113"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["113"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["113"]["Text"] = [[<font color='rgb(255,255,0)'>自然灾害模拟器</font><br/>这个游戏不需要独立的脚本，通用飞行，通用踢飞，触摸踢飞搭配使用即可]];
+G2L["113"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["113"]["Name"] = [[脚本介绍]];
+G2L["113"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.逃出海啸获得脑力.UICorner
-G2L["114"] = Instance.new("UICorner", G2L["111"]);
-G2L["114"]["CornerRadius"] = UDim.new(0, 16);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.脚本介绍.文字设定
+G2L["114"] = Instance.new("LocalScript", G2L["113"]);
+G2L["114"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.逃出海啸获得脑力.密钥验证
-G2L["115"] = Instance.new("LocalScript", G2L["111"]);
-G2L["115"]["Name"] = [[密钥验证]];
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.UICorner
+G2L["115"] = Instance.new("UICorner", G2L["112"]);
+G2L["115"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝
-G2L["116"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.逃出海啸获得脑力
+G2L["116"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["116"]["BorderSizePixel"] = 0;
 G2L["116"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["116"]["Image"] = [[rbxassetid://119122088865300]];
+G2L["116"]["Image"] = [[rbxassetid://133278360723189]];
 G2L["116"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["116"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["116"]["Name"] = [[造船寻宝]];
+G2L["116"]["Name"] = [[逃出海啸获得脑力]];
 G2L["116"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.逃出海啸获得脑力.脚本介绍
 G2L["117"] = Instance.new("TextLabel", G2L["116"]);
 G2L["117"]["TextWrapped"] = true;
 G2L["117"]["BorderSizePixel"] = 0;
@@ -2487,39 +2486,39 @@ G2L["117"]["BackgroundTransparency"] = 1;
 G2L["117"]["RichText"] = true;
 G2L["117"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["117"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["117"]["Text"] = [[<font color='rgb(255,255,0)'>造船寻宝</font><br/>无需造船，飞到终点获得金币和奖励]];
+G2L["117"]["Text"] = [[<font color='rgb(255,255,0)'>逃出海啸获得脑力</font><br/>每点击一次前往下一个安全区]];
 G2L["117"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["117"]["Name"] = [[脚本介绍]];
 G2L["117"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.逃出海啸获得脑力.脚本介绍.文字设定
 G2L["118"] = Instance.new("LocalScript", G2L["117"]);
 G2L["118"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.逃出海啸获得脑力.UICorner
 G2L["119"] = Instance.new("UICorner", G2L["116"]);
 G2L["119"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.逃出海啸获得脑力.密钥验证
 G2L["11a"] = Instance.new("LocalScript", G2L["116"]);
 G2L["11a"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界
-G2L["11b"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝
+G2L["11b"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["11b"]["BorderSizePixel"] = 0;
 G2L["11b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["11b"]["Image"] = [[rbxassetid://138536687489735]];
+G2L["11b"]["Image"] = [[rbxassetid://119122088865300]];
 G2L["11b"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["11b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["11b"]["Name"] = [[吃掉世界]];
+G2L["11b"]["Name"] = [[造船寻宝]];
 G2L["11b"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.脚本介绍
 G2L["11c"] = Instance.new("TextLabel", G2L["11b"]);
 G2L["11c"]["TextWrapped"] = true;
 G2L["11c"]["BorderSizePixel"] = 0;
@@ -2532,39 +2531,39 @@ G2L["11c"]["BackgroundTransparency"] = 1;
 G2L["11c"]["RichText"] = true;
 G2L["11c"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["11c"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["11c"]["Text"] = [[<font color='rgb(255,255,0)'>吃掉世界</font><br/>自动吃，一键出售<br/>搭配通用踢飞脚本更欢乐]];
+G2L["11c"]["Text"] = [[<font color='rgb(255,255,0)'>造船寻宝</font><br/>无需造船，飞到终点获得金币和奖励]];
 G2L["11c"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["11c"]["Name"] = [[脚本介绍]];
 G2L["11c"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.脚本介绍.文字设定
 G2L["11d"] = Instance.new("LocalScript", G2L["11c"]);
 G2L["11d"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.UICorner
 G2L["11e"] = Instance.new("UICorner", G2L["11b"]);
 G2L["11e"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.密钥验证
 G2L["11f"] = Instance.new("LocalScript", G2L["11b"]);
 G2L["11f"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中
-G2L["120"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界
+G2L["120"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["120"]["BorderSizePixel"] = 0;
 G2L["120"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["120"]["Image"] = [[rbxassetid://15143633113]];
+G2L["120"]["Image"] = [[rbxassetid://138536687489735]];
 G2L["120"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["120"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["120"]["Name"] = [[勘探中]];
+G2L["120"]["Name"] = [[吃掉世界]];
 G2L["120"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.脚本介绍
 G2L["121"] = Instance.new("TextLabel", G2L["120"]);
 G2L["121"]["TextWrapped"] = true;
 G2L["121"]["BorderSizePixel"] = 0;
@@ -2577,39 +2576,39 @@ G2L["121"]["BackgroundTransparency"] = 1;
 G2L["121"]["RichText"] = true;
 G2L["121"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["121"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["121"]["Text"] = [[<font color='rgb(255,255,0)'>勘探中</font><br/>设置挖沙和淘金坐标，自动在坐标位置挖沙淘金，自动出售]];
+G2L["121"]["Text"] = [[<font color='rgb(255,255,0)'>吃掉世界</font><br/>自动吃，一键出售<br/>搭配通用踢飞脚本更欢乐]];
 G2L["121"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["121"]["Name"] = [[脚本介绍]];
 G2L["121"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.脚本介绍.文字设定
 G2L["122"] = Instance.new("LocalScript", G2L["121"]);
 G2L["122"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.UICorner
 G2L["123"] = Instance.new("UICorner", G2L["120"]);
 G2L["123"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.密钥验证
 G2L["124"] = Instance.new("LocalScript", G2L["120"]);
 G2L["124"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手
-G2L["125"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中
+G2L["125"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["125"]["BorderSizePixel"] = 0;
 G2L["125"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["125"]["Image"] = [[rbxassetid://70803651014944]];
+G2L["125"]["Image"] = [[rbxassetid://15143633113]];
 G2L["125"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["125"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["125"]["Name"] = [[竞争对手]];
+G2L["125"]["Name"] = [[勘探中]];
 G2L["125"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.脚本介绍
 G2L["126"] = Instance.new("TextLabel", G2L["125"]);
 G2L["126"]["TextWrapped"] = true;
 G2L["126"]["BorderSizePixel"] = 0;
@@ -2622,79 +2621,79 @@ G2L["126"]["BackgroundTransparency"] = 1;
 G2L["126"]["RichText"] = true;
 G2L["126"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["126"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["126"]["Text"] = [[<font color='rgb(255,255,0)'>竞争对手</font><br/>用通用自瞄脚本即可，最好使用电脑端]];
+G2L["126"]["Text"] = [[<font color='rgb(255,255,0)'>勘探中</font><br/>设置挖沙和淘金坐标，自动在坐标位置挖沙淘金，自动出售]];
 G2L["126"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["126"]["Name"] = [[脚本介绍]];
 G2L["126"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.脚本介绍.文字设定
 G2L["127"] = Instance.new("LocalScript", G2L["126"]);
 G2L["127"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.UICorner
 G2L["128"] = Instance.new("UICorner", G2L["125"]);
 G2L["128"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机
-G2L["129"] = Instance.new("ImageButton", G2L["9f"]);
-G2L["129"]["BorderSizePixel"] = 0;
-G2L["129"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["129"]["Image"] = [[rbxassetid://17228729998]];
-G2L["129"]["Size"] = UDim2.new(0, 64, 0, 64);
-G2L["129"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["129"]["Name"] = [[建造一架飞机]];
-G2L["129"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.密钥验证
+G2L["129"] = Instance.new("LocalScript", G2L["125"]);
+G2L["129"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.脚本介绍
-G2L["12a"] = Instance.new("TextLabel", G2L["129"]);
-G2L["12a"]["TextWrapped"] = true;
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手
+G2L["12a"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["12a"]["BorderSizePixel"] = 0;
-G2L["12a"]["TextSize"] = 16;
-G2L["12a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["12a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["12a"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["12a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["12a"]["BackgroundTransparency"] = 1;
-G2L["12a"]["RichText"] = true;
-G2L["12a"]["Size"] = UDim2.new(0, 433, 0, 64);
-G2L["12a"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["12a"]["Text"] = [[<font color='rgb(255,255,0)'>建造一架飞机</font><br/>加速飞行，升高降低，无限飞行刷钱]];
-G2L["12a"]["AutomaticSize"] = Enum.AutomaticSize.Y;
-G2L["12a"]["Name"] = [[脚本介绍]];
-G2L["12a"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+G2L["12a"]["Image"] = [[rbxassetid://70803651014944]];
+G2L["12a"]["Size"] = UDim2.new(0, 64, 0, 64);
+G2L["12a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12a"]["Name"] = [[竞争对手]];
+G2L["12a"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.脚本介绍.文字设定
-G2L["12b"] = Instance.new("LocalScript", G2L["12a"]);
-G2L["12b"]["Name"] = [[文字设定]];
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.脚本介绍
+G2L["12b"] = Instance.new("TextLabel", G2L["12a"]);
+G2L["12b"]["TextWrapped"] = true;
+G2L["12b"]["BorderSizePixel"] = 0;
+G2L["12b"]["TextSize"] = 16;
+G2L["12b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["12b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12b"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["12b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12b"]["BackgroundTransparency"] = 1;
+G2L["12b"]["RichText"] = true;
+G2L["12b"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["12b"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12b"]["Text"] = [[<font color='rgb(255,255,0)'>竞争对手</font><br/>用通用自瞄脚本即可，最好使用电脑端]];
+G2L["12b"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["12b"]["Name"] = [[脚本介绍]];
+G2L["12b"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.UICorner
-G2L["12c"] = Instance.new("UICorner", G2L["129"]);
-G2L["12c"]["CornerRadius"] = UDim.new(0, 16);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.脚本介绍.文字设定
+G2L["12c"] = Instance.new("LocalScript", G2L["12b"]);
+G2L["12c"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.密钥验证
-G2L["12d"] = Instance.new("LocalScript", G2L["129"]);
-G2L["12d"]["Name"] = [[密钥验证]];
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.UICorner
+G2L["12d"] = Instance.new("UICorner", G2L["12a"]);
+G2L["12d"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.水手碎片
-G2L["12e"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机
+G2L["12e"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["12e"]["BorderSizePixel"] = 0;
 G2L["12e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["12e"]["Image"] = [[rbxassetid://8661714680]];
+G2L["12e"]["Image"] = [[rbxassetid://17228729998]];
 G2L["12e"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["12e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["12e"]["Name"] = [[水手碎片]];
+G2L["12e"]["Name"] = [[建造一架飞机]];
 G2L["12e"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.水手碎片.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.脚本介绍
 G2L["12f"] = Instance.new("TextLabel", G2L["12e"]);
 G2L["12f"]["TextWrapped"] = true;
 G2L["12f"]["BorderSizePixel"] = 0;
@@ -2707,39 +2706,39 @@ G2L["12f"]["BackgroundTransparency"] = 1;
 G2L["12f"]["RichText"] = true;
 G2L["12f"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["12f"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["12f"]["Text"] = [[<font color='rgb(255,255,0)'>水手作品</font><br/>自动练等级，刷怪，Boss，副本，金币，物品等]];
+G2L["12f"]["Text"] = [[<font color='rgb(255,255,0)'>建造一架飞机</font><br/>加速飞行，升高降低，无限飞行刷钱]];
 G2L["12f"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["12f"]["Name"] = [[脚本介绍]];
 G2L["12f"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.水手碎片.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.脚本介绍.文字设定
 G2L["130"] = Instance.new("LocalScript", G2L["12f"]);
 G2L["130"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.水手碎片.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.UICorner
 G2L["131"] = Instance.new("UICorner", G2L["12e"]);
 G2L["131"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.水手碎片.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.密钥验证
 G2L["132"] = Instance.new("LocalScript", G2L["12e"]);
 G2L["132"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors
-G2L["133"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.水手碎片
+G2L["133"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["133"]["BorderSizePixel"] = 0;
 G2L["133"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["133"]["Image"] = [[rbxassetid://12311445927]];
+G2L["133"]["Image"] = [[rbxassetid://8661714680]];
 G2L["133"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["133"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["133"]["Name"] = [[Doors]];
+G2L["133"]["Name"] = [[水手碎片]];
 G2L["133"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.水手碎片.脚本介绍
 G2L["134"] = Instance.new("TextLabel", G2L["133"]);
 G2L["134"]["TextWrapped"] = true;
 G2L["134"]["BorderSizePixel"] = 0;
@@ -2752,39 +2751,39 @@ G2L["134"]["BackgroundTransparency"] = 1;
 G2L["134"]["RichText"] = true;
 G2L["134"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["134"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["134"]["Text"] = [[<font color='rgb(255,255,0)'>Doors</font><br/>透视所有物品和怪物实体]];
+G2L["134"]["Text"] = [[<font color='rgb(255,255,0)'>水手作品</font><br/>自动练等级，刷怪，Boss，副本，金币，物品等]];
 G2L["134"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["134"]["Name"] = [[脚本介绍]];
 G2L["134"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.水手碎片.脚本介绍.文字设定
 G2L["135"] = Instance.new("LocalScript", G2L["134"]);
 G2L["135"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.水手碎片.UICorner
 G2L["136"] = Instance.new("UICorner", G2L["133"]);
 G2L["136"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.水手碎片.密钥验证
 G2L["137"] = Instance.new("LocalScript", G2L["133"]);
 G2L["137"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.杀手VS警长
-G2L["138"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors
+G2L["138"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["138"]["BorderSizePixel"] = 0;
 G2L["138"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["138"]["Image"] = [[rbxassetid://1011177473]];
+G2L["138"]["Image"] = [[rbxassetid://12311445927]];
 G2L["138"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["138"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["138"]["Name"] = [[杀手VS警长]];
+G2L["138"]["Name"] = [[Doors]];
 G2L["138"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.杀手VS警长.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.脚本介绍
 G2L["139"] = Instance.new("TextLabel", G2L["138"]);
 G2L["139"]["TextWrapped"] = true;
 G2L["139"]["BorderSizePixel"] = 0;
@@ -2797,39 +2796,39 @@ G2L["139"]["BackgroundTransparency"] = 1;
 G2L["139"]["RichText"] = true;
 G2L["139"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["139"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["139"]["Text"] = [[<font color='rgb(255,255,0)'>杀手VS警长</font><br/>扩大敌人的体积，射击扩大后的体积也可以击杀<br/>配合通用透视脚本效果更佳]];
+G2L["139"]["Text"] = [[<font color='rgb(255,255,0)'>Doors</font><br/>透视所有物品和怪物实体]];
 G2L["139"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["139"]["Name"] = [[脚本介绍]];
 G2L["139"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.杀手VS警长.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.脚本介绍.文字设定
 G2L["13a"] = Instance.new("LocalScript", G2L["139"]);
 G2L["13a"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.杀手VS警长.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.UICorner
 G2L["13b"] = Instance.new("UICorner", G2L["138"]);
 G2L["13b"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.杀手VS警长.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.密钥验证
 G2L["13c"] = Instance.new("LocalScript", G2L["138"]);
 G2L["13c"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.夜间咬人
-G2L["13d"] = Instance.new("ImageButton", G2L["9f"]);
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.杀手VS警长
+G2L["13d"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["13d"]["BorderSizePixel"] = 0;
 G2L["13d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["13d"]["Image"] = [[rbxassetid://89030970031176]];
+G2L["13d"]["Image"] = [[rbxassetid://1011177473]];
 G2L["13d"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["13d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["13d"]["Name"] = [[夜间咬人]];
+G2L["13d"]["Name"] = [[杀手VS警长]];
 G2L["13d"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.夜间咬人.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.杀手VS警长.脚本介绍
 G2L["13e"] = Instance.new("TextLabel", G2L["13d"]);
 G2L["13e"]["TextWrapped"] = true;
 G2L["13e"]["BorderSizePixel"] = 0;
@@ -2842,75 +2841,120 @@ G2L["13e"]["BackgroundTransparency"] = 1;
 G2L["13e"]["RichText"] = true;
 G2L["13e"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["13e"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["13e"]["Text"] = [[<font color='rgb(255,255,0)'>深夜撕咬</font><br/>透视杀手，电报机，电池电箱，逃生门位置，移速，一秒钟解电报机<br/>搭配免费脚本中的穿墙效果更强]];
+G2L["13e"]["Text"] = [[<font color='rgb(255,255,0)'>杀手VS警长</font><br/>扩大敌人的体积，射击扩大后的体积也可以击杀<br/>配合通用透视脚本效果更佳]];
 G2L["13e"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["13e"]["Name"] = [[脚本介绍]];
 G2L["13e"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.夜间咬人.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.杀手VS警长.脚本介绍.文字设定
 G2L["13f"] = Instance.new("LocalScript", G2L["13e"]);
 G2L["13f"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.夜间咬人.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.杀手VS警长.UICorner
 G2L["140"] = Instance.new("UICorner", G2L["13d"]);
 G2L["140"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.夜间咬人.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.杀手VS警长.密钥验证
 G2L["141"] = Instance.new("LocalScript", G2L["13d"]);
 G2L["141"]["Name"] = [[密钥验证]];
 
 
--- StarterGui.ScreenGui.Frame.最小化窗口
-G2L["142"] = Instance.new("TextButton", G2L["2"]);
-G2L["142"]["TextWrapped"] = true;
-G2L["142"]["RichText"] = true;
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.夜间咬人
+G2L["142"] = Instance.new("ImageButton", G2L["a4"]);
 G2L["142"]["BorderSizePixel"] = 0;
-G2L["142"]["TextSize"] = 14;
-G2L["142"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["142"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["142"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["142"]["BackgroundTransparency"] = 1;
-G2L["142"]["AutomaticSize"] = Enum.AutomaticSize.Y;
-G2L["142"]["Size"] = UDim2.new(0, 23, 0, 23);
+G2L["142"]["Image"] = [[rbxassetid://89030970031176]];
+G2L["142"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["142"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["142"]["Text"] = [[一]];
-G2L["142"]["Name"] = [[最小化窗口]];
-G2L["142"]["Position"] = UDim2.new(0.88889, 0, 0.02981, 0);
+G2L["142"]["Name"] = [[夜间咬人]];
+G2L["142"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.夜间咬人.脚本介绍
+G2L["143"] = Instance.new("TextLabel", G2L["142"]);
+G2L["143"]["TextWrapped"] = true;
+G2L["143"]["BorderSizePixel"] = 0;
+G2L["143"]["TextSize"] = 16;
+G2L["143"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["143"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["143"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["143"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["143"]["BackgroundTransparency"] = 1;
+G2L["143"]["RichText"] = true;
+G2L["143"]["Size"] = UDim2.new(0, 433, 0, 64);
+G2L["143"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["143"]["Text"] = [[<font color='rgb(255,255,0)'>撕咬之夜</font><br/>透视杀手，电报机，电池电箱，逃生门位置，移速，一秒钟解电报机<br/>搭配免费脚本中的穿墙效果更强]];
+G2L["143"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["143"]["Name"] = [[脚本介绍]];
+G2L["143"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.夜间咬人.脚本介绍.文字设定
+G2L["144"] = Instance.new("LocalScript", G2L["143"]);
+G2L["144"]["Name"] = [[文字设定]];
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.夜间咬人.UICorner
+G2L["145"] = Instance.new("UICorner", G2L["142"]);
+G2L["145"]["CornerRadius"] = UDim.new(0, 16);
+
+
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.夜间咬人.密钥验证
+G2L["146"] = Instance.new("LocalScript", G2L["142"]);
+G2L["146"]["Name"] = [[密钥验证]];
+
+
+-- StarterGui.ScreenGui.Frame.最小化窗口
+G2L["147"] = Instance.new("TextButton", G2L["2"]);
+G2L["147"]["TextWrapped"] = true;
+G2L["147"]["RichText"] = true;
+G2L["147"]["BorderSizePixel"] = 0;
+G2L["147"]["TextSize"] = 14;
+G2L["147"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["147"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["147"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["147"]["BackgroundTransparency"] = 1;
+G2L["147"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+G2L["147"]["Size"] = UDim2.new(0, 23, 0, 23);
+G2L["147"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["147"]["Text"] = [[一]];
+G2L["147"]["Name"] = [[最小化窗口]];
+G2L["147"]["Position"] = UDim2.new(0.88889, 0, 0.02981, 0);
 
 
 -- StarterGui.ScreenGui.Frame.最小化窗口.文字设定
-G2L["143"] = Instance.new("LocalScript", G2L["142"]);
-G2L["143"]["Name"] = [[文字设定]];
+G2L["148"] = Instance.new("LocalScript", G2L["147"]);
+G2L["148"]["Name"] = [[文字设定]];
 
 
 -- StarterGui.ScreenGui.展开窗口
-G2L["144"] = Instance.new("ImageButton", G2L["1"]);
-G2L["144"]["BorderSizePixel"] = 0;
-G2L["144"]["Visible"] = false;
-G2L["144"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["144"]["Image"] = [[rbxassetid://138288475364166]];
-G2L["144"]["Size"] = UDim2.new(0, 36, 0, 36);
-G2L["144"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["144"]["Name"] = [[展开窗口]];
-G2L["144"]["Position"] = UDim2.new(0.2509, 0, 0.22124, 0);
+G2L["149"] = Instance.new("ImageButton", G2L["1"]);
+G2L["149"]["BorderSizePixel"] = 0;
+G2L["149"]["Visible"] = false;
+G2L["149"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["149"]["Image"] = [[rbxassetid://138288475364166]];
+G2L["149"]["Size"] = UDim2.new(0, 36, 0, 36);
+G2L["149"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["149"]["Name"] = [[展开窗口]];
+G2L["149"]["Position"] = UDim2.new(0.2509, 0, 0.22124, 0);
 
 
 -- StarterGui.ScreenGui.展开窗口.UICorner
-G2L["145"] = Instance.new("UICorner", G2L["144"]);
+G2L["14a"] = Instance.new("UICorner", G2L["149"]);
 
 
 
 -- StarterGui.ScreenGui.展开窗口.拖动
-G2L["146"] = Instance.new("LocalScript", G2L["144"]);
-G2L["146"]["Name"] = [[拖动]];
+G2L["14b"] = Instance.new("LocalScript", G2L["149"]);
+G2L["14b"]["Name"] = [[拖动]];
 
 
 -- StarterGui.ScreenGui.最小化窗口
-G2L["147"] = Instance.new("LocalScript", G2L["1"]);
-G2L["147"]["Name"] = [[最小化窗口]];
+G2L["14c"] = Instance.new("LocalScript", G2L["1"]);
+G2L["14c"]["Name"] = [[最小化窗口]];
 
 
 -- StarterGui.ScreenGui.Frame.加边框加流动渐变
@@ -4797,9 +4841,177 @@ local script = G2L["7b"];
 	end)
 end;
 task.spawn(C_7b);
--- StarterGui.ScreenGui.Frame.包月制脚本显示区.包月制脚本.文字设定
+-- StarterGui.ScreenGui.Frame.免费脚本显示区.防踢出.脚本介绍.文字设定
 local function C_7e()
 local script = G2L["7e"];
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end;
+task.spawn(C_7e);
+-- StarterGui.ScreenGui.Frame.免费脚本显示区.防踢出.密钥验证
+local function C_80()
+local script = G2L["80"];
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/UniversalAntiAFK.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要起飞"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥已嵌入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致脚本不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥不对，所以踢恁下线，请核实密钥或联系管理员获取，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end;
+task.spawn(C_80);
+-- StarterGui.ScreenGui.Frame.包月制脚本显示区.包月制脚本.文字设定
+local function C_83()
+local script = G2L["83"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -4819,10 +5031,10 @@ local script = G2L["7e"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_7e);
+task.spawn(C_83);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.滚动设定
-local function C_80()
-local script = G2L["80"];
+local function C_85()
+local script = G2L["85"];
 	local sf=script.Parent
 	
 	--根据内容轴调整大小
@@ -4869,10 +5081,10 @@ local script = G2L["80"];
 		updateCanvas()
 	end)
 end;
-task.spawn(C_80);
+task.spawn(C_85);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.伐木大亨2.脚本介绍.文字设定
-local function C_83()
-local script = G2L["83"];
+local function C_88()
+local script = G2L["88"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -4892,10 +5104,10 @@ local script = G2L["83"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_83);
+task.spawn(C_88);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.伐木大亨2.密钥验证
-local function C_85()
-local script = G2L["85"];
+local function C_8a()
+local script = G2L["8a"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 白名单模式：点击即检查用户名，无 UI 输入
 	
@@ -4969,10 +5181,10 @@ local script = G2L["85"];
 		end
 	end)
 end;
-task.spawn(C_85);
+task.spawn(C_8a);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.锻造.脚本介绍.文字设定
-local function C_88()
-local script = G2L["88"];
+local function C_8d()
+local script = G2L["8d"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -4992,10 +5204,10 @@ local script = G2L["88"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_88);
+task.spawn(C_8d);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.锻造.密钥验证
-local function C_8a()
-local script = G2L["8a"];
+local function C_8f()
+local script = G2L["8f"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 白名单模式：点击即检查用户名，无 UI 输入
 	
@@ -5069,10 +5281,10 @@ local script = G2L["8a"];
 		end
 	end)
 end;
-task.spawn(C_8a);
+task.spawn(C_8f);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.死铁轨.脚本介绍.文字设定
-local function C_8d()
-local script = G2L["8d"];
+local function C_92()
+local script = G2L["92"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -5092,10 +5304,10 @@ local script = G2L["8d"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_8d);
+task.spawn(C_92);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.死铁轨.密钥验证
-local function C_8f()
-local script = G2L["8f"];
+local function C_94()
+local script = G2L["94"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 白名单模式：点击即检查用户名，无 UI 输入
 	
@@ -5169,10 +5381,10 @@ local script = G2L["8f"];
 		end
 	end)
 end;
-task.spawn(C_8f);
+task.spawn(C_94);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.战争大亨.脚本介绍.文字设定
-local function C_92()
-local script = G2L["92"];
+local function C_97()
+local script = G2L["97"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -5192,10 +5404,10 @@ local script = G2L["92"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_92);
+task.spawn(C_97);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.战争大亨.密钥验证
-local function C_94()
-local script = G2L["94"];
+local function C_99()
+local script = G2L["99"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 白名单模式：点击即检查用户名，无 UI 输入
 	
@@ -5269,10 +5481,10 @@ local script = G2L["94"];
 		end
 	end)
 end;
-task.spawn(C_94);
+task.spawn(C_99);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.蜂群模拟器.脚本介绍.文字设定
-local function C_97()
-local script = G2L["97"];
+local function C_9c()
+local script = G2L["9c"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -5292,10 +5504,10 @@ local script = G2L["97"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_97);
+task.spawn(C_9c);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.蜂群模拟器.密钥验证
-local function C_99()
-local script = G2L["99"];
+local function C_9e()
+local script = G2L["9e"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 白名单模式：点击即检查用户名，无 UI 输入
 	
@@ -5369,10 +5581,10 @@ local script = G2L["99"];
 		end
 	end)
 end;
-task.spawn(C_99);
+task.spawn(C_9e);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.99夜在森林里.脚本介绍.文字设定
-local function C_9c()
-local script = G2L["9c"];
+local function C_a1()
+local script = G2L["a1"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -5392,10 +5604,10 @@ local script = G2L["9c"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_9c);
+task.spawn(C_a1);
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区.99夜在森林里.密钥验证
-local function C_9e()
-local script = G2L["9e"];
+local function C_a3()
+local script = G2L["a3"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 白名单模式：点击即检查用户名，无 UI 输入
 	
@@ -5469,10 +5681,10 @@ local script = G2L["9e"];
 		end
 	end)
 end;
-task.spawn(C_9e);
+task.spawn(C_a3);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.买断制脚本.文字设定
-local function C_a1()
-local script = G2L["a1"];
+local function C_a6()
+local script = G2L["a6"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -5492,10 +5704,10 @@ local script = G2L["a1"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_a1);
+task.spawn(C_a6);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.滚动设定
-local function C_a3()
-local script = G2L["a3"];
+local function C_a8()
+local script = G2L["a8"];
 	local sf=script.Parent
 	
 	--根据内容轴调整大小
@@ -5542,10 +5754,10 @@ local script = G2L["a3"];
 		updateCanvas()
 	end)
 end;
-task.spawn(C_a3);
+task.spawn(C_a8);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.脚本介绍.文字设定
-local function C_a6()
-local script = G2L["a6"];
+local function C_ab()
+local script = G2L["ab"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -5565,10 +5777,10 @@ local script = G2L["a6"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_a6);
+task.spawn(C_ab);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.密钥验证
-local function C_a8()
-local script = G2L["a8"];
+local function C_ad()
+local script = G2L["ad"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -5710,10 +5922,10 @@ local script = G2L["a8"];
 		end)
 	end)
 end;
-task.spawn(C_a8);
+task.spawn(C_ad);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.KingLegacy.脚本介绍.文字设定
-local function C_ab()
-local script = G2L["ab"];
+local function C_b0()
+local script = G2L["b0"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -5733,10 +5945,10 @@ local script = G2L["ab"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_ab);
+task.spawn(C_b0);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.KingLegacy.密钥验证
-local function C_ad()
-local script = G2L["ad"];
+local function C_b2()
+local script = G2L["b2"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -5878,10 +6090,10 @@ local script = G2L["ad"];
 		end)
 	end)
 end;
-task.spawn(C_ad);
+task.spawn(C_b2);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.FishIt.脚本介绍.文字设定
-local function C_b0()
-local script = G2L["b0"];
+local function C_b5()
+local script = G2L["b5"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -5901,10 +6113,10 @@ local script = G2L["b0"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_b0);
+task.spawn(C_b5);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.FishIt.密钥验证
-local function C_b2()
-local script = G2L["b2"];
+local function C_b7()
+local script = G2L["b7"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -6046,10 +6258,10 @@ local script = G2L["b2"];
 		end)
 	end)
 end;
-task.spawn(C_b2);
+task.spawn(C_b7);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.脚本介绍.文字设定
-local function C_b5()
-local script = G2L["b5"];
+local function C_ba()
+local script = G2L["ba"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -6069,10 +6281,10 @@ local script = G2L["b5"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_b5);
+task.spawn(C_ba);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.砍伐树木.密钥验证
-local function C_b7()
-local script = G2L["b7"];
+local function C_bc()
+local script = G2L["bc"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -6214,10 +6426,10 @@ local script = G2L["b7"];
 		end)
 	end)
 end;
-task.spawn(C_b7);
+task.spawn(C_bc);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.脚本介绍.文字设定
-local function C_ba()
-local script = G2L["ba"];
+local function C_bf()
+local script = G2L["bf"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -6237,10 +6449,10 @@ local script = G2L["ba"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_ba);
+task.spawn(C_bf);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.密钥验证
-local function C_bc()
-local script = G2L["bc"];
+local function C_c1()
+local script = G2L["c1"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -6382,10 +6594,10 @@ local script = G2L["bc"];
 		end)
 	end)
 end;
-task.spawn(C_bc);
+task.spawn(C_c1);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.被遗弃.脚本介绍.文字设定
-local function C_bf()
-local script = G2L["bf"];
+local function C_c4()
+local script = G2L["c4"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -6405,10 +6617,10 @@ local script = G2L["bf"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_bf);
+task.spawn(C_c4);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.被遗弃.密钥验证
-local function C_c1()
-local script = G2L["c1"];
+local function C_c6()
+local script = G2L["c6"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -6550,10 +6762,10 @@ local script = G2L["c1"];
 		end)
 	end)
 end;
-task.spawn(C_c1);
+task.spawn(C_c6);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.自瞄.脚本介绍.文字设定
-local function C_c4()
-local script = G2L["c4"];
+local function C_c9()
+local script = G2L["c9"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -6573,10 +6785,10 @@ local script = G2L["c4"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_c4);
+task.spawn(C_c9);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.自瞄.密钥验证
-local function C_c6()
-local script = G2L["c6"];
+local function C_cb()
+local script = G2L["cb"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -6718,10 +6930,10 @@ local script = G2L["c6"];
 		end)
 	end)
 end;
-task.spawn(C_c6);
+task.spawn(C_cb);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.踢飞.脚本介绍.文字设定
-local function C_c9()
-local script = G2L["c9"];
+local function C_ce()
+local script = G2L["ce"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -6741,10 +6953,10 @@ local script = G2L["c9"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_c9);
+task.spawn(C_ce);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.踢飞.密钥验证
-local function C_cb()
-local script = G2L["cb"];
+local function C_d0()
+local script = G2L["d0"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -6886,10 +7098,10 @@ local script = G2L["cb"];
 		end)
 	end)
 end;
-task.spawn(C_cb);
+task.spawn(C_d0);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.弹钢琴.脚本介绍.文字设定
-local function C_ce()
-local script = G2L["ce"];
+local function C_d3()
+local script = G2L["d3"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -6909,10 +7121,10 @@ local script = G2L["ce"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_ce);
+task.spawn(C_d3);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.弹钢琴.密钥验证
-local function C_d0()
-local script = G2L["d0"];
+local function C_d5()
+local script = G2L["d5"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -7054,10 +7266,10 @@ local script = G2L["d0"];
 		end)
 	end)
 end;
-task.spawn(C_d0);
+task.spawn(C_d5);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.骨折.脚本介绍.文字设定
-local function C_d3()
-local script = G2L["d3"];
+local function C_d8()
+local script = G2L["d8"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -7077,10 +7289,10 @@ local script = G2L["d3"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_d3);
+task.spawn(C_d8);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.骨折.密钥验证
-local function C_d5()
-local script = G2L["d5"];
+local function C_da()
+local script = G2L["da"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -7222,10 +7434,10 @@ local script = G2L["d5"];
 		end)
 	end)
 end;
-task.spawn(C_d5);
+task.spawn(C_da);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.打屁股战斗.脚本介绍.文字设定
-local function C_d8()
-local script = G2L["d8"];
+local function C_dd()
+local script = G2L["dd"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -7245,10 +7457,10 @@ local script = G2L["d8"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_d8);
+task.spawn(C_dd);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.打屁股战斗.密钥验证
-local function C_da()
-local script = G2L["da"];
+local function C_df()
+local script = G2L["df"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -7390,10 +7602,10 @@ local script = G2L["da"];
 		end)
 	end)
 end;
-task.spawn(C_da);
+task.spawn(C_df);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.装扮打动人.脚本介绍.文字设定
-local function C_dd()
-local script = G2L["dd"];
+local function C_e2()
+local script = G2L["e2"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -7413,10 +7625,10 @@ local script = G2L["dd"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_dd);
+task.spawn(C_e2);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.装扮打动人.密钥验证
-local function C_df()
-local script = G2L["df"];
+local function C_e4()
+local script = G2L["e4"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -7558,10 +7770,10 @@ local script = G2L["df"];
 		end)
 	end)
 end;
-task.spawn(C_df);
+task.spawn(C_e4);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.最强战场.脚本介绍.文字设定
-local function C_e2()
-local script = G2L["e2"];
+local function C_e7()
+local script = G2L["e7"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -7581,10 +7793,10 @@ local script = G2L["e2"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_e2);
+task.spawn(C_e7);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.最强战场.密钥验证
-local function C_e4()
-local script = G2L["e4"];
+local function C_e9()
+local script = G2L["e9"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -7726,10 +7938,10 @@ local script = G2L["e4"];
 		end)
 	end)
 end;
-task.spawn(C_e4);
+task.spawn(C_e9);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.脚本介绍.文字设定
-local function C_e7()
-local script = G2L["e7"];
+local function C_ec()
+local script = G2L["ec"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -7749,10 +7961,10 @@ local script = G2L["e7"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_e7);
+task.spawn(C_ec);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.兵工厂.密钥验证
-local function C_e9()
-local script = G2L["e9"];
+local function C_ee()
+local script = G2L["ee"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -7894,10 +8106,10 @@ local script = G2L["e9"];
 		end)
 	end)
 end;
-task.spawn(C_e9);
+task.spawn(C_ee);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.脚本介绍.文字设定
-local function C_ec()
-local script = G2L["ec"];
+local function C_f1()
+local script = G2L["f1"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -7917,10 +8129,10 @@ local script = G2L["ec"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_ec);
+task.spawn(C_f1);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.驾驶帝国.密钥验证
-local function C_ee()
-local script = G2L["ee"];
+local function C_f3()
+local script = G2L["f3"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -8062,10 +8274,10 @@ local script = G2L["ee"];
 		end)
 	end)
 end;
-task.spawn(C_ee);
+task.spawn(C_f3);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.脚本介绍.文字设定
-local function C_f1()
-local script = G2L["f1"];
+local function C_f6()
+local script = G2L["f6"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -8085,10 +8297,10 @@ local script = G2L["f1"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_f1);
+task.spawn(C_f6);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.忍者传奇.密钥验证
-local function C_f3()
-local script = G2L["f3"];
+local function C_f8()
+local script = G2L["f8"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -8230,10 +8442,10 @@ local script = G2L["f3"];
 		end)
 	end)
 end;
-task.spawn(C_f3);
+task.spawn(C_f8);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.脚本介绍.文字设定
-local function C_f6()
-local script = G2L["f6"];
+local function C_fb()
+local script = G2L["fb"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -8253,10 +8465,10 @@ local script = G2L["f6"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_f6);
+task.spawn(C_fb);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.极速传奇.密钥验证
-local function C_f8()
-local script = G2L["f8"];
+local function C_fd()
+local script = G2L["fd"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -8398,10 +8610,10 @@ local script = G2L["f8"];
 		end)
 	end)
 end;
-task.spawn(C_f8);
+task.spawn(C_fd);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.脚本介绍.文字设定
-local function C_fb()
-local script = G2L["fb"];
+local function C_100()
+local script = G2L["100"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -8421,10 +8633,10 @@ local script = G2L["fb"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_fb);
+task.spawn(C_100);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.破坏者谜团2.密钥验证
-local function C_fd()
-local script = G2L["fd"];
+local function C_102()
+local script = G2L["102"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -8566,10 +8778,10 @@ local script = G2L["fd"];
 		end)
 	end)
 end;
-task.spawn(C_fd);
+task.spawn(C_102);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.脚本介绍.文字设定
-local function C_100()
-local script = G2L["100"];
+local function C_105()
+local script = G2L["105"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -8589,10 +8801,10 @@ local script = G2L["100"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_100);
+task.spawn(C_105);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.刀刃球.密钥验证
-local function C_102()
-local script = G2L["102"];
+local function C_107()
+local script = G2L["107"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -8734,10 +8946,10 @@ local script = G2L["102"];
 		end)
 	end)
 end;
-task.spawn(C_102);
+task.spawn(C_107);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.脚本介绍.文字设定
-local function C_105()
-local script = G2L["105"];
+local function C_10a()
+local script = G2L["10a"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -8757,10 +8969,10 @@ local script = G2L["105"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_105);
+task.spawn(C_10a);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.FlingThingsAndPeople.密钥验证
-local function C_107()
-local script = G2L["107"];
+local function C_10c()
+local script = G2L["10c"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -8902,10 +9114,10 @@ local script = G2L["107"];
 		end)
 	end)
 end;
-task.spawn(C_107);
+task.spawn(C_10c);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.脚本介绍.文字设定
-local function C_10a()
-local script = G2L["10a"];
+local function C_10f()
+local script = G2L["10f"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -8925,10 +9137,10 @@ local script = G2L["10a"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_10a);
+task.spawn(C_10f);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.动感星期五.密钥验证
-local function C_10c()
-local script = G2L["10c"];
+local function C_111()
+local script = G2L["111"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -9070,10 +9282,10 @@ local script = G2L["10c"];
 		end)
 	end)
 end;
-task.spawn(C_10c);
+task.spawn(C_111);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.自然灾害模拟器.脚本介绍.文字设定
-local function C_10f()
-local script = G2L["10f"];
+local function C_114()
+local script = G2L["114"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -9093,10 +9305,10 @@ local script = G2L["10f"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_10f);
+task.spawn(C_114);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.逃出海啸获得脑力.脚本介绍.文字设定
-local function C_113()
-local script = G2L["113"];
+local function C_118()
+local script = G2L["118"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -9116,10 +9328,10 @@ local script = G2L["113"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_113);
+task.spawn(C_118);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.逃出海啸获得脑力.密钥验证
-local function C_115()
-local script = G2L["115"];
+local function C_11a()
+local script = G2L["11a"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -9261,10 +9473,10 @@ local script = G2L["115"];
 		end)
 	end)
 end;
-task.spawn(C_115);
+task.spawn(C_11a);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.脚本介绍.文字设定
-local function C_118()
-local script = G2L["118"];
+local function C_11d()
+local script = G2L["11d"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -9284,10 +9496,10 @@ local script = G2L["118"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_118);
+task.spawn(C_11d);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.造船寻宝.密钥验证
-local function C_11a()
-local script = G2L["11a"];
+local function C_11f()
+local script = G2L["11f"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -9429,10 +9641,10 @@ local script = G2L["11a"];
 		end)
 	end)
 end;
-task.spawn(C_11a);
+task.spawn(C_11f);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.脚本介绍.文字设定
-local function C_11d()
-local script = G2L["11d"];
+local function C_122()
+local script = G2L["122"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -9452,10 +9664,10 @@ local script = G2L["11d"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_11d);
+task.spawn(C_122);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.吃掉世界.密钥验证
-local function C_11f()
-local script = G2L["11f"];
+local function C_124()
+local script = G2L["124"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -9597,10 +9809,10 @@ local script = G2L["11f"];
 		end)
 	end)
 end;
-task.spawn(C_11f);
+task.spawn(C_124);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.脚本介绍.文字设定
-local function C_122()
-local script = G2L["122"];
+local function C_127()
+local script = G2L["127"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -9620,10 +9832,10 @@ local script = G2L["122"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_122);
+task.spawn(C_127);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.勘探中.密钥验证
-local function C_124()
-local script = G2L["124"];
+local function C_129()
+local script = G2L["129"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -9765,10 +9977,10 @@ local script = G2L["124"];
 		end)
 	end)
 end;
-task.spawn(C_124);
+task.spawn(C_129);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.竞争对手.脚本介绍.文字设定
-local function C_127()
-local script = G2L["127"];
+local function C_12c()
+local script = G2L["12c"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -9788,10 +10000,10 @@ local script = G2L["127"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_127);
+task.spawn(C_12c);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.脚本介绍.文字设定
-local function C_12b()
-local script = G2L["12b"];
+local function C_130()
+local script = G2L["130"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -9811,10 +10023,10 @@ local script = G2L["12b"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_12b);
+task.spawn(C_130);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.密钥验证
-local function C_12d()
-local script = G2L["12d"];
+local function C_132()
+local script = G2L["132"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -9956,10 +10168,10 @@ local script = G2L["12d"];
 		end)
 	end)
 end;
-task.spawn(C_12d);
+task.spawn(C_132);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.水手碎片.脚本介绍.文字设定
-local function C_130()
-local script = G2L["130"];
+local function C_135()
+local script = G2L["135"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -9979,10 +10191,10 @@ local script = G2L["130"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_130);
+task.spawn(C_135);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.水手碎片.密钥验证
-local function C_132()
-local script = G2L["132"];
+local function C_137()
+local script = G2L["137"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -10124,10 +10336,10 @@ local script = G2L["132"];
 		end)
 	end)
 end;
-task.spawn(C_132);
+task.spawn(C_137);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.脚本介绍.文字设定
-local function C_135()
-local script = G2L["135"];
+local function C_13a()
+local script = G2L["13a"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -10147,10 +10359,10 @@ local script = G2L["135"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_135);
+task.spawn(C_13a);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.Doors.密钥验证
-local function C_137()
-local script = G2L["137"];
+local function C_13c()
+local script = G2L["13c"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -10292,10 +10504,10 @@ local script = G2L["137"];
 		end)
 	end)
 end;
-task.spawn(C_137);
+task.spawn(C_13c);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.杀手VS警长.脚本介绍.文字设定
-local function C_13a()
-local script = G2L["13a"];
+local function C_13f()
+local script = G2L["13f"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -10315,10 +10527,10 @@ local script = G2L["13a"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_13a);
+task.spawn(C_13f);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.杀手VS警长.密钥验证
-local function C_13c()
-local script = G2L["13c"];
+local function C_141()
+local script = G2L["141"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -10460,10 +10672,10 @@ local script = G2L["13c"];
 		end)
 	end)
 end;
-task.spawn(C_13c);
+task.spawn(C_141);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.夜间咬人.脚本介绍.文字设定
-local function C_13f()
-local script = G2L["13f"];
+local function C_144()
+local script = G2L["144"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -10483,10 +10695,10 @@ local script = G2L["13f"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_13f);
+task.spawn(C_144);
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区.夜间咬人.密钥验证
-local function C_141()
-local script = G2L["141"];
+local function C_146()
+local script = G2L["146"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
 	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
 	
@@ -10628,10 +10840,10 @@ local script = G2L["141"];
 		end)
 	end)
 end;
-task.spawn(C_141);
+task.spawn(C_146);
 -- StarterGui.ScreenGui.Frame.最小化窗口.文字设定
-local function C_143()
-local script = G2L["143"];
+local function C_148()
+local script = G2L["148"];
 	local l=script.Parent
 	
 	--使用Fredokaone字体，加粗，大小16，白色
@@ -10651,10 +10863,10 @@ local script = G2L["143"];
 	--开启自动换行
 	l.TextWrapped = true
 end;
-task.spawn(C_143);
+task.spawn(C_148);
 -- StarterGui.ScreenGui.展开窗口.拖动
-local function C_146()
-local script = G2L["146"];
+local function C_14b()
+local script = G2L["14b"];
 	local button = script.Parent
 	local UIS = game:GetService("UserInputService")
 	
@@ -10689,10 +10901,10 @@ local script = G2L["146"];
 		end
 	end)
 end;
-task.spawn(C_146);
+task.spawn(C_14b);
 -- StarterGui.ScreenGui.最小化窗口
-local function C_147()
-local script = G2L["147"];
+local function C_14c()
+local script = G2L["14c"];
 	-- LocalScript 放在 ScreenGui 底下（推荐位置）
 	
 	local screenGui = script.Parent  -- 当前 ScreenGui
@@ -10714,6 +10926,6 @@ local script = G2L["147"];
 		expandButton.Visible = false
 	end)
 end;
-task.spawn(C_147);
+task.spawn(C_14c);
 
 return G2L["1"], require;
