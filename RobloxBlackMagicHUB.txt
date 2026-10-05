@@ -32,6 +32,7 @@ else
 end
 -- ============================================================
 
+
 -- StarterGui.ScreenGui.Frame
 G2L["2"] = Instance.new("Frame", G2L["1"]);
 G2L["2"]["BorderSizePixel"] = 0;
@@ -1146,7 +1147,6 @@ G2L["81"]["Name"] = [[密钥验证]];
 G2L["82"] = Instance.new("ScrollingFrame", G2L["2"]);
 G2L["82"]["Visible"] = false;
 G2L["82"]["BorderSizePixel"] = 0;
-G2L["82"]["CanvasPosition"] = Vector2.new(0, 1619);
 G2L["82"]["Name"] = [[买断制脚本显示区]];
 G2L["82"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["82"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
@@ -1441,7 +1441,7 @@ G2L["a1"]["BackgroundTransparency"] = 1;
 G2L["a1"]["RichText"] = true;
 G2L["a1"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["a1"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a1"]["Text"] = [[<font color='rgb(255,255,0)'>被遗弃</font><br/>透视，隐形，跳过小游戏直接解机，生存者自动防御自动使用技能<br/>杀手自动击杀]];
+G2L["a1"]["Text"] = [[<font color='rgb(255,255,0)'>被遗弃</font><br/>透视身份，自动解机，移速增强，无限耐力，地图全亮，强制出现在玩家身后]];
 G2L["a1"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["a1"]["Name"] = [[脚本介绍]];
 G2L["a1"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
@@ -1486,7 +1486,7 @@ G2L["a6"]["BackgroundTransparency"] = 1;
 G2L["a6"]["RichText"] = true;
 G2L["a6"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["a6"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a6"]["Text"] = [[<font color='rgb(255,255,0)'>撕咬之夜</font><br/>透视杀手，电报机，电池电箱，逃生门位置，移速，一秒钟解电报机<br/>搭配通用脚本中的穿墙效果更强]];
+G2L["a6"]["Text"] = [[<font color='rgb(255,255,0)'>撕咬之夜</font><br/>透视身份，透视电报机电池电箱逃生门位置，增加移速，秒解电报机<br/>搭配通用脚本中的穿墙，效果更强]];
 G2L["a6"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["a6"]["Name"] = [[脚本介绍]];
 G2L["a6"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
@@ -1976,7 +1976,7 @@ G2L["dc"]["BackgroundTransparency"] = 1;
 G2L["dc"]["RichText"] = true;
 G2L["dc"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["dc"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["dc"]["Text"] = [[<font color='rgb(255,255,0)'>破坏者谜团2</font><br/>自动拾取金币，警察死亡时自动捡枪成为英雄，警察或英雄一键击杀凶手<br/>凶手一键击杀警察或英雄，凶手一键击杀所有人]];
+G2L["dc"]["Text"] = [[<font color='rgb(255,255,0)'>破坏者谜团2</font><br/>透视身份，一键击杀杀手，警察，平民<br/>自带踢飞功能，可将玩家扔出地图外]];
 G2L["dc"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["dc"]["Name"] = [[脚本介绍]];
 G2L["dc"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
@@ -2021,7 +2021,7 @@ G2L["e1"]["BackgroundTransparency"] = 1;
 G2L["e1"]["RichText"] = true;
 G2L["e1"]["Size"] = UDim2.new(0, 433, 0, 64);
 G2L["e1"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e1"]["Text"] = [[<font color='rgb(255,255,0)'>刀刃球</font><br/>自动弹反，尽量时刻正面朝向球，背对也许会弹反失败]];
+G2L["e1"]["Text"] = [[<font color='rgb(255,255,0)'>刀刃球</font><br/>自动弹反，尽量远程拉扯，正面朝向球体]];
 G2L["e1"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["e1"]["Name"] = [[脚本介绍]];
 G2L["e1"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
