@@ -6714,7 +6714,7 @@ local script = G2L["102"];
 	-- 白名单地址
 	local WHITELIST_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/8BallDuelsKey.txt"
 	-- 要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/8BallDuelst.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/8BallDuels.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 立即显示正在比对提示（防止重复点击）
